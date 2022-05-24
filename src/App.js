@@ -5,6 +5,9 @@ import HeroTable from './components/HeroTable.js'
 import { Autocomplete, TextField } from '@mui/material'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 
+import SortButtons from './components/SortButtons.js'
+import sorter from './sorter.js'
+
 const hero_names = hero_tiers.map(hero => hero.Name)
 
 const darkTheme = createTheme({
@@ -21,7 +24,7 @@ const darkTheme = createTheme({
 const App = () => {
   const [myHeroes, setMyHeroes] = useState([])
   const [searchInput, setSearchInput] = useState(null)
-  const [activeFilter, setActiveFilter] = useState(null)
+  const [activeFilter, setActiveFilter] = useState('Colo-Up')
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,22 +46,12 @@ const App = () => {
 
   let displayedHeroes = myHeroes.filter((hero) => {
     if (searchInput == null || hero.Name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1) return hero
-  })
+  }).sort((hero1, hero2) => sorter(hero1, hero2, activeFilter))
 
   return (
     <ThemeProvider theme={darkTheme}>
       <div className="App">
-        <p>Sort By:</p>
-        <div>
-          <button>Name</button>
-          <button>Role</button>
-          <button>Colo</button>
-          <button>Arena</button>
-          <button>CH4</button>
-          <button>CH5</button>
-          <button>Umrat</button>
-          <button>Sera</button>
-        </div>
+        <SortButtons activeFilter={activeFilter} setActiveFilter={setActiveFilter}/>
         <h1>My Heroes:</h1>
         <HeroTable displayedHeroes={displayedHeroes} removeHero={removeHero} />
         <form onSubmit={handleSubmit}>
