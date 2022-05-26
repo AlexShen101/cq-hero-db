@@ -1,0 +1,3329 @@
+{
+    "TEXT_WEP_AAA_HELP": {
+        "text": "Three attack upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_AAD_HELP": {
+        "text": "Two Attack and one Defense upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_AAU_HELP": {
+        "text": "Two Attack and one function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_AA_HELP": {
+        "text": "Two attack upgrade for this weapon, meow!"
+    },
+    "TEXT_WEP_ADD_HELP": {
+        "text": "One Attack and two Defense upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_ADU_HELP": {
+        "text": "Attack, Defense and Function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_AD_HELP": {
+        "text": "Attack and defense upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_ANTIQUE_HELP": {
+        "text": "Meow! You can forge your weapon to powerful Soulbound Weapons!"
+    },
+    "TEXT_WEP_AUU_HELP": {
+        "text": "One Attack and 2 Function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_AU_HELP": {
+        "text": "Attack and function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_A_HELP": {
+        "text": "Attack upgrade for this weapon, meow!"
+    },
+    "TEXT_WEP_BO_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_1_1_NAME": {
+        "text": "Training Bow"
+    },
+    "TEXT_WEP_BO_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_1_2_NAME": {
+        "text": "Short Bow"
+    },
+    "TEXT_WEP_BO_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_2_1_NAME": {
+        "text": "Composite Bow"
+    },
+    "TEXT_WEP_BO_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_2_2_NAME": {
+        "text": "Enhanced Bow"
+    },
+    "TEXT_WEP_BO_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_3_1_NAME": {
+        "text": "Leather Longbow"
+    },
+    "TEXT_WEP_BO_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_3_2_NAME": {
+        "text": "Evil Hunter Bow"
+    },
+    "TEXT_WEP_BO_3_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_3_3_NAME": {
+        "text": "Young Gon's Bow"
+    },
+    "TEXT_WEP_BO_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_4_1_NAME": {
+        "text": "Roman Bow"
+    },
+    "TEXT_WEP_BO_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_4_2_NAME": {
+        "text": "Sigruna's Bow"
+    },
+    "TEXT_WEP_BO_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_4_3_NAME": {
+        "text": "Love Chaser Bow"
+    },
+    "TEXT_WEP_BO_4_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_4_4_NAME": {
+        "text": "Crab Bow"
+    },
+    "TEXT_WEP_BO_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_5_1_NAME": {
+        "text": "Compound Bow"
+    },
+    "TEXT_WEP_BO_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_5_2_NAME": {
+        "text": "RedDragon(Shrt)"
+    },
+    "TEXT_WEP_BO_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_5_3_NAME": {
+        "text": "RedDragon(Lng)"
+    },
+    "TEXT_WEP_BO_5_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_5_4_NAME": {
+        "text": "Cat Pillow"
+    },
+    "TEXT_WEP_BO_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_BO_6_1_NAME": {
+        "text": "Answerer"
+    },
+    "TEXT_WEP_BO_ANTIQUE_NAME": {
+        "text": "Old Bow"
+    },
+    "TEXT_WEP_BO_BAIT_NAME": {
+        "text": "Pure Golden Bow"
+    },
+    "TEXT_WEP_BO_LIMITED_4_1_NAME": {
+        "text": "Fire Bow"
+    },
+    "TEXT_WEP_BO_LIMITED_5_1_NAME": {
+        "text": "Flaming bow"
+    },
+    "TEXT_WEP_BO_LIMITED_6_1_NAME": {
+        "text": "Hell Flaming Bow"
+    },
+    "TEXT_WEP_BO_LIMITED_GG_4_1_NAME": {
+        "text": "Kunai"
+    },
+    "TEXT_WEP_BO_LIMITED_GG_5_1_NAME": {
+        "text": "Kunai"
+    },
+    "TEXT_WEP_BO_LIMITED_GG_6_1_NAME": {
+        "text": "Kunai"
+    },
+    "TEXT_WEP_BO_S4_10_NAME": {
+        "text": "Luxurious Bow"
+    },
+    "TEXT_WEP_BO_S4_11_NAME": {
+        "text": "Seed of Fire"
+    },
+    "TEXT_WEP_BO_S4_12_NAME": {
+        "text": "Moonripple"
+    },
+    "TEXT_WEP_BO_S4_13_NAME": {
+        "text": "Selinus"
+    },
+    "TEXT_WEP_BO_S4_14_NAME": {
+        "text": "Steel Bow"
+    },
+    "TEXT_WEP_BO_S4_15_NAME": {
+        "text": "Azure Purity"
+    },
+    "TEXT_WEP_BO_S4_16_NAME": {
+        "text": "Nomad's Bow"
+    },
+    "TEXT_WEP_BO_S4_17_NAME": {
+        "text": "Ghostly Whisper"
+    },
+    "TEXT_WEP_BO_S4_18_NAME": {
+        "text": "Bloom"
+    },
+    "TEXT_WEP_BO_S4_19_NAME": {
+        "text": "Remus"
+    },
+    "TEXT_WEP_BO_S4_1_NAME": {
+        "text": "Wild Bow"
+    },
+    "TEXT_WEP_BO_S4_20_NAME": {
+        "text": "Bow of the Soldier"
+    },
+    "TEXT_WEP_BO_S4_2_NAME": {
+        "text": "Gift of the General"
+    },
+    "TEXT_WEP_BO_S4_3_NAME": {
+        "text": "Granar"
+    },
+    "TEXT_WEP_BO_S4_4_NAME": {
+        "text": "Grifall"
+    },
+    "TEXT_WEP_BO_S4_5_NAME": {
+        "text": "Ray Wing"
+    },
+    "TEXT_WEP_BO_S4_6_NAME": {
+        "text": "Archery Bow"
+    },
+    "TEXT_WEP_BO_S4_7_NAME": {
+        "text": "Wooden Bow"
+    },
+    "TEXT_WEP_BO_S4_8_NAME": {
+        "text": "Frost Claw"
+    },
+    "TEXT_WEP_BO_S4_9_NAME": {
+        "text": "Yellow Dragon Bow"
+    },
+    "TEXT_WEP_BO_S5_10_NAME": {
+        "text": "Spirit Dwelling Bow"
+    },
+    "TEXT_WEP_BO_S5_11_NAME": {
+        "text": "Bloom of Fire"
+    },
+    "TEXT_WEP_BO_S5_12_NAME": {
+        "text": "Mooncrest"
+    },
+    "TEXT_WEP_BO_S5_13_NAME": {
+        "text": "Imiselinus"
+    },
+    "TEXT_WEP_BO_S5_14_NAME": {
+        "text": "Converted Steel Bow"
+    },
+    "TEXT_WEP_BO_S5_15_NAME": {
+        "text": "Azure Horizon"
+    },
+    "TEXT_WEP_BO_S5_16_NAME": {
+        "text": "Nomad's Pride"
+    },
+    "TEXT_WEP_BO_S5_17_NAME": {
+        "text": "Ghostly Wings"
+    },
+    "TEXT_WEP_BO_S5_18_NAME": {
+        "text": "Full Bloom"
+    },
+    "TEXT_WEP_BO_S5_19_NAME": {
+        "text": "Romulus"
+    },
+    "TEXT_WEP_BO_S5_1_NAME": {
+        "text": "Wolk's Bow"
+    },
+    "TEXT_WEP_BO_S5_20_NAME": {
+        "text": "Bow of Second Sight"
+    },
+    "TEXT_WEP_BO_S5_2_NAME": {
+        "text": "Family Heirloom"
+    },
+    "TEXT_WEP_BO_S5_3_NAME": {
+        "text": "Legendary Bow Granar"
+    },
+    "TEXT_WEP_BO_S5_4_NAME": {
+        "text": "Oath of Grifall"
+    },
+    "TEXT_WEP_BO_S5_5_NAME": {
+        "text": "Star Ray"
+    },
+    "TEXT_WEP_BO_S5_6_NAME": {
+        "text": "Hwarang Bow"
+    },
+    "TEXT_WEP_BO_S5_7_NAME": {
+        "text": "Yggdrasil Bow"
+    },
+    "TEXT_WEP_BO_S5_8_NAME": {
+        "text": "Frost Canine"
+    },
+    "TEXT_WEP_BO_S5_9_NAME": {
+        "text": "Yellow Dragon Hidden Bow"
+    },
+    "TEXT_WEP_BO_S6_10_NAME": {
+        "text": "Blessing of the Spirit King"
+    },
+    "TEXT_WEP_BO_S6_11_NAME": {
+        "text": "Inferno"
+    },
+    "TEXT_WEP_BO_S6_12_NAME": {
+        "text": "Dawn Cleaver"
+    },
+    "TEXT_WEP_BO_S6_13_NAME": {
+        "text": "Nymphselinus"
+    },
+    "TEXT_WEP_BO_S6_14_NAME": {
+        "text": "SNAKE K-9"
+    },
+    "TEXT_WEP_BO_S6_15_NAME": {
+        "text": "Cascade of Hundred Blossoms"
+    },
+    "TEXT_WEP_BO_S6_16_NAME": {
+        "text": "Khan's Heritage"
+    },
+    "TEXT_WEP_BO_S6_17_NAME": {
+        "text": "Feather of Soul"
+    },
+    "TEXT_WEP_BO_S6_18_NAME": {
+        "text": "Cherry Blossoms of Lovely Spring"
+    },
+    "TEXT_WEP_BO_S6_19_NAME": {
+        "text": "Nikeus"
+    },
+    "TEXT_WEP_BO_S6_1_NAME": {
+        "text": "Tiga's Bow"
+    },
+    "TEXT_WEP_BO_S6_20_NAME": {
+        "text": "Bow of the Five Tiger General"
+    },
+    "TEXT_WEP_BO_S6_2_NAME": {
+        "text": "Furinkazan"
+    },
+    "TEXT_WEP_BO_S6_3_NAME": {
+        "text": "Demon Bow Granar"
+    },
+    "TEXT_WEP_BO_S6_4_NAME": {
+        "text": "Essence of Grifall"
+    },
+    "TEXT_WEP_BO_S6_5_NAME": {
+        "text": "Albatross"
+    },
+    "TEXT_WEP_BO_S6_6_NAME": {
+        "text": "Phoenix's Honor"
+    },
+    "TEXT_WEP_BO_S6_7_NAME": {
+        "text": "Tyrant Bow"
+    },
+    "TEXT_WEP_BO_S6_8_NAME": {
+        "text": "Niflheim"
+    },
+    "TEXT_WEP_BO_S6_9_NAME": {
+        "text": "Yellow Dragon Divine Bow"
+    },
+    "TEXT_WEP_DDD_HELP": {
+        "text": "Three defense upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_DDU_HELP": {
+        "text": "Two Defense and one Function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_DD_HELP": {
+        "text": "Two defense upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_DUU_HELP": {
+        "text": "One Defense and Two Function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_DU_HELP": {
+        "text": "Defense and function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_D_HELP": {
+        "text": "Defense upgrade for this weapon, meow!"
+    },
+    "TEXT_WEP_GU_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_1_1_NAME": {
+        "text": "Old Rifle"
+    },
+    "TEXT_WEP_GU_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_1_2_NAME": {
+        "text": "Shotgun"
+    },
+    "TEXT_WEP_GU_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_2_1_NAME": {
+        "text": "Hunting Gun"
+    },
+    "TEXT_WEP_GU_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_2_2_NAME": {
+        "text": "Rifle"
+    },
+    "TEXT_WEP_GU_2_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_2_3_NAME": {
+        "text": "Sniper Gun"
+    },
+    "TEXT_WEP_GU_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_3_1_NAME": {
+        "text": "Gun Sword"
+    },
+    "TEXT_WEP_GU_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_3_2_NAME": {
+        "text": "Long Rifle"
+    },
+    "TEXT_WEP_GU_3_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_3_3_NAME": {
+        "text": "Golden Gun"
+    },
+    "TEXT_WEP_GU_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_4_1_NAME": {
+        "text": "Water Bomb"
+    },
+    "TEXT_WEP_GU_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_4_2_NAME": {
+        "text": "Umbrell gun"
+    },
+    "TEXT_WEP_GU_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_4_3_NAME": {
+        "text": "Megaphone"
+    },
+    "TEXT_WEP_GU_4_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_4_4_NAME": {
+        "text": "Ancient StunGun"
+    },
+    "TEXT_WEP_GU_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_5_1_NAME": {
+        "text": "Blunderbuss"
+    },
+    "TEXT_WEP_GU_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_5_2_NAME": {
+        "text": "CODE-14"
+    },
+    "TEXT_WEP_GU_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_5_3_NAME": {
+        "text": "Chaser"
+    },
+    "TEXT_WEP_GU_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_GU_6_1_NAME": {
+        "text": "Devil Hunter"
+    },
+    "TEXT_WEP_GU_ANTIQUE_NAME": {
+        "text": "Old Gun"
+    },
+    "TEXT_WEP_GU_ARMOR_S4_1_NAME": {
+        "text": "Optical Machine Gun"
+    },
+    "TEXT_WEP_GU_ARMOR_S4_2_NAME": {
+        "text": "Lumen Rifle"
+    },
+    "TEXT_WEP_GU_ARMOR_S4_3_NAME": {
+        "text": "Lumen Laser Cannon"
+    },
+    "TEXT_WEP_GU_ARMOR_S5_1_NAME": {
+        "text": "Optical Machine Gun"
+    },
+    "TEXT_WEP_GU_ARMOR_S5_2_NAME": {
+        "text": "Lumen Rifle"
+    },
+    "TEXT_WEP_GU_ARMOR_S5_3_NAME": {
+        "text": "Lumen Laser Cannon"
+    },
+    "TEXT_WEP_GU_ARMOR_S6_1_NAME": {
+        "text": "Optical Machine Gun"
+    },
+    "TEXT_WEP_GU_ARMOR_S6_2_NAME": {
+        "text": "Lumen Rifle"
+    },
+    "TEXT_WEP_GU_ARMOR_S6_3_NAME": {
+        "text": "Lumen Laser Cannon"
+    },
+    "TEXT_WEP_GU_BAIT_NAME": {
+        "text": "Pure Golden Gun"
+    },
+    "TEXT_WEP_GU_LIMITED_4_1_NAME": {
+        "text": "Ms. Travailler"
+    },
+    "TEXT_WEP_GU_LIMITED_5_1_NAME": {
+        "text": "Ms. Travailler"
+    },
+    "TEXT_WEP_GU_LIMITED_6_1_NAME": {
+        "text": "Ms. Travailler"
+    },
+    "TEXT_WEP_GU_S4_10_NAME": {
+        "text": "MonChaser"
+    },
+    "TEXT_WEP_GU_S4_11_NAME": {
+        "text": "Chastener's Gun"
+    },
+    "TEXT_WEP_GU_S4_12_NAME": {
+        "text": "Eastern Cannon"
+    },
+    "TEXT_WEP_GU_S4_13_NAME": {
+        "text": "UARNERI - 2"
+    },
+    "TEXT_WEP_GU_S4_14_NAME": {
+        "text": "Bullet Launcher"
+    },
+    "TEXT_WEP_GU_S4_15_NAME": {
+        "text": "Gas Handgun"
+    },
+    "TEXT_WEP_GU_S4_16_NAME": {
+        "text": "Mercenary Call"
+    },
+    "TEXT_WEP_GU_S4_17_NAME": {
+        "text": "Hunting Rifle"
+    },
+    "TEXT_WEP_GU_S4_18_NAME": {
+        "text": "Stern"
+    },
+    "TEXT_WEP_GU_S4_19_NAME": {
+        "text": "Peachy Slingshot"
+    },
+    "TEXT_WEP_GU_S4_1_NAME": {
+        "text": "Diffusion Long Gun"
+    },
+    "TEXT_WEP_GU_S4_20_NAME": {
+        "text": "Smile"
+    },
+    "TEXT_WEP_GU_S4_2_NAME": {
+        "text": "Pink Girl"
+    },
+    "TEXT_WEP_GU_S4_3_NAME": {
+        "text": "Bullet Generator"
+    },
+    "TEXT_WEP_GU_S4_4_NAME": {
+        "text": "Peace Loader"
+    },
+    "TEXT_WEP_GU_S4_6_NAME": {
+        "text": "Magnum"
+    },
+    "TEXT_WEP_GU_S4_8_NAME": {
+        "text": "Supply type SMG"
+    },
+    "TEXT_WEP_GU_S4_9_NAME": {
+        "text": "Daddy"
+    },
+    "TEXT_WEP_GU_S5_10_NAME": {
+        "text": "MonTracer"
+    },
+    "TEXT_WEP_GU_S5_11_NAME": {
+        "text": "Calvary's Gun"
+    },
+    "TEXT_WEP_GU_S5_12_NAME": {
+        "text": "Improved Eastern Cannon"
+    },
+    "TEXT_WEP_GU_S5_13_NAME": {
+        "text": "MATI - 5"
+    },
+    "TEXT_WEP_GU_S5_14_NAME": {
+        "text": "Bullet Exploder"
+    },
+    "TEXT_WEP_GU_S5_15_NAME": {
+        "text": "Light Handgun"
+    },
+    "TEXT_WEP_GU_S5_16_NAME": {
+        "text": "Heavy Mercenary Call"
+    },
+    "TEXT_WEP_GU_S5_17_NAME": {
+        "text": "Nobleman's Rifle"
+    },
+    "TEXT_WEP_GU_S5_18_NAME": {
+        "text": "Stern MK.2"
+    },
+    "TEXT_WEP_GU_S5_19_NAME": {
+        "text": "Peachy Pistol"
+    },
+    "TEXT_WEP_GU_S5_1_NAME": {
+        "text": "Multi-Barreled L.Gun"
+    },
+    "TEXT_WEP_GU_S5_20_NAME": {
+        "text": "Retribution"
+    },
+    "TEXT_WEP_GU_S5_2_NAME": {
+        "text": "Pink Lady"
+    },
+    "TEXT_WEP_GU_S5_3_NAME": {
+        "text": "Bullet Creator"
+    },
+    "TEXT_WEP_GU_S5_4_NAME": {
+        "text": "Ground One"
+    },
+    "TEXT_WEP_GU_S5_6_NAME": {
+        "text": "88 Magnum"
+    },
+    "TEXT_WEP_GU_S5_8_NAME": {
+        "text": "Super Electronic Cannon"
+    },
+    "TEXT_WEP_GU_S5_9_NAME": {
+        "text": "Quiet Daddy"
+    },
+    "TEXT_WEP_GU_S6_10_NAME": {
+        "text": "MonDestroy"
+    },
+    "TEXT_WEP_GU_S6_11_NAME": {
+        "text": "Brilliant Darkness"
+    },
+    "TEXT_WEP_GU_S6_12_NAME": {
+        "text": "Dragon Flame Cannon"
+    },
+    "TEXT_WEP_GU_S6_13_NAME": {
+        "text": "VARIUS - 7"
+    },
+    "TEXT_WEP_GU_S6_14_NAME": {
+        "text": "Blockbuster"
+    },
+    "TEXT_WEP_GU_S6_15_NAME": {
+        "text": "Mystery Chaser"
+    },
+    "TEXT_WEP_GU_S6_16_NAME": {
+        "text": "Sky Driller"
+    },
+    "TEXT_WEP_GU_S6_17_NAME": {
+        "text": "Immediate Execution"
+    },
+    "TEXT_WEP_GU_S6_18_NAME": {
+        "text": "Kalt F. Stern"
+    },
+    "TEXT_WEP_GU_S6_19_NAME": {
+        "text": "Kijidango"
+    },
+    "TEXT_WEP_GU_S6_1_NAME": {
+        "text": "Peacemaker"
+    },
+    "TEXT_WEP_GU_S6_20_NAME": {
+        "text": "Persona"
+    },
+    "TEXT_WEP_GU_S6_2_NAME": {
+        "text": "Rodeo of Passion"
+    },
+    "TEXT_WEP_GU_S6_3_NAME": {
+        "text": "Home Wrecker"
+    },
+    "TEXT_WEP_GU_S6_4_NAME": {
+        "text": "Phantom Rage"
+    },
+    "TEXT_WEP_GU_S6_6_NAME": {
+        "text": "Execution of Justice"
+    },
+    "TEXT_WEP_GU_S6_8_NAME": {
+        "text": "Hyper Electronic Cannon"
+    },
+    "TEXT_WEP_GU_S6_9_NAME": {
+        "text": "Angry Daddy"
+    },
+    "TEXT_WEP_HA_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_1_1_NAME": {
+        "text": "Wooden Bat"
+    },
+    "TEXT_WEP_HA_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_1_2_NAME": {
+        "text": "Stone Hammer"
+    },
+    "TEXT_WEP_HA_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_2_1_NAME": {
+        "text": "Steel Hammer"
+    },
+    "TEXT_WEP_HA_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_2_2_NAME": {
+        "text": "Mace"
+    },
+    "TEXT_WEP_HA_2_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_2_3_NAME": {
+        "text": "Giant Hammer"
+    },
+    "TEXT_WEP_HA_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_3_1_NAME": {
+        "text": "Full Hammer"
+    },
+    "TEXT_WEP_HA_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_3_2_NAME": {
+        "text": "Titan Hammer"
+    },
+    "TEXT_WEP_HA_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_4_1_NAME": {
+        "text": "Locum's Hammer"
+    },
+    "TEXT_WEP_HA_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_4_2_NAME": {
+        "text": "Vulcain"
+    },
+    "TEXT_WEP_HA_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_4_3_NAME": {
+        "text": "Toy Hammer"
+    },
+    "TEXT_WEP_HA_4_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_4_4_NAME": {
+        "text": "Candiva"
+    },
+    "TEXT_WEP_HA_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_5_1_NAME": {
+        "text": "Ice Hammer"
+    },
+    "TEXT_WEP_HA_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_5_2_NAME": {
+        "text": "Golden Axe"
+    },
+    "TEXT_WEP_HA_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_5_3_NAME": {
+        "text": "Whirl Axe"
+    },
+    "TEXT_WEP_HA_5_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_5_4_NAME": {
+        "text": "Deep Sea Anchor"
+    },
+    "TEXT_WEP_HA_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_6_1_NAME": {
+        "text": "Volcano"
+    },
+    "TEXT_WEP_HA_6_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_HA_6_2_NAME": {
+        "text": "Small Ax"
+    },
+    "TEXT_WEP_HA_ANTIQUE_NAME": {
+        "text": "Old Hammer"
+    },
+    "TEXT_WEP_HA_BAIT_NAME": {
+        "text": "Pure Steel Hammer"
+    },
+    "TEXT_WEP_HA_LIMITED_4_1_NAME": {
+        "text": "Long Spear"
+    },
+    "TEXT_WEP_HA_LIMITED_4_2_NAME": {
+        "text": "Flag"
+    },
+    "TEXT_WEP_HA_LIMITED_5_1_NAME": {
+        "text": "Guardian Spear"
+    },
+    "TEXT_WEP_HA_LIMITED_5_2_NAME": {
+        "text": "Flag"
+    },
+    "TEXT_WEP_HA_LIMITED_6_1_NAME": {
+        "text": "Black Tortoise Guarding Spear"
+    },
+    "TEXT_WEP_HA_LIMITED_6_2_NAME": {
+        "text": "Flag"
+    },
+    "TEXT_WEP_HA_LIMITED_GG_4_1_NAME": {
+        "text": "Great Anchor"
+    },
+    "TEXT_WEP_HA_LIMITED_GG_5_1_NAME": {
+        "text": "Great Anchor"
+    },
+    "TEXT_WEP_HA_LIMITED_GG_6_1_NAME": {
+        "text": "Great Anchor"
+    },
+    "TEXT_WEP_HA_S4_10_NAME": {
+        "text": "Cutting Machine"
+    },
+    "TEXT_WEP_HA_S4_11_NAME": {
+        "text": "Blessed Hammer"
+    },
+    "TEXT_WEP_HA_S4_12_NAME": {
+        "text": "Flower of a Hundred Roots"
+    },
+    "TEXT_WEP_HA_S4_13_NAME": {
+        "text": "General's Spear"
+    },
+    "TEXT_WEP_HA_S4_14_NAME": {
+        "text": "Champion's Axe"
+    },
+    "TEXT_WEP_HA_S4_15_NAME": {
+        "text": "Dragon Lance"
+    },
+    "TEXT_WEP_HA_S4_16_NAME": {
+        "text": "Pumpkin Crusher"
+    },
+    "TEXT_WEP_HA_S4_17_NAME": {
+        "text": "Iron Halberd"
+    },
+    "TEXT_WEP_HA_S4_18_NAME": {
+        "text": "Mace"
+    },
+    "TEXT_WEP_HA_S4_19_NAME": {
+        "text": "Beast in the Night"
+    },
+    "TEXT_WEP_HA_S4_1_NAME": {
+        "text": "Titan Hammer"
+    },
+    "TEXT_WEP_HA_S4_2_NAME": {
+        "text": "Token of the King"
+    },
+    "TEXT_WEP_HA_S4_3_NAME": {
+        "text": "Pendulum of Destruction"
+    },
+    "TEXT_WEP_HA_S4_4_NAME": {
+        "text": "Wooden Oar"
+    },
+    "TEXT_WEP_HA_S4_5_NAME": {
+        "text": "Balmung"
+    },
+    "TEXT_WEP_HA_S4_6_NAME": {
+        "text": "Tyrfing"
+    },
+    "TEXT_WEP_HA_S4_7_NAME": {
+        "text": "Bloodlust Axe"
+    },
+    "TEXT_WEP_HA_S4_8_NAME": {
+        "text": "Grinder"
+    },
+    "TEXT_WEP_HA_S4_9_NAME": {
+        "text": "Limitless Sword"
+    },
+    "TEXT_WEP_HA_S5_10_NAME": {
+        "text": "Micro Cutting Machine"
+    },
+    "TEXT_WEP_HA_S5_11_NAME": {
+        "text": "Sacred Conviction"
+    },
+    "TEXT_WEP_HA_S5_12_NAME": {
+        "text": "Flower of a Thousand Roots"
+    },
+    "TEXT_WEP_HA_S5_13_NAME": {
+        "text": "Guardian's Spear"
+    },
+    "TEXT_WEP_HA_S5_14_NAME": {
+        "text": "War Saint's Axe"
+    },
+    "TEXT_WEP_HA_S5_15_NAME": {
+        "text": "Dragon Paladin Lance"
+    },
+    "TEXT_WEP_HA_S5_16_NAME": {
+        "text": "Wood Crusher"
+    },
+    "TEXT_WEP_HA_S5_17_NAME": {
+        "text": "Iron Cross"
+    },
+    "TEXT_WEP_HA_S5_18_NAME": {
+        "text": "Steel Mace"
+    },
+    "TEXT_WEP_HA_S5_19_NAME": {
+        "text": "Beast in the Dusk"
+    },
+    "TEXT_WEP_HA_S5_1_NAME": {
+        "text": "Mithril Hammer"
+    },
+    "TEXT_WEP_HA_S5_2_NAME": {
+        "text": "Token of the Emperor"
+    },
+    "TEXT_WEP_HA_S5_3_NAME": {
+        "text": "Pendulum of Siege"
+    },
+    "TEXT_WEP_HA_S5_4_NAME": {
+        "text": "Oar of the Sacred Tree"
+    },
+    "TEXT_WEP_HA_S5_5_NAME": {
+        "text": "Cursed Balmung"
+    },
+    "TEXT_WEP_HA_S5_6_NAME": {
+        "text": "Tyrfing of Destruction"
+    },
+    "TEXT_WEP_HA_S5_7_NAME": {
+        "text": "Predator Axe"
+    },
+    "TEXT_WEP_HA_S5_8_NAME": {
+        "text": "Mechanic Grinder"
+    },
+    "TEXT_WEP_HA_S5_9_NAME": {
+        "text": "Limitless Hidden Sword"
+    },
+    "TEXT_WEP_HA_S6_10_NAME": {
+        "text": "Beam Slicer"
+    },
+    "TEXT_WEP_HA_S6_11_NAME": {
+        "text": "Gleaming Radiance"
+    },
+    "TEXT_WEP_HA_S6_12_NAME": {
+        "text": "Flower of Ten Thousand Roots"
+    },
+    "TEXT_WEP_HA_S6_13_NAME": {
+        "text": "Phalanx"
+    },
+    "TEXT_WEP_HA_S6_14_NAME": {
+        "text": "Blessing of the War Goddess"
+    },
+    "TEXT_WEP_HA_S6_15_NAME": {
+        "text": "Chain Fafnir"
+    },
+    "TEXT_WEP_HA_S6_16_NAME": {
+        "text": "Heaven Crusher"
+    },
+    "TEXT_WEP_HA_S6_17_NAME": {
+        "text": "Justice Cross"
+    },
+    "TEXT_WEP_HA_S6_18_NAME": {
+        "text": "Northern Gale"
+    },
+    "TEXT_WEP_HA_S6_19_NAME": {
+        "text": "Ragnarok"
+    },
+    "TEXT_WEP_HA_S6_1_NAME": {
+        "text": "Mjolnir"
+    },
+    "TEXT_WEP_HA_S6_20_NAME": {
+        "text": "Chef's Recipe"
+    },
+    "TEXT_WEP_HA_S6_2_NAME": {
+        "text": "Locus of Power"
+    },
+    "TEXT_WEP_HA_S6_3_NAME": {
+        "text": "Thanatos"
+    },
+    "TEXT_WEP_HA_S6_4_NAME": {
+        "text": "Oar of Yggdrasil"
+    },
+    "TEXT_WEP_HA_S6_5_NAME": {
+        "text": "Balmung of Massacre"
+    },
+    "TEXT_WEP_HA_S6_6_NAME": {
+        "text": "Tyrfing of Annihilation"
+    },
+    "TEXT_WEP_HA_S6_7_NAME": {
+        "text": "Clarent"
+    },
+    "TEXT_WEP_HA_S6_8_NAME": {
+        "text": "Super Storm Grinder"
+    },
+    "TEXT_WEP_HA_S6_9_NAME": {
+        "text": "Limitless Divine Sword"
+    },
+    "TEXT_WEP_IRON_HELP": {
+        "text": "Iron is expensive like gold these days! Meow!"
+    },
+    "TEXT_WEP_LEGEND_BO_KOF_MAI_NAME": {
+        "text": "Kacho Sen"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_7_NAME": {
+        "text": "Falcon Musket"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_7_NAME": {
+        "text": "Elite Musket"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_7_NAME": {
+        "text": "Kiss of Jamiel"
+    },
+    "TEXT_WEP_LEGEND_GU_KOF_LEONA_NAME": {
+        "text": "Earring"
+    },
+    "TEXT_WEP_LEGEND_GU_RB_NORA_NAME": {
+        "text": "Magnhild"
+    },
+    "TEXT_WEP_LEGEND_GU_RB_RUBY_NAME": {
+        "text": "Crescent Rose"
+    },
+    "TEXT_WEP_LEGEND_HA_KOF_BILLY_NAME": {
+        "text": "Three Section Staff"
+    },
+    "TEXT_WEP_LEGEND_HA_KOF_KIM_NAME": {
+        "text": "Glove"
+    },
+    "TEXT_WEP_LEGEND_HA_KOF_TERRY_NAME": {
+        "text": "Father's Heirloom"
+    },
+    "TEXT_WEP_LEGEND_HA_RB_PYRRHA_NAME": {
+        "text": "Milo and Akouo"
+    },
+    "TEXT_WEP_LEGEND_HA_RB_YANG_NAME": {
+        "text": "Ember Celica"
+    },
+    "TEXT_WEP_LEGEND_OR_KOF_ATHENA_NAME": {
+        "text": "Hair Band"
+    },
+    "TEXT_WEP_LEGEND_OR_KOF_KENSOU_NAME": {
+        "text": "Meat Dumpling"
+    },
+    "TEXT_WEP_LEGEND_ST_DEEMO_NAME": {
+        "text": "Tattered Cat Doll"
+    },
+    "TEXT_WEP_LEGEND_ST_KOF_CHIZURU_NAME": {
+        "text": "Yata Mirror"
+    },
+    "TEXT_WEP_LEGEND_ST_KOF_SHERMIE_NAME": {
+        "text": "Lightning of Orochi"
+    },
+    "TEXT_WEP_LEGEND_SW_KOF_CHRIS_NAME": {
+        "text": "Flames of Orochi"
+    },
+    "TEXT_WEP_LEGEND_SW_KOF_IORI_NAME": {
+        "text": "Yasakani Jewel"
+    },
+    "TEXT_WEP_LEGEND_SW_KOF_KYO_NAME": {
+        "text": "Kusanagi Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_KOF_RUGAL_NAME": {
+        "text": "Destruct Button"
+    },
+    "TEXT_WEP_LEGEND_SW_RB_BLAKE_NAME": {
+        "text": "Gambol Shroud"
+    },
+    "TEXT_WEP_LEGEND_SW_RB_WEISS_NAME": {
+        "text": "Myrtenaster"
+    },
+    "TEXT_WEP_OR_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_1_1_NAME": {
+        "text": "Mystery Stone"
+    },
+    "TEXT_WEP_OR_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_1_2_NAME": {
+        "text": "Spirit Stone"
+    },
+    "TEXT_WEP_OR_1_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_1_3_NAME": {
+        "text": "Holy Orb"
+    },
+    "TEXT_WEP_OR_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_2_1_NAME": {
+        "text": "Rune Fragment"
+    },
+    "TEXT_WEP_OR_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_2_2_NAME": {
+        "text": "Shiny Orb"
+    },
+    "TEXT_WEP_OR_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_3_1_NAME": {
+        "text": "Snow Fragment"
+    },
+    "TEXT_WEP_OR_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_3_2_NAME": {
+        "text": "Unknown Sheet"
+    },
+    "TEXT_WEP_OR_3_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_3_3_NAME": {
+        "text": "God's Hourglass"
+    },
+    "TEXT_WEP_OR_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_4_1_NAME": {
+        "text": "Dark Ball"
+    },
+    "TEXT_WEP_OR_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_4_2_NAME": {
+        "text": "Simya Noodle"
+    },
+    "TEXT_WEP_OR_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_4_3_NAME": {
+        "text": "Mouse Bear"
+    },
+    "TEXT_WEP_OR_4_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_4_4_NAME": {
+        "text": "Elanuma's Heart"
+    },
+    "TEXT_WEP_OR_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_5_1_NAME": {
+        "text": "Weird Medicine"
+    },
+    "TEXT_WEP_OR_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_5_2_NAME": {
+        "text": "Ancient Orb"
+    },
+    "TEXT_WEP_OR_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_5_3_NAME": {
+        "text": "Paper Doll"
+    },
+    "TEXT_WEP_OR_5_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_5_4_NAME": {
+        "text": "Heaven Skein"
+    },
+    "TEXT_WEP_OR_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_OR_6_1_NAME": {
+        "text": "Fantasy Harmony"
+    },
+    "TEXT_WEP_OR_ANTIQUE_NAME": {
+        "text": "Old Orb"
+    },
+    "TEXT_WEP_OR_BAIT_NAME": {
+        "text": "Condensed Crystal Orb"
+    },
+    "TEXT_WEP_OR_LIMITED_4_1_NAME": {
+        "text": "Marlene"
+    },
+    "TEXT_WEP_OR_LIMITED_5_1_NAME": {
+        "text": "Marlene"
+    },
+    "TEXT_WEP_OR_LIMITED_6_1_NAME": {
+        "text": "Marlene"
+    },
+    "TEXT_WEP_OR_S4_10_NAME": {
+        "text": "Biwa"
+    },
+    "TEXT_WEP_OR_S4_11_NAME": {
+        "text": "Mysterious Creature"
+    },
+    "TEXT_WEP_OR_S4_12_NAME": {
+        "text": "Little Lamp"
+    },
+    "TEXT_WEP_OR_S4_13_NAME": {
+        "text": "Harp"
+    },
+    "TEXT_WEP_OR_S4_14_NAME": {
+        "text": "Lamp of Valencia"
+    },
+    "TEXT_WEP_OR_S4_15_NAME": {
+        "text": "Nursing Chart"
+    },
+    "TEXT_WEP_OR_S4_16_NAME": {
+        "text": "Sorcerer's Potion"
+    },
+    "TEXT_WEP_OR_S4_17_NAME": {
+        "text": "Little Bubble"
+    },
+    "TEXT_WEP_OR_S4_18_NAME": {
+        "text": "Heart of Faith"
+    },
+    "TEXT_WEP_OR_S4_19_NAME": {
+        "text": "Butterfly"
+    },
+    "TEXT_WEP_OR_S4_1_NAME": {
+        "text": "Cat Balloon"
+    },
+    "TEXT_WEP_OR_S4_20_NAME": {
+        "text": "Fan of the Shikigami"
+    },
+    "TEXT_WEP_OR_S4_2_NAME": {
+        "text": "The Cross of Salvation"
+    },
+    "TEXT_WEP_OR_S4_3_NAME": {
+        "text": "Sacred Treasure of Salvation"
+    },
+    "TEXT_WEP_OR_S4_4_NAME": {
+        "text": "Soul Fire"
+    },
+    "TEXT_WEP_OR_S4_5_NAME": {
+        "text": "Vaccine-A"
+    },
+    "TEXT_WEP_OR_S4_6_NAME": {
+        "text": "Ominous Charm"
+    },
+    "TEXT_WEP_OR_S4_7_NAME": {
+        "text": "Onusa"
+    },
+    "TEXT_WEP_OR_S4_8_NAME": {
+        "text": "Mysterious Power"
+    },
+    "TEXT_WEP_OR_S4_9_NAME": {
+        "text": "Mystical Ladle"
+    },
+    "TEXT_WEP_OR_S5_10_NAME": {
+        "text": "Wooden Biwa"
+    },
+    "TEXT_WEP_OR_S5_11_NAME": {
+        "text": "Grown Creature"
+    },
+    "TEXT_WEP_OR_S5_12_NAME": {
+        "text": "Dreaming Lamp"
+    },
+    "TEXT_WEP_OR_S5_13_NAME": {
+        "text": "Angel's Harp"
+    },
+    "TEXT_WEP_OR_S5_14_NAME": {
+        "text": "Lamp of Astrology"
+    },
+    "TEXT_WEP_OR_S5_15_NAME": {
+        "text": "Strategy Map"
+    },
+    "TEXT_WEP_OR_S5_16_NAME": {
+        "text": "Forbidden Potion"
+    },
+    "TEXT_WEP_OR_S5_17_NAME": {
+        "text": "Pearl Bubble"
+    },
+    "TEXT_WEP_OR_S5_18_NAME": {
+        "text": "Heart of Protection"
+    },
+    "TEXT_WEP_OR_S5_19_NAME": {
+        "text": "Spring's Flutter"
+    },
+    "TEXT_WEP_OR_S5_1_NAME": {
+        "text": "Wingcat Balloon"
+    },
+    "TEXT_WEP_OR_S5_20_NAME": {
+        "text": "Fan of Spirits"
+    },
+    "TEXT_WEP_OR_S5_2_NAME": {
+        "text": "The Cross of Heaven"
+    },
+    "TEXT_WEP_OR_S5_3_NAME": {
+        "text": "Sacred Treasure of Heaven"
+    },
+    "TEXT_WEP_OR_S5_4_NAME": {
+        "text": "Foxfire"
+    },
+    "TEXT_WEP_OR_S5_5_NAME": {
+        "text": "Vaccine - T"
+    },
+    "TEXT_WEP_OR_S5_6_NAME": {
+        "text": "Mysterious Charm"
+    },
+    "TEXT_WEP_OR_S5_7_NAME": {
+        "text": "Blooming Onusa"
+    },
+    "TEXT_WEP_OR_S5_8_NAME": {
+        "text": "Refined Power"
+    },
+    "TEXT_WEP_OR_S5_9_NAME": {
+        "text": "Dragonhead Ladle"
+    },
+    "TEXT_WEP_OR_S6_10_NAME": {
+        "text": "Golden Biwa"
+    },
+    "TEXT_WEP_OR_S6_11_NAME": {
+        "text": "Asmo"
+    },
+    "TEXT_WEP_OR_S6_12_NAME": {
+        "text": "Light of Paros"
+    },
+    "TEXT_WEP_OR_S6_13_NAME": {
+        "text": "Eurydice"
+    },
+    "TEXT_WEP_OR_S6_14_NAME": {
+        "text": "Mark of Starlight"
+    },
+    "TEXT_WEP_OR_S6_15_NAME": {
+        "text": "NNC SYSTEM"
+    },
+    "TEXT_WEP_OR_S6_16_NAME": {
+        "text": "Elixir"
+    },
+    "TEXT_WEP_OR_S6_17_NAME": {
+        "text": "Breath of the Deep Sea"
+    },
+    "TEXT_WEP_OR_S6_18_NAME": {
+        "text": "Brilliant Pride"
+    },
+    "TEXT_WEP_OR_S6_19_NAME": {
+        "text": "Soul's Companion"
+    },
+    "TEXT_WEP_OR_S6_1_NAME": {
+        "text": "Ultimacute"
+    },
+    "TEXT_WEP_OR_S6_20_NAME": {
+        "text": "Fan of the Onmyoji"
+    },
+    "TEXT_WEP_OR_S6_2_NAME": {
+        "text": "Michaela"
+    },
+    "TEXT_WEP_OR_S6_3_NAME": {
+        "text": "Gabriella"
+    },
+    "TEXT_WEP_OR_S6_4_NAME": {
+        "text": "Spiritflame"
+    },
+    "TEXT_WEP_OR_S6_5_NAME": {
+        "text": "Vaccine - G"
+    },
+    "TEXT_WEP_OR_S6_6_NAME": {
+        "text": "Golden Charm"
+    },
+    "TEXT_WEP_OR_S6_7_NAME": {
+        "text": "Full Bloom Onusa"
+    },
+    "TEXT_WEP_OR_S6_8_NAME": {
+        "text": "Infinite Power"
+    },
+    "TEXT_WEP_OR_S6_9_NAME": {
+        "text": "Yellow-dragon Laddle"
+    },
+    "TEXT_WEP_POWDER_HELP": {
+        "text": "Meow! This is the material for Soulbound Weapons!"
+    },
+    "TEXT_WEP_ST_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_1_1_NAME": {
+        "text": "Twig"
+    },
+    "TEXT_WEP_ST_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_1_2_NAME": {
+        "text": "Oak Staff"
+    },
+    "TEXT_WEP_ST_1_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_1_3_NAME": {
+        "text": "Rytiphlaea Cane"
+    },
+    "TEXT_WEP_ST_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_2_1_NAME": {
+        "text": "Forest Staff"
+    },
+    "TEXT_WEP_ST_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_2_2_NAME": {
+        "text": "Fire Gem"
+    },
+    "TEXT_WEP_ST_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_3_1_NAME": {
+        "text": "Trinity Staff"
+    },
+    "TEXT_WEP_ST_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_3_2_NAME": {
+        "text": "Mermaid Staff"
+    },
+    "TEXT_WEP_ST_3_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_3_3_NAME": {
+        "text": "Starfall"
+    },
+    "TEXT_WEP_ST_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_4_1_NAME": {
+        "text": "Lyramorse"
+    },
+    "TEXT_WEP_ST_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_4_2_NAME": {
+        "text": "Magic Girl Staff"
+    },
+    "TEXT_WEP_ST_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_4_3_NAME": {
+        "text": "Firm Fishing Rod"
+    },
+    "TEXT_WEP_ST_4_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_4_4_NAME": {
+        "text": "Sister Staff"
+    },
+    "TEXT_WEP_ST_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_5_1_NAME": {
+        "text": "Elf Staff"
+    },
+    "TEXT_WEP_ST_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_5_2_NAME": {
+        "text": "Ancient Staff"
+    },
+    "TEXT_WEP_ST_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_5_3_NAME": {
+        "text": "Archon Staff"
+    },
+    "TEXT_WEP_ST_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_ST_6_1_NAME": {
+        "text": "Superior Staff"
+    },
+    "TEXT_WEP_ST_ANTIQUE_NAME": {
+        "text": "Old Staff"
+    },
+    "TEXT_WEP_ST_BAIT_NAME": {
+        "text": "Condensed Crystal Staff"
+    },
+    "TEXT_WEP_ST_LIMITED_4_1_NAME": {
+        "text": "VelFa & Venus"
+    },
+    "TEXT_WEP_ST_LIMITED_4_2_NAME": {
+        "text": "Iron ball"
+    },
+    "TEXT_WEP_ST_LIMITED_5_1_NAME": {
+        "text": "VelFa & Venus"
+    },
+    "TEXT_WEP_ST_LIMITED_5_2_NAME": {
+        "text": "Iron ball"
+    },
+    "TEXT_WEP_ST_LIMITED_6_1_NAME": {
+        "text": "VelFa & Venus"
+    },
+    "TEXT_WEP_ST_LIMITED_6_2_NAME": {
+        "text": "Iron ball"
+    },
+    "TEXT_WEP_ST_S4_10_NAME": {
+        "text": "Staff of Plunder"
+    },
+    "TEXT_WEP_ST_S4_11_NAME": {
+        "text": "Trainee's Microphone"
+    },
+    "TEXT_WEP_ST_S4_12_NAME": {
+        "text": "Sickle of Harvest"
+    },
+    "TEXT_WEP_ST_S4_13_NAME": {
+        "text": "Vow of Judgment"
+    },
+    "TEXT_WEP_ST_S4_14_NAME": {
+        "text": "Fallen Light"
+    },
+    "TEXT_WEP_ST_S4_15_NAME": {
+        "text": "Rod"
+    },
+    "TEXT_WEP_ST_S4_16_NAME": {
+        "text": "Fay of the Pond"
+    },
+    "TEXT_WEP_ST_S4_17_NAME": {
+        "text": "Toy Wand"
+    },
+    "TEXT_WEP_ST_S4_18_NAME": {
+        "text": "Bunny"
+    },
+    "TEXT_WEP_ST_S4_19_NAME": {
+        "text": "Feather of the Wind"
+    },
+    "TEXT_WEP_ST_S4_1_NAME": {
+        "text": "Sealed Eye"
+    },
+    "TEXT_WEP_ST_S4_20_NAME": {
+        "text": "Shell Staff"
+    },
+    "TEXT_WEP_ST_S4_2_NAME": {
+        "text": "Kerosene Lantern"
+    },
+    "TEXT_WEP_ST_S4_3_NAME": {
+        "text": "Moonrise"
+    },
+    "TEXT_WEP_ST_S4_4_NAME": {
+        "text": "Seed of Snow"
+    },
+    "TEXT_WEP_ST_S4_5_NAME": {
+        "text": "Scythe of Death"
+    },
+    "TEXT_WEP_ST_S4_6_NAME": {
+        "text": "Sweet Kiss"
+    },
+    "TEXT_WEP_ST_S4_7_NAME": {
+        "text": "Heart Q"
+    },
+    "TEXT_WEP_ST_S4_8_NAME": {
+        "text": "Twisted Branch"
+    },
+    "TEXT_WEP_ST_S4_9_NAME": {
+        "text": "Village Totem Pole"
+    },
+    "TEXT_WEP_ST_S5_10_NAME": {
+        "text": "Staff of Extortion"
+    },
+    "TEXT_WEP_ST_S5_11_NAME": {
+        "text": "Broadcasting Mircophone"
+    },
+    "TEXT_WEP_ST_S5_12_NAME": {
+        "text": "Sickle of Plenty"
+    },
+    "TEXT_WEP_ST_S5_13_NAME": {
+        "text": "Dawn of Conviction"
+    },
+    "TEXT_WEP_ST_S5_14_NAME": {
+        "text": "Light of Creation"
+    },
+    "TEXT_WEP_ST_S5_15_NAME": {
+        "text": "Magic Rod"
+    },
+    "TEXT_WEP_ST_S5_16_NAME": {
+        "text": "Fay of the Lake"
+    },
+    "TEXT_WEP_ST_S5_17_NAME": {
+        "text": "Doll Wand"
+    },
+    "TEXT_WEP_ST_S5_18_NAME": {
+        "text": "Rabbit"
+    },
+    "TEXT_WEP_ST_S5_19_NAME": {
+        "text": "Wings upon the Horizon"
+    },
+    "TEXT_WEP_ST_S5_1_NAME": {
+        "text": "Tears of Daybreak"
+    },
+    "TEXT_WEP_ST_S5_20_NAME": {
+        "text": "King Shell Staff"
+    },
+    "TEXT_WEP_ST_S5_2_NAME": {
+        "text": "Underworld Lantern"
+    },
+    "TEXT_WEP_ST_S5_3_NAME": {
+        "text": "Red Moon"
+    },
+    "TEXT_WEP_ST_S5_4_NAME": {
+        "text": "Snow Bud"
+    },
+    "TEXT_WEP_ST_S5_5_NAME": {
+        "text": "Soul Reaper"
+    },
+    "TEXT_WEP_ST_S5_6_NAME": {
+        "text": "Kiss of Temptation"
+    },
+    "TEXT_WEP_ST_S5_7_NAME": {
+        "text": "Diamond K"
+    },
+    "TEXT_WEP_ST_S5_8_NAME": {
+        "text": "Revived Branch"
+    },
+    "TEXT_WEP_ST_S5_9_NAME": {
+        "text": "Worldly Totem Pole"
+    },
+    "TEXT_WEP_ST_S6_10_NAME": {
+        "text": "Pandemonium"
+    },
+    "TEXT_WEP_ST_S6_11_NAME": {
+        "text": "Grand Finale"
+    },
+    "TEXT_WEP_ST_S6_12_NAME": {
+        "text": "Enesidaone"
+    },
+    "TEXT_WEP_ST_S6_13_NAME": {
+        "text": "Prayer of Atonement"
+    },
+    "TEXT_WEP_ST_S6_14_NAME": {
+        "text": "Heaven's Code"
+    },
+    "TEXT_WEP_ST_S6_15_NAME": {
+        "text": "Magic Temptation"
+    },
+    "TEXT_WEP_ST_S6_16_NAME": {
+        "text": "Naiad"
+    },
+    "TEXT_WEP_ST_S6_17_NAME": {
+        "text": "Hortensia"
+    },
+    "TEXT_WEP_ST_S6_18_NAME": {
+        "text": "Killer Rabbit"
+    },
+    "TEXT_WEP_ST_S6_19_NAME": {
+        "text": "Belphoebea"
+    },
+    "TEXT_WEP_ST_S6_1_NAME": {
+        "text": "Tears of Dawn"
+    },
+    "TEXT_WEP_ST_S6_20_NAME": {
+        "text": "Avalokiteśvara"
+    },
+    "TEXT_WEP_ST_S6_2_NAME": {
+        "text": "Flower of Yama"
+    },
+    "TEXT_WEP_ST_S6_3_NAME": {
+        "text": "Queen of the Moon"
+    },
+    "TEXT_WEP_ST_S6_4_NAME": {
+        "text": "Snow Flower"
+    },
+    "TEXT_WEP_ST_S6_5_NAME": {
+        "text": "Soul Eater"
+    },
+    "TEXT_WEP_ST_S6_6_NAME": {
+        "text": "Deadly Kiss"
+    },
+    "TEXT_WEP_ST_S6_7_NAME": {
+        "text": "Spade A"
+    },
+    "TEXT_WEP_ST_S6_8_NAME": {
+        "text": "Branch of Life"
+    },
+    "TEXT_WEP_ST_S6_9_NAME": {
+        "text": "Heaven's Totem Pole"
+    },
+    "TEXT_WEP_SW_1_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_1_1_NAME": {
+        "text": "Wooden Sword"
+    },
+    "TEXT_WEP_SW_1_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_1_2_NAME": {
+        "text": "Old Broad Sword"
+    },
+    "TEXT_WEP_SW_2_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_2_1_NAME": {
+        "text": "Broad Sword"
+    },
+    "TEXT_WEP_SW_2_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_2_2_NAME": {
+        "text": "Bastard Sword"
+    },
+    "TEXT_WEP_SW_2_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_2_3_NAME": {
+        "text": "Falcata"
+    },
+    "TEXT_WEP_SW_3_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_3_1_NAME": {
+        "text": "Warrior Sword"
+    },
+    "TEXT_WEP_SW_3_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_3_2_NAME": {
+        "text": "Steel Sword"
+    },
+    "TEXT_WEP_SW_3_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_3_3_NAME": {
+        "text": "Liberator"
+    },
+    "TEXT_WEP_SW_4_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_4_1_NAME": {
+        "text": "Dragoon Sword"
+    },
+    "TEXT_WEP_SW_4_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_4_2_NAME": {
+        "text": "Rose Knife"
+    },
+    "TEXT_WEP_SW_4_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_4_3_NAME": {
+        "text": "Frozen Tuna"
+    },
+    "TEXT_WEP_SW_5_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_5_1_NAME": {
+        "text": "Sea King Sword"
+    },
+    "TEXT_WEP_SW_5_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_5_2_NAME": {
+        "text": "Killer Sword"
+    },
+    "TEXT_WEP_SW_5_3_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_5_3_NAME": {
+        "text": "Herev"
+    },
+    "TEXT_WEP_SW_5_4_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_5_4_NAME": {
+        "text": "Golden Sword"
+    },
+    "TEXT_WEP_SW_6_1_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_6_1_NAME": {
+        "text": "Red Falchion"
+    },
+    "TEXT_WEP_SW_6_2_DESC": {
+        "text": null
+    },
+    "TEXT_WEP_SW_6_2_NAME": {
+        "text": "Dragon Sword"
+    },
+    "TEXT_WEP_SW_ANTIQUE_NAME": {
+        "text": "Old Sword"
+    },
+    "TEXT_WEP_SW_BAIT_NAME": {
+        "text": "Pure Steel Sword"
+    },
+    "TEXT_WEP_SW_LIMITED_4_1_NAME": {
+        "text": "Magnolia éclair Ⅱ"
+    },
+    "TEXT_WEP_SW_LIMITED_4_2_NAME": {
+        "text": "Junkyard Dog"
+    },
+    "TEXT_WEP_SW_LIMITED_4_3_NAME": {
+        "text": "Hair"
+    },
+    "TEXT_WEP_SW_LIMITED_4_4_NAME": {
+        "text": "Long Sword"
+    },
+    "TEXT_WEP_SW_LIMITED_5_1_NAME": {
+        "text": "Magnolia éclair Ⅱ"
+    },
+    "TEXT_WEP_SW_LIMITED_5_2_NAME": {
+        "text": "Junkyard Dog"
+    },
+    "TEXT_WEP_SW_LIMITED_5_3_NAME": {
+        "text": "Hair"
+    },
+    "TEXT_WEP_SW_LIMITED_5_4_NAME": {
+        "text": "Long Sword"
+    },
+    "TEXT_WEP_SW_LIMITED_6_1_NAME": {
+        "text": "Magnolia éclair Ⅱ"
+    },
+    "TEXT_WEP_SW_LIMITED_6_2_NAME": {
+        "text": "Junkyard Dog"
+    },
+    "TEXT_WEP_SW_LIMITED_6_3_NAME": {
+        "text": "Hair"
+    },
+    "TEXT_WEP_SW_LIMITED_6_4_NAME": {
+        "text": "Long Sword"
+    },
+    "TEXT_WEP_SW_S4_10_NAME": {
+        "text": "Demon Blade"
+    },
+    "TEXT_WEP_SW_S4_11_NAME": {
+        "text": "Rapier"
+    },
+    "TEXT_WEP_SW_S4_12_NAME": {
+        "text": "Sword of Seven Stars"
+    },
+    "TEXT_WEP_SW_S4_13_NAME": {
+        "text": "Prayer of Victory"
+    },
+    "TEXT_WEP_SW_S4_14_NAME": {
+        "text": "Sword of Valencia"
+    },
+    "TEXT_WEP_SW_S4_15_NAME": {
+        "text": "Thorny Sword"
+    },
+    "TEXT_WEP_SW_S4_16_NAME": {
+        "text": "Occult Wooden Sword"
+    },
+    "TEXT_WEP_SW_S4_17_NAME": {
+        "text": "Ironsword of Darkness"
+    },
+    "TEXT_WEP_SW_S4_18_NAME": {
+        "text": "Sword of Second Sight"
+    },
+    "TEXT_WEP_SW_S4_19_NAME": {
+        "text": "Flame of Justice"
+    },
+    "TEXT_WEP_SW_S4_1_NAME": {
+        "text": "Nameless Sword"
+    },
+    "TEXT_WEP_SW_S4_20_NAME": {
+        "text": "Brutal Claws"
+    },
+    "TEXT_WEP_SW_S4_2_NAME": {
+        "text": "Galatine"
+    },
+    "TEXT_WEP_SW_S4_3_NAME": {
+        "text": "Muramasa"
+    },
+    "TEXT_WEP_SW_S4_4_NAME": {
+        "text": "Balrog"
+    },
+    "TEXT_WEP_SW_S4_5_NAME": {
+        "text": "Three-Section Staff"
+    },
+    "TEXT_WEP_SW_S4_6_NAME": {
+        "text": "Shinai"
+    },
+    "TEXT_WEP_SW_S4_7_NAME": {
+        "text": "Sword of the Successor"
+    },
+    "TEXT_WEP_SW_S4_8_NAME": {
+        "text": "Large Bone"
+    },
+    "TEXT_WEP_SW_S4_9_NAME": {
+        "text": "Black Tiger Sword"
+    },
+    "TEXT_WEP_SW_S5_10_NAME": {
+        "text": "Demon Sword"
+    },
+    "TEXT_WEP_SW_S5_11_NAME": {
+        "text": "Allegro"
+    },
+    "TEXT_WEP_SW_S5_12_NAME": {
+        "text": "Sword of Heaven"
+    },
+    "TEXT_WEP_SW_S5_13_NAME": {
+        "text": "Dawn of War"
+    },
+    "TEXT_WEP_SW_S5_14_NAME": {
+        "text": "Sword of Ferdinando"
+    },
+    "TEXT_WEP_SW_S5_15_NAME": {
+        "text": "Briar Blade"
+    },
+    "TEXT_WEP_SW_S5_16_NAME": {
+        "text": "Wooden Sword of Harmony"
+    },
+    "TEXT_WEP_SW_S5_17_NAME": {
+        "text": "Sword of the Dark Lord"
+    },
+    "TEXT_WEP_SW_S5_18_NAME": {
+        "text": "Sword of Second Sight"
+    },
+    "TEXT_WEP_SW_S5_19_NAME": {
+        "text": "Flame of Repentance"
+    },
+    "TEXT_WEP_SW_S5_1_NAME": {
+        "text": "Brave Sword"
+    },
+    "TEXT_WEP_SW_S5_20_NAME": {
+        "text": "Vicious Claws"
+    },
+    "TEXT_WEP_SW_S5_2_NAME": {
+        "text": "Galatine of Steel"
+    },
+    "TEXT_WEP_SW_S5_3_NAME": {
+        "text": "Mysterious Muramasa"
+    },
+    "TEXT_WEP_SW_S5_4_NAME": {
+        "text": "Dark Balrog"
+    },
+    "TEXT_WEP_SW_S5_5_NAME": {
+        "text": "Electric Baton"
+    },
+    "TEXT_WEP_SW_S5_6_NAME": {
+        "text": "Advanced Shinai"
+    },
+    "TEXT_WEP_SW_S5_7_NAME": {
+        "text": "Heir of the Empire"
+    },
+    "TEXT_WEP_SW_S5_8_NAME": {
+        "text": "King's Bone"
+    },
+    "TEXT_WEP_SW_S5_9_NAME": {
+        "text": "Black Tiger Hidden Sword"
+    },
+    "TEXT_WEP_SW_S6_10_NAME": {
+        "text": "One-Eyed Demon"
+    },
+    "TEXT_WEP_SW_S6_11_NAME": {
+        "text": "Allegro Assai"
+    },
+    "TEXT_WEP_SW_S6_12_NAME": {
+        "text": "Sword of Heaven's Will"
+    },
+    "TEXT_WEP_SW_S6_13_NAME": {
+        "text": "Vow of the Battlefield"
+    },
+    "TEXT_WEP_SW_S6_14_NAME": {
+        "text": "Mark of Darkness"
+    },
+    "TEXT_WEP_SW_S6_15_NAME": {
+        "text": "Pale Rose"
+    },
+    "TEXT_WEP_SW_S6_16_NAME": {
+        "text": "Spiral of Heaven and Earth"
+    },
+    "TEXT_WEP_SW_S6_17_NAME": {
+        "text": "Dark Blade of the Overlord"
+    },
+    "TEXT_WEP_SW_S6_18_NAME": {
+        "text": "Call of a Hundred Spirits, a Thousand Gods"
+    },
+    "TEXT_WEP_SW_S6_19_NAME": {
+        "text": "Balisarda"
+    },
+    "TEXT_WEP_SW_S6_1_NAME": {
+        "text": "Excalibur"
+    },
+    "TEXT_WEP_SW_S6_20_NAME": {
+        "text": "Butcher's Claws"
+    },
+    "TEXT_WEP_SW_S6_2_NAME": {
+        "text": "Galatine of Faith"
+    },
+    "TEXT_WEP_SW_S6_3_NAME": {
+        "text": "Demonic Muramasa"
+    },
+    "TEXT_WEP_SW_S6_4_NAME": {
+        "text": "Midnight Balrog"
+    },
+    "TEXT_WEP_SW_S6_5_NAME": {
+        "text": "Beam Blade"
+    },
+    "TEXT_WEP_SW_S6_6_NAME": {
+        "text": "The Black Moon"
+    },
+    "TEXT_WEP_SW_S6_7_NAME": {
+        "text": "Fallen Throne"
+    },
+    "TEXT_WEP_SW_S6_8_NAME": {
+        "text": "God's Bone"
+    },
+    "TEXT_WEP_SW_S6_9_NAME": {
+        "text": "Black Tiger Divine Sword"
+    },
+    "TEXT_WEP_UUU_HELP": {
+        "text": "Three function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_UU_HELP": {
+        "text": "Two function upgrades for this weapon, meow!"
+    },
+    "TEXT_WEP_U_HELP": {
+        "text": "Function upgrade for this weapon, meow!"
+    },
+    "TEXT_WEP_BO_S4_21_NAME": {
+        "text": "Haunted Bow"
+    },
+    "TEXT_WEP_BO_S5_21_NAME": {
+        "text": "Bones of the Buried"
+    },
+    "TEXT_WEP_BO_S6_21_NAME": {
+        "text": "Remains of the Dead"
+    },
+    "TEXT_WEP_GU_S4_21_NAME": {
+        "text": "Common Shotgun"
+    },
+    "TEXT_WEP_GU_S4_5_NAME": {
+        "text": "Machine Gun"
+    },
+    "TEXT_WEP_GU_S5_21_NAME": {
+        "text": "Musketeer Shotgun"
+    },
+    "TEXT_WEP_GU_S5_5_NAME": {
+        "text": "M61 Vulcan"
+    },
+    "TEXT_WEP_GU_S6_21_NAME": {
+        "text": "C'est Très Bon"
+    },
+    "TEXT_WEP_GU_S6_5_NAME": {
+        "text": "R.I.P"
+    },
+    "TEXT_WEP_HA_S4_20_NAME": {
+        "text": "Oily Ladle"
+    },
+    "TEXT_WEP_HA_S4_21_NAME": {
+        "text": "Anvil"
+    },
+    "TEXT_WEP_HA_S5_20_NAME": {
+        "text": "Martial Cleaver"
+    },
+    "TEXT_WEP_HA_S5_21_NAME": {
+        "text": "Strong Anvil"
+    },
+    "TEXT_WEP_HA_S6_21_NAME": {
+        "text": "Artisan's Pride"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mark of Mana' is increased by 3 seconds. The marked enemy's evasion decreases by additional 20 and the enemy receives additional 30% damage from Genevie."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_22_NAME": {
+        "text": "Beginner's Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) 'Bleeding' attack power +100%, duration +2 seconds \n(Passive Added) If the enemy is above a certain distance from the ground, Panpan shoots 2 shafts of 'Heaven's Bamboo Rain' that deal magical damage equal to 300% of his attack power. If multiple enemies meet this condition, Panpan attacks only the rearmost enemy. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_23_NAME": {
+        "text": "Old Bamboo Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_24_DESC": {
+        "text": "(Passive Enhanced) Arachne's 'baby spiders' ignore enemy effects of receiving all damage dealt to their party."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_24_NAME": {
+        "text": "Spider Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) Each 'fission bomb' deals physical damage equal to 400% of Lindsey's attack power."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_25_NAME": {
+        "text": "Machine Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_26_DESC": {
+        "text": "(Passive Enhanced) 'Ocean's Tears' deals magical damage equal to 1000% of Haerang's attack power."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_26_NAME": {
+        "text": "Calm Waters"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_28_DESC": {
+        "text": "(Passive Enhanced) The damage dealt by 'Serpent Venom' is increased to 300% of Malkah's attack power per second. The cooltime and stack limit of the attack remain unchanged.\n(Passive Added) Upon using her Special Skill, Malkah generates her own and the leader ally's block. If Malkah is the leader, she generates only one of her own."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_28_NAME": {
+        "text": "Bow of the Hunter"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_29_DESC": {
+        "text": "(Passive Enhanced) With every 'Mark of the Night Raven' affecting the enemy, Ran's attack speed is increased by 20%. Each 'Mark of the Night Raven' additionally decreases the affected enemy's armor by 5%. (Maximum 6 stacks)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_4_29_NAME": {
+        "text": "Mercenary Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mark of Mana' is increased by 3 seconds. The marked enemy's evasion decreases by additional 20 and the enemy receives additional 30% damage from Genevie."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_22_NAME": {
+        "text": "Mana Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) 'Bleeding' attack power +100%, duration +2 seconds \n(Passive Added) If the enemy is above a certain distance from the ground, Panpan shoots 2 shafts of 'Heaven's Bamboo Rain' that deal magical damage equal to 300% of his attack power. If multiple enemies meet this condition, Panpan attacks only the rearmost enemy. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_23_NAME": {
+        "text": "Father's Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_24_DESC": {
+        "text": "(Passive Enhanced) Arachne's 'baby spiders' ignore enemy effects of receiving all damage dealt to their party."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_24_NAME": {
+        "text": "Steel Spider Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) Each 'fission bomb' deals physical damage equal to 400% of Lindsey's attack power."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_25_NAME": {
+        "text": "Machine Bow MK.2"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_26_DESC": {
+        "text": "(Passive Enhanced) 'Ocean's Tears' deals magical damage equal to 1000% of Haerang's attack power."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_26_NAME": {
+        "text": "Tempestuous Waters"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_28_DESC": {
+        "text": "(Passive Enhanced) The damage dealt by 'Serpent Venom' is increased to 300% of Malkah's attack power per second. The cooltime and stack limit of the attack remain unchanged.\n(Passive Added) Upon using her Special Skill, Malkah generates her own and the leader ally's block. If Malkah is the leader, she generates only one of her own."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_28_NAME": {
+        "text": "Bow of the Serpent"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_29_DESC": {
+        "text": "(Passive Enhanced) With every 'Mark of the Night Raven' affecting the enemy, Ran's attack speed is increased by 20%. Each 'Mark of the Night Raven' additionally decreases the affected enemy's armor by 5%. (Maximum 6 stacks)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_5_29_NAME": {
+        "text": "Broken Talon"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mark of Mana' is increased by 3 seconds. The marked enemy's evasion decreases by additional 20 and the enemy receives additional 30% damage from Genevie.\n(Passive Added) If a marked enemy receives 3 hits by 'Chaser's Arrow', she shoots 'Chaser's Arrowstorm' that deals widespread magical damage equal to 2000% of Genevie's attack power. 'Chaser's Arrowstorm' decreases the subject's armor and resistance by 50% for 8 seconds, and dispels all buffs. (Cooltime: 1 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_22_NAME": {
+        "text": "Mana Huntress"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) 'Bleeding' attack power +200%, duration +3 seconds, heal debuff +50%\n(Passive Added) If the enemy is above a certain distance from the ground, Panpan shoots 5 shafts of 'Heaven's Bamboo Rain' that deal magical damage equal to 500% of his attack power and stun hit enemies. If multiple enemies meet this condition, Panpan attacks only the rearmost enemy. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_23_NAME": {
+        "text": "Great Father's Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_24_DESC": {
+        "text": "(Passive Enhanced) Arachne's 'baby spiders' ignore enemy effects that take damage in place of their allies.\n(Passive Added) If a 'baby spider' accurately deals a hit, Arachne summons a 'Tarantula' that deals physical damage equal to 1000% of Arachne's attack power, giving the target enemy a 'spider bite.' Arachne additionally recovers HP equal to 50% of the damage dealt by the 'Tarantula.' If the enemy is under the effect of a debuff, the 'Tarantula' deals additional damage equal to 1000% of Arachne's attack power. If the 'Tarantula' accurately deals a hit, Arachne generates 1 block of her own. The 'Tarantula' ignores enemy effects that take damage in place of their allies. (Cooltime: 0.7 second)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_24_NAME": {
+        "text": "Predator"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_25_DESC": {
+        "text": "(Passive Enhanced) Each 'fission bomb' deals physical damage equal to 500% of Lindsey's attack power. Additionally, the number of thrown fission bombs is increased to 3, and their range is increased by 100%."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_25_NAME": {
+        "text": "Blast Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_26_DESC": {
+        "text": "(Passive Enhanced) 'Ocean's Tears' deals magical damage equal to 1000% of Haerang's attack power.\n(Passive Added) Upon using her own block after another ally's 3-chain, Haerang transforms into the 'Oracle of Water' for 20 seconds. In this state, Haerang cannot be stunned. (Cooltime: 20 seconds)\n(Passive Added) As the 'Oracle of Water,' Haerang's normal attacks and block skills are activated as 'Oracle's Arrow.'\n- 'Oracle's Arrow': Haerang shoots 4 'Oracle's Arrows' at the frontmost enemy that each deal magical damage equal to 500% of her attack power. All 'Oracle's Arrows' activated by Haerang's block skills are acknowledged as 1-chains."
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_26_NAME": {
+        "text": "Oracle's Will"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_28_DESC": {
+        "text": "(Passive Enhanced) The damage dealt by 'Serpent Venom' is increased to 400% of Malkah's attack power per second. The cooltime and stack limit of the attack remain unchanged.\n(Passive Added) Every time she uses her Special Skill, Malkah generates her own and the leader ally's block. If Malkah is the leader, she generates only one of her own. Additionally, enemies under the effects of 'Serpent Venom' receive magical damage equal to 2000% of Malkah's attack power every time they receive a buff. (Cooltime: 1 second)\n(Passive Altered) Upon using another ally's 3-chain, Malkah immediately uses 'Fang of the Kukulkan.' 'Fang of the Kukulkan' deals magical damage equal to 2000% of Malkah's attack power, applies the effects of 'Serpent Venom,' and ignores enemy resistance by Malkah's resistance. 'Fang of the Kukulkan' also cancels all enemy buffs. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_28_NAME": {
+        "text": "Quetzalcoatl"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_29_DESC": {
+        "text": "(Passive Enhanced) With every 'Mark of the Night Raven' affecting the enemy, Ran's attack speed is increased by 20%. Each 'Mark of the Night Raven' additionally decreases the affected enemy's armor by 5%. (Maximum 6 stacks)\n(Passive Added) Upon using a block skill, Ran summons an 'Illusion of the Night Raven' that copies Ran's every move for 12 seconds. Ran's auto attacks are changed to 1-chain block skills for the duration of 'Illusion of the Night Raven.' (Cooltime: 12 seconds)\n(Passive Added) Upon dealing a critical hit to an enemy affected by 'Mark of the Night Raven' during the 'Illusion of the Night Raven,' Ran uses 'Illusion Blade' to deal area physical damage equal to 1000% of her attack power to the marked enemy and their surroundings. (Cooltime: 1 second)"
+    },
+    "TEXT_WEP_LEGEND_BO_CHA_6_29_NAME": {
+        "text": "Nevermore"
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_4_DESC": {
+        "text": "(Passive Enhanced) High Elf Archer's evasion and accuracy are increased by an additional 25."
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_4_NAME": {
+        "text": "High Elf Archer's Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_5_DESC": {
+        "text": "(Passive Enhanced) High Elf Archer's evasion and accuracy are increased by an additional 25."
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_5_NAME": {
+        "text": "High Elf Archer's Bow"
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_6_DESC": {
+        "text": "(Passive Enhanced) High Elf Archer's evasion and accuracy are increased by an additional 25.\n(Passive Added) If the enemy hit by High Elf Archer's block skill is under a buff, High Elf Archer immediately shoots a 'Curve Shot' at the enemy with the least remaining HP. 'Curve Shot' deals physical damage equal to 3000% of High Elf Archer's attack power and ignores enemies' abilities of receiving the party's damage in their stead. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_BO_GS_06_6_NAME": {
+        "text": "High Elf Archer's Bow"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_22_DESC": {
+        "text": "(Passive Enhanced) 'Enemy Detection Beam' deals twice the damage."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_22_NAME": {
+        "text": "Common Light Gun"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) 'Overheated' enemies receive 20% increased damage."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_23_NAME": {
+        "text": "Monstrous Gun"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_24_DESC": {
+        "text": "(Passive Added) Upon activating his block skill, Jet's accuracy increases by 15 for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_24_NAME": {
+        "text": "Common Pistol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Radiance of the Battlefield' is increased by 2 seconds."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_25_NAME": {
+        "text": "Gun & Blade"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Noblesse Oblige,' Cindy increases her own critical chance and accuracy by 30%."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_28_NAME": {
+        "text": "Ordinary Parasol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_4_7_DESC": {
+        "text": "When No.9's block skill deals a critical hit, No.9 immediately uses 'Jamiel's Hunt' to deal physical damage equal to 1000% of her attack power and stun the enemy for 1 second. This attack always lands critically and ignores all enemy evasion."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_22_DESC": {
+        "text": "(Passive Enhanced) 'Enemy Detection Beam' deals twice the damage."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_22_NAME": {
+        "text": "Light Pistol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) 'Overheated' enemies receive 20% increased damage."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_23_NAME": {
+        "text": "Monstrous Raid Gun"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_24_DESC": {
+        "text": "(Passive Added) Upon activating his block skill, Jet's accuracy increases by 15 for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_24_NAME": {
+        "text": "Pure Silver Pistol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Radiance of the Battlefield' is increased by 2 seconds."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_25_NAME": {
+        "text": "Gunblade"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Noblesse Oblige,' Cindy increases her own critical chance and accuracy by 30%."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_28_NAME": {
+        "text": "Luxurious Parasol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_5_7_DESC": {
+        "text": "When No.9's block skill deals a critical hit, No.9 immediately uses 'Jamiel's Hunt' to deal physical damage equal to 1000% of her attack power and stun the enemy for 1 second. This attack always lands critically and ignores all enemy evasion."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_22_DESC": {
+        "text": "(Passive Enhanced) 'Enemy Detection Beam' deals twice the damage.\n(Passive Added) Upon the termination of 'Optical Mark,' Zahard uses 'Crimson Satellite Beam' to deal magical damage equal to 1750% of his attack power.(Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_22_NAME": {
+        "text": "Semi-Permanent Light Pistol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) 'Overheated' enemies receive 30% increased damage.\n(Passive Added) When attacking 'overheated' enemies, Bellerophon deals additional magical damage equal to 800% of his attack power to all enemies within the target's area. (Cooltime: 1 seconds)"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_23_NAME": {
+        "text": "Draconic Cannon"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_24_DESC": {
+        "text": "(Passive Added) Upon activating his block skill, Jet's accuracy increases by 30 for 5 seconds. If the enemy hit by Jet's block skill is receiving the damage for their party, Jet reloads his gun to fire 4 shots of neutral damage equal to 500% of his attack power."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_24_NAME": {
+        "text": "The Midas Shot"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_25_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Radiance of the Battlefield' increases by 2 seconds.\n(Passive Added) If Carol or another ally uses a 3-chain during 'Radiance of the Battlefield,' Carol teleports to the nearest enemy and uses 'Brave Slash' to deal physical power equal to 3000% of her attack power with 2 hits. Upon the termination of 'Brave Slash,' Carol returns to her initial location. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_25_NAME": {
+        "text": "Knockin' on Heaven's Door"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Noblesse Oblige,' Cindy increases her own critical chance and accuracy by 30%.\n(Passive Added) Upon using her block skill, Cindy charges forward and uses 'Voila~!' to deal physical damage equal to 3000% and stun the enemy for 1 second. (Cooltime: 3 seconds; Passive acknowledged as 3-chain) After using 'Voila~!,' Cindy becomes invincible to 1 hit."
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_28_NAME": {
+        "text": "Antique Parasol"
+    },
+    "TEXT_WEP_LEGEND_GU_CHA_6_7_DESC": {
+        "text": "When No.9's block skill deals a critical hit, No.9 immediately uses 'Jamiel's Hunt' to deal physical damage equal to 2000% of her attack power and stun the enemy for 1 second. This attack always lands critically and ignores all enemy evasion as well as enemy effects that absorb damage in place of their allies."
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_4_ORGA_DESC": {
+        "text": "(Passive Enhanced) Upon using her own block skill in 'Executioner' mode, Olga will have a 50% chance of summoning two 'Missile Penguins' at once."
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_4_ORGA_NAME": {
+        "text": "Laser Gun"
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_5_ORGA_DESC": {
+        "text": "(Passive Enhanced) Upon using her own block skill in 'Executioner' mode, Olga will have a 50% chance of summoning two 'Missile Penguins' at once."
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_5_ORGA_NAME": {
+        "text": "Mind Control Laser"
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_6_ORGA_DESC": {
+        "text": "(Passive Enhanced) Upon using her own block skill during 'Executioner' mode, Olga will have a 50% chance of summoning two 'Missile Penguins' at once.\n(Passive Added) Upon using another ally's Special Skill during 'Executioner' mode, Olga will summon a 'Steamer Penguin' for 5 seconds. During this summon, all damage dealt by Olga is increased by 50%, and ally resistance penetration is increased by 50% of Olga's resistance penetration. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_GU_LIMITED_TNT_6_ORGA_NAME": {
+        "text": "Mind Breaker"
+    },
+    "TEXT_WEP_LEGEND_GU_YS8_HUMMEL_NAME": {
+        "text": "Saintly Force"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_22_DESC": {
+        "text": "(Passive Enhanced) When Mengqi's HP is above 50%, his armor and resistance are increased by 300."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_22_NAME": {
+        "text": "Libertine's Spear"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) Enemies affected by 'Land of Ice and Snow' receive an additional evasion debuff of 10. \n(Upon Activating Passive) Heim charges 1 'Shard of the Guardian' (up to a maximum of 2). \n(Passive Added) Upon charging 2 'Shards of the Guardian,' Heim uses 'Guardian Strike' to deal magical damage equal to 900% of his attack power."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_23_NAME": {
+        "text": "Frost Axe"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_24_DESC": {
+        "text": "(Passive Enhanced) Passive effect is upgraded and increases the allies' attack by 30% and movement speed by 5%."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_24_NAME": {
+        "text": "Magic Hammer"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) During his shield canceling debuff, Caeneus decreases the damage he receives by 30% and increases his armor and resistance by 600."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_25_NAME": {
+        "text": "Squire's Spear"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Feel the Heat!' Fireaxe heals herself by 15% of her maximum HP."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_28_NAME": {
+        "text": "Rubbish"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_29_DESC": {
+        "text": "(Passive Added) Shuwen generates 1 block of his own with every hit he lands. (Cooltime: 1 second)\n(Passive Added) Shuwen's movement speed is increased by 30%.\n(Passive Enhanced) Upon the termination of 'Vajrapani,' Shuwen immediately uses 'Arrow Gale Step' to deal physical damage equal to 500% of his attack power and stun the hit enemy for 1 second."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_4_29_NAME": {
+        "text": "Book of Combat"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_22_DESC": {
+        "text": "(Passive Enhanced) When Mengqi's HP is above 50%, his armor and resistance are increased by 300."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_22_NAME": {
+        "text": "Vanguard's Spear"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) Enemies affected by 'Land of Ice and Snow' receive an additional evasion debuff of 10. \n(Upon Activating Passive) Heim charges 1 'Shard of the Guardian' (up to a maximum of 2). \n(Passive Added) Upon charging 2 'Shards of the Guardian,' Heim uses 'Guardian Strike' to deal magical damage equal to 900% of his attack power."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_23_NAME": {
+        "text": "Guardian's Axe"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_24_DESC": {
+        "text": "(Passive Enhanced) Passive effect is upgraded and increases the allies' attack by 30% and movement speed by 5%."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_24_NAME": {
+        "text": "Magical Girl Hammer"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) During his shield canceling debuff, Caeneus decreases the damage he receives by 30% and increases his armor and resistance by 600."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_25_NAME": {
+        "text": "Knight's Spear"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Feel the Heat!' Fireaxe heals herself by 15% of her maximum HP."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_28_NAME": {
+        "text": "Reformed Axe"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_29_DESC": {
+        "text": "(Passive Added) Shuwen generates 1 block of his own with every hit he lands. (Cooltime: 1 second)\n(Passive Added) Shuwen's movement speed is increased by 30%.\n(Passive Enhanced) Upon the termination of 'Vajrapani,' Shuwen immediately uses 'Arrow Gale Step' to deal physical damage equal to 500% of his attack power and stun the hit enemy for 1 second."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_5_29_NAME": {
+        "text": "Book of the Secret Arts"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_22_DESC": {
+        "text": "(Passive Enhanced) When Mengqi's HP is above 50%, his armor and resistance are increased by 300. Additionally, he is not stunned upon activating 'Fierce Dragon Charge.' Upon using a 3-chain, Mengqi automatically generates 1 block each for other allies.\n(Passive Added) At the end of his 'Fierce Dragon Charge,' Mengqi uses 'Fierce Dragon of the Heavens' to deal physical damage equal to 1500% of his attack power."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_22_NAME": {
+        "text": "Spear of the Raging Dragon"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) Enemies affected by 'Land of Ice and Snow' receive an additional evasion debuff of 20. \n(Upon Activating Passive) Heim charges 1 'Shard of the Guardian' (up to a maximum of 2). \n(Passive Added) Upon charging 2 'Shards of the Guardian,' Heim uses 'Guardian Strike' to deal magical damage equal to 1800% of his attack power. After the attack, a fierce blizzard rages for 2 seconds, dealing magical damage equal to 500% of Heim's resistance per 0.1 second. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_23_NAME": {
+        "text": "Guardian's Hoarfrost"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_24_DESC": {
+        "text": "(Passive Enhanced) Passive effect is upgraded to increase the allies' attack by 50% and movement speed by 30%.\n(Passive Added) Upon activating her passive, Yuna uses 'Yuna Cosmic Power, Make Up!' and changes her appearance for 20 seconds. (Cooltime: 20 seconds)\nDuring 'Yuna Cosmic Power, Make Up!,' Yuna receives 25% reduced damage. Additionally, when using her own block during the transformation, she runs toward the enemies in the front and wields her 'Splash Star-Hammer' to deal physical damage equal to 500% of her resistance. \n(Passive added) If the 'Splash Star-Hammer' attack lands successfully, she uses 'Splash Star-Beam,' which deals physical damage equal to 900% of her resistance to all enemies in behind the target. (Cooltime: 2 seconds)\n(Passive added) At the end of 'Yuna Cosmic Power, Make Up!', 'Grand Finale' is activated and deals physical damage equal to 3000% of Yuna's resistance."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_24_NAME": {
+        "text": "Yuna's Will"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_25_DESC": {
+        "text": "(Passive Enhanced) During his shield canceling debuff, Caeneus decreases the damage he receives by 40% and increases his armor and resistance by 800.\n(Passive Added) During his shield canceling debuff, Caeneus additionally increases his armor and resistance by 30%, and knockback resistance by 30%.\nUpon using another ally's block skill, Caeneus receives all damage targeted at the entire team and increases his movement speed by 50% for 2 seconds. (This effect cannot be canceled.)\nWith every 3 block skills used by another ally, Caeneus generates 1 block of his own. (Cooltime: 2 seconds)\nCaeneus always uses 'Aura of Justice.'\n'Aura of Justice': All subjects within the skill's range receive 90% more critical resistance when hit by attacks dealt from outside the Aura."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_25_NAME": {
+        "text": "Mark of Valiance"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_28_DESC": {
+        "text": "(Passive Enhanced) Upon using 'Feel the Heat!' Fireaxe heals herself by 15% of her maximum HP.\n(Passive Added) Upon using her 3-chain skill, Fireaxe activates her next block skill as 'Incineration.' 'Incineration' lasts 3 seconds and deals physical damage equal to 100% of Fireaxe's attack power every 0.1 seconds. During 'Incineration,' Fireaxe receives all damage targeted at the entire party."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_28_NAME": {
+        "text": "Agni"
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_29_DESC": {
+        "text": "(Passive Added) Shuwen generates 1 block of his own with every hit he lands. (Cooltime: 1 second)\n(Passive Added) Shuwen's movement speed is increased by 30%.\n(Passive Enhanced) Upon the termination of 'Vajrapani,' Shuwen immediately uses 'Arrow Gale Step' to deal physical damage equal to 500% of his attack power and stun the hit enemy for 1 second, as well as 'Fist King's Conquest of the Mountain' to deal physical damage equal to 1500% of his attack power."
+    },
+    "TEXT_WEP_LEGEND_HA_CHA_6_29_NAME": {
+        "text": "Book of the Fist King"
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_4_DESC": {
+        "text": "(Block Skill Enhanced) Sword Maiden's block skill is enhanced to 'Mass Healing.' 'Mass Healing' heals all allies by 300% of Sword Maiden's attack power and deals physical damage to enemies equal to [300/480/720]% of her attack power, according to the chain number used."
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_4_NAME": {
+        "text": "Celestial Sword"
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_5_DESC": {
+        "text": "(Block Skill Enhanced) Sword Maiden's block skill is enhanced to 'Mass Healing.' 'Mass Healing' heals all allies by 300% of Sword Maiden's attack power and deals physical damage to enemies equal to [300/480/720]% of her attack power, according to the chain number used."
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_5_NAME": {
+        "text": "Celestial Sword"
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_6_DESC": {
+        "text": "(Block Skill Enhanced) Sword Maiden's block skill is enhanced to 'Mass Healing.' 'Mass Healing' heals the all allies by 300% of Sword Maiden's attack power and deals physical damage to enemies equal to [300/480/720]% of her attack power, according to the chain number used.\n(Passive Skill Enhanced) Divine Strike is enhanced to 'Fury of Order' to deal additional neutral damage equal to 100% of Sword Maiden's attack power. All allies' [attack power / armor / resistance] are increased by [60/100/100]%. \n(Passive Skill Added) Upon using her chain, Sword Maiden summons her familiar, the divine Swamp Dragon. Swamp Dragon receives 200% of Sword Maiden's stats upon entering battle. It will receive up to 6 hits targeted at the entire party and deal physical damage equal to 300% of its attack power. It can be summoned only once in battle."
+    },
+    "TEXT_WEP_LEGEND_HA_GS_02_6_NAME": {
+        "text": "Celestial Sword"
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_4_DESC": {
+        "text": "(Passive Altered) 'Water Mana' is changed to 'Oni Bloodline.' Upon using her 3-chain, Rem enters her Oni Form for 7 seconds and receives the following effects:\nRem's block skill is changed to 'Morning Star,' which deals physical damage equal to [1200/1500/2000]% of her attack power according to the chain number used.\nUpon using her own or another ally's block, the duration of 'Oni Bloodline' is increased by 1 second, and Rem's [attack power / armor / resistance] is increased by 14%. (Maximum 5 stacks) This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_4_NAME": {
+        "text": "Morning Star"
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_5_DESC": {
+        "text": "(Passive Altered) 'Water Mana' is changed to 'Oni Bloodline.' Upon using her 3-chain, Rem enters her Oni Form for 7 seconds and receives the following effects:\nRem's block skill is changed to 'Morning Star,' which deals physical damage equal to [1200/1500/2000]% of her attack power according to the chain number used.\nUpon using her own or another ally's block, the duration of 'Oni Bloodline' is increased by 1 second, and Rem's [attack power / armor / resistance] is increased by 14%. (Maximum 5 stacks) This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_5_NAME": {
+        "text": "Morning Star"
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_6_DESC": {
+        "text": "(Passive Altered) 'Water Mana' is changed to 'Oni Bloodline.' Upon using her 3-chain, Rem enters her Oni Form for 7 seconds and receives the following effects:\nRem's block skill is changed to 'Morning Star,' which deals physical damage equal to [1200/1500/2000]% of her attack power according to the chain number used.\nUpon using her own or another ally's block, the duration of 'Oni Bloodline' is increased by 3 seconds, and Rem's [attack power / armor / resistance / armor penetration] is increased by 14%. (Maximum 10 stacks) This effect cannot be canceled.\n(Passive Added) If Rem takes critical damage while in her Oni Form, she swings her Morning Star to deal physical damage equal to 2000% of her attack power and 400% of her maximum HP. She additionally heals 5% of her maximum HP every 0.1 seconds for 3 seconds. (Cooltime: 2 seconds)"
+    },
+    "TEXT_WEP_LEGEND_HA_RZ_03_6_NAME": {
+        "text": "Morning Star"
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_4_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Filo increases the entire team's attack speed and movement speed by 30%."
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_4_NAME": {
+        "text": "Karma Dog Claws"
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_5_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Filo increases the entire team's attack speed and movement speed by 30%."
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_5_NAME": {
+        "text": "Karma Dog Claws"
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_6_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Filo increases the entire team's attack speed and movement speed by 30%. When the leader ally deals 25 hits during Filo's 'Filolial Queen' form, Filo transforms into 'Awakened Filo' form.\n'Awakened Filo' Form: Filo's attack power increases by 200% and armor penetration by 3000. Filo's block skill is changed into 'Spiral Strike,' through which Filo charges forward and deals physical damage equal to [720/880/1000]% of her attack power over 3 hits. Filo also uses 'Spiral Strike' when another ally's block is used, in accordance to the chain number used. Upon using 'Spiral Strike' 10 times, Filo uses 'Zweite Tornado' to deal physical damage equal to 4000% of her attack power. Filo's 'Awakened Filo' form cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_HA_SH_03_6_NAME": {
+        "text": "Karma Dog Claws"
+    },
+    "TEXT_WEP_LEGEND_HA_YS8_RICOTTA_NAME": {
+        "text": "Thunder God Club"
+    },
+    "TEXT_WEP_LEGEND_HA_YS8_SAHAD_NAME": {
+        "text": "Leviathan Axe"
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_4_26_DESC": {
+        "text": "(Passive Enhanced) When Lyudmilla uses 2 of her own blocks, she receives the 'Lady Death' effect, which increases her attack power by 16%, critical chance by 12%, and accuracy by 20 for 7 seconds. (Maximum 1 stack)"
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_4_26_NAME": {
+        "text": "Polar Hunter's Rifle"
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_5_26_DESC": {
+        "text": "(Passive Enhanced) When Lyudmilla uses 2 of her own blocks, she receives the 'Lady Death' effect, which increases her attack power by 16%, critical chance by 12%, and accuracy by 20 for 7 seconds. (Maximum 1 stack)"
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_5_26_NAME": {
+        "text": "Nosgardian Firebrand"
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_6_26_DESC": {
+        "text": "(Passive Enhanced) With every 2 blocks Lyudmilla uses, she receives the 'Lady Death' effect that increases her attack power by 16%, critical chance by 12%, and accuracy by 20 for 7 seconds. (Maximum 1 stack)\n(Passive Added) When the 'Lady Death' effect is at maximum stacks, upon using her block, Lyudmilla shoots 'White Death Bullets' instead of 'RF-309 Magic Bullets' to deal magical damage equal to [100/1500/2000]% of her attack power, according to the chain number used. 'White Death Bullets' have resistance penetration equal to 30% of Lyudmilla's attack power.\n(Passive Added) Upon using 'White Death Bullet,' Lyudmilla generates [0/1/2] blocks of her own according to the chain number used."
+    },
+    "TEXT_WEP_LEGEND_HU_CHA_6_26_NAME": {
+        "text": "Nadelmilla"
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_4_DESC": {
+        "text": "(Passive Enhanced) Pompoko receives 125% of the ally leader's stats upon transformation."
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_4_NAME": {
+        "text": "Leaf"
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_5_DESC": {
+        "text": "(Passive Enhanced) Pompoko receives 125% of the ally leader's stats upon transformation."
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_5_NAME": {
+        "text": "Fallen Leaf"
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_6_DESC": {
+        "text": "(Passive Enhanced) Pompoko receives 125% of the ally leader's stats upon transformation.\n(Block Skill Enhanced) 'Healing Incantation' is enhanced to 'Protection of Autumn Leaves,' which heals the entire party by [120/200/300]% of Kaede's attack power according to the chain number used and increases healed allies' attack power by 30% and critical damage by 15% for 3 seconds.\n(Passive Added) Upon using Kaede's Special Skill, Kaede summons 'Pompo' the legendary raccoon ninja, who follows the ally leader. If the ally leader being followed by 'Pompo' uses a block skill, the block skill is activated as a 3-chain for 2 times. (Cooltime: 10 sec)"
+    },
+    "TEXT_WEP_LEGEND_OR_AUTUMN_KAEDE_6_NAME": {
+        "text": "Fallen Leaf of Scarlet Autumn"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Terminal Activation!' Mode is increased by 2 seconds. 'Terminal Activation' additionally increases the allies' critical damage by 20% and accuracy by 10."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_22_NAME": {
+        "text": "C-TOOL"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) 'Frigid Heart' absorbs twice more damage."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_23_NAME": {
+        "text": "Frost Orb"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_24_DESC": {
+        "text": "(Passive Enhanced) Passive activation condition is changed to using two of his own blocks."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_24_NAME": {
+        "text": "Lucky Leaf"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) Each time an ally is healed by Sfera's 'Impulse' or another healing skill while Ovis is summoned, Ovis grants an additional buff to the entire party that increases critical damage by 1% and attack power by 1%. (Maximum 20 stacks)"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_25_NAME": {
+        "text": "Demonic Orb"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_26_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Shub wraps the enemy marked as the 'sacrifice' with her tentacles for 5 seconds to immobilize them and deal magical damage equal to 100% of her attack power per second."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_26_NAME": {
+        "text": "Torn Grimoire"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_27_DESC": {
+        "text": "Basquiat's movement speed increases by 10%.\n(Block Skill Added) Enemies within the range of 'Graffiti' get their critical chance and critical damage reduced by 30%.\n(Passive Enhanced) Allies within the range of 'Graffiti' get their armor and resistance increased by 10%."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_27_NAME": {
+        "text": "Rusty Locker Spray Paint"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_28_DESC": {
+        "text": "(Passive Added) Gueronica's 'Nanomachines' increase healed allies' armor and resistance by 400 and 10% of Gueronica's armor and resistance for 8 seconds.\n(Passive Enhanced) Upon activating 'Plasma Shield,' Gueronica cancels all debuffs and disables further debuffs for the duration of the skill."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_28_NAME": {
+        "text": "Girl's Notepad"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_29_DESC": {
+        "text": "(Passive Enhanced) When 'Starsong' accurately hits an enemy, Meri heals the ally with the lowest HP by 125% of her attack power."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_4_29_NAME": {
+        "text": "Handheld Microphone"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Terminal Activation!' Mode is increased by 2 seconds. 'Terminal Activation' additionally increases the allies' critical damage by 20% and accuracy by 10."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_22_NAME": {
+        "text": "CNETTRIAL"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) 'Frigid Heart' absorbs twice more damage."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_23_NAME": {
+        "text": "Orb of the Guardian"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_24_DESC": {
+        "text": "(Passive Enhanced) Passive activation condition is changed to using two of his own blocks."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_24_NAME": {
+        "text": "Clover"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) Each time an ally is healed by Sfera's 'Impulse' or another healing skill while Ovis is summoned, Ovis grants an additional buff to the entire party that increases critical damage by 1% and attack power by 1%. (Maximum 20 stacks)"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_25_NAME": {
+        "text": "Familiar's Soul"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_26_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Shub wraps the enemy marked as the 'sacrifice' with her tentacles for 5 seconds to immobilize them and deal magical damage equal to 100% of her attack power per second."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_26_NAME": {
+        "text": "Grimoire of Resurrection"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_27_DESC": {
+        "text": "Basquiat's movement speed increases by 10%.\n(Block Skill Added) Enemies within the range of 'Graffiti' get their critical chance and critical damage reduced by 30%.\n(Passive Enhanced) Allies within the range of 'Graffiti' get their armor and resistance increased by 10%."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_27_NAME": {
+        "text": "Non-Toxic Locker Spray Paint"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_28_DESC": {
+        "text": "(Passive Added) Gueronica's 'Nanomachines' increase healed allies' armor and resistance by 400 and 10% of Gueronica's armor and resistance for 8 seconds.\n(Passive Enhanced) Upon activating 'Plasma Shield,' Gueronica cancels all debuffs and disables further debuffs for the duration of the skill."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_28_NAME": {
+        "text": "Girl's Notebook"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_29_DESC": {
+        "text": "(Passive Enhanced) When 'Starsong' accurately hits an enemy, Meri heals the ally with the lowest HP by 125% of her attack power."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_5_29_NAME": {
+        "text": "Little Star"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Terminal Activation!' Mode is increased by 3 seconds. 'Terminal Activation' additionally increases the allies' critical damage by 30% and accuracy by 20.\n(Passive Added) If another ally uses their Special Skill during 'Terminal Activation!' Mode, Cronette increases the entire team's armor penetration and resistance penetration by 600 for 8 seconds."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_22_NAME": {
+        "text": "SUPER-CNET"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) 'Frigid Heart' absorbs twice more damage.\n(Passive Enhanced) 'Frigid Heart' reduces damage by an additional 10%.\n(Passive Added) Upon breaking, 'Frigid Heart' deals magical damage equal to 100% of Vernil's attack power to all enemies, stunning them for 1.5 seconds."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_23_NAME": {
+        "text": "Orb of the Frost Guardian"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_24_DESC": {
+        "text": "(Passive Enhanced) Passive activation condition is changed to using two of his own blocks.\n(Passive Altered) Upon activating his passive, 3 leader blocks are generated unless Ricky is the leader. (Cooltime: 2 sec) \n(Passive Added) Upon activating passive, 'JOKER' is activated which increases all allies' accuracy and critical chance to 100% for 4 seconds.  (Cooltime: 6 sec)"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_24_NAME": {
+        "text": "Ace"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_25_DESC": {
+        "text": "(Passive Enhanced) Each time an ally is healed by Sfera's 'Impulse' or another healing skill while Ovis is summoned, Ovis grants an additional buff to the entire party that increases critical damage by 3% and attack power by 1%. (Maximum 25 stacks)\n(Passive Added) Using Sfera's 2- or 3-chain while Ovis is summoned increases its summon duration by 2 seconds.\n(Passive Added) Whenever the summon duration of Ovis is increased, Sfera increases the duration of all debuffs affecting the enemy by 3 seconds. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_25_NAME": {
+        "text": "Ovis's Soul"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_26_DESC": {
+        "text": "(Passive Added) Upon using her block skill, Shub wraps the enemy marked as the 'sacrifice' with her tentacles for 5 seconds to immobilize them and deal magical damage equal to 100% of her attack power per second.\nAdditionally, whenever the enemy marked as 'sacrifice' receives a debuff, the following passives will be acivated one at a time in the order below: (Cooltime: 1 second)\nRevelation: Allies do not receive damage for 2 hits.\nPenance: Shub deals magical damage equal to 600% of her attack power to the enemy marked as the 'sacrifice' and dispels their buffs.\nPandemonium: All enemies within Shub's range receive neutral damage equal to 15% of Shub's maximum HP and are stunned for 1 second. This passive ignores enemies' abilities of receiving the party's damage in their stead."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_26_NAME": {
+        "text": "The Book of Delet - Vol. 1"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_27_DESC": {
+        "text": "Basquiat's movement speed increases by 20%.\n(Block Skill Added) Enemies within the range of 'Graffiti' get their critical chance and critical damage reduced by 40%.\n(Block Skill Enhanced) The range of 'Graffiti' is increased by 50%.\n(Passive Enhanced) Allies within the range of 'Graffiti' get their armor and resistance increased by 20%.\n(Passive Added) The debuff on the 3-chain 'Graffiti' has 1.5x increased effect."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_27_NAME": {
+        "text": "Underground"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_28_DESC": {
+        "text": "(Passive Added) Gueronica's 'Nanomachines' increase healed allies' armor and resistance by 900 and 10% of Gueronica's armor and resistance for 8 seconds.\n(Passive Enhanced) Upon activating 'Plasma Shield,' Gueronica cancels all debuffs and disables further debuffs for the duration of the skill.\n(Passive Enhanced) Upon activating 'Plasma Shield,' Gueronica reduces all damage targeted at the entire team by 50% and heals allies by 50% of his attack power per second for a total of 3 times. This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_28_NAME": {
+        "text": "Girl's Sketchbook"
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_29_DESC": {
+        "text": "(Passive Enhanced) When 'Starsong' accurately hits an enemy, Meri heals the ally with the lowest HP by 125% of her attack power.\n(Passive Altered) Meri sings 'Space Opera,' which shoots 6 'Starsongs' at once."
+    },
+    "TEXT_WEP_LEGEND_OR_CHA_6_29_NAME": {
+        "text": "Microcosmos"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_4_DESC": {
+        "text": "(Passive Added) Upon using an ally's chain after her own chain, Priestess summons 'Protection' for 3 seconds. 'Protection' absorbs damage equal to 150% of Priestess's HP. Additionally, the presence of 'Protection' reduces damage received by the entire party by 15%."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_4_NAME": {
+        "text": "Sounding Staff"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_5_DESC": {
+        "text": "(Passive Added) Upon using an ally's chain after her own chain, Priestess summons 'Protection' for 3 seconds. 'Protection' absorbs damage equal to 150% of Priestess's HP. Additionally, the presence of 'Protection' reduces damage received by the entire party by 15%."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_5_NAME": {
+        "text": "Sounding Staff"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_6_DESC": {
+        "text": "(Passive Added) Upon using an ally's chain after her own chain, Priestess summons 'Protection' for 3 seconds. 'Protection' absorbs damage equal to 150% of Priestess's HP. Additionally, the presence of 'Protection' decreases damage received by the entire party by 15%.\n(Passive Enhanced) If 'Protection' is destroyed, Priestess summons 'Protection Overcast' for 5 seconds. 'Protection Overcast' absorbs damage equal to 300% of Priestess's HP. Additionally, the presence of 'Protection Overcast' reduces the damage received by the entire party by 25%."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_03_6_NAME": {
+        "text": "Sounding Staff"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_4_DESC": {
+        "text": "(Passive Added) Upon entering battle, Lizardman Priest uses his 'Weapon Miracle' that increases his armor penetration by 800. This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_4_NAME": {
+        "text": "Dragon-Tooth Knife"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_5_DESC": {
+        "text": "(Passive Added) Upon entering battle, Lizardman Priest uses his 'Weapon Miracle' that increases his armor penetration by 800. This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_5_NAME": {
+        "text": "Dragon-Tooth Knife"
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_6_DESC": {
+        "text": "(Passive Added) Upon entering battle, Lizardman Priest uses a 'Miraculous Weapon' that increases his armor penetration by 1500. This effect cannot be canceled.\n(Block Skill Altered) Lizardman Priest's block skill is changed to 'See How Your Descendant Fights.' Lizardman Priest jumps towards the enemy and deals physical damage equal to [700/750/800]% of his attack power, according to the chain number used.\n(Passive Added) Upon using another ally's 3-chain, Lizardman Priest uses 'Tail Swing' to deal physical damage equal to 1000% of his attack power and knock back enemies. Enemies hit, lose 20% of their armor and receive 40% more damage for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_OR_GS_04_6_NAME": {
+        "text": "Dragon-Tooth Knife"
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_4_DESC": {
+        "text": "(Passive Added) Allies healed by Ferris get their armor and resistance increased by 500 for 8 seconds.\n(Passive Enhanced) Upon activating 'Divine Protection of Water,' Ferris dispels all debuffs and grants immunity to further debuffs for the duration of the shield."
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_4_NAME": {
+        "text": "Sword Received from Crusch"
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_5_DESC": {
+        "text": "(Passive Added) Allies healed by Ferris get their armor and resistance increased by 500 for 8 seconds.\n(Passive Enhanced) Upon activating 'Divine Protection of Water,' Ferris dispels all debuffs and grants immunity to further debuffs for the duration of the shield."
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_5_NAME": {
+        "text": "Sword Received from Crusch"
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_6_DESC": {
+        "text": "(Passive Added) Allies healed by Ferris get their armor and resistance increased by 1000 for 8 seconds.\n(Passive Enhanced) Upon activating 'Divine Protection of Water,' Ferris dispels all debuffs and grants immunity to further debuffs for the duration of the shield.\n(Passive Enhanced) Upon activating 'Divine Protection of Water,' Ferris additionally heals targets by 50% of his attack power per second for 3 times, and decreases damage they take by 50%. This effect cannot be canceled."
+    },
+    "TEXT_WEP_LEGEND_OR_RZ_07_6_NAME": {
+        "text": "Sword Received from Crusch"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_4_26_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Odin's Eye' is increased to 8 seconds. 'Odin's Eye' decreases 30% of its subject's armor."
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_4_26_NAME": {
+        "text": "Ash Spear"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_5_26_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Odin's Eye' is increased to 8 seconds. 'Odin's Eye' decreases 30% of its subject's armor."
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_5_26_NAME": {
+        "text": "Rune-Sharpened Spear"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_6_26_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Odin's Eye' is increased to 8 seconds. 'Odin's Eye' decreases 30% of its subject's armor.\n(Passive Added) Upon using another ally's block after Odin's 3-chain, Odin unleashes 'Odin's Fury' upon enemies under 'Odin's Eye' within his range, dealing neutral damage equal to 3000% of his attack power.\n'Odin's Fury' also generates 1 block for all allies. (Cooltime: 0.5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_6_26_NAME": {
+        "text": "Gungnir"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_4_02_DESC": {
+        "text": "(Passive Added) Upon receiving 10 hits, Naofumi changes his Shield into 'Self Curse Burning.' If Naofumi receives a hit during 'Self Curse Burning,' his Shield produces flames that deal magical damage equal to 2000% of Naofumi's armor."
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_4_02_NAME": {
+        "text": "Small Shield"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_5_02_DESC": {
+        "text": "(Passive Added) Upon receiving 10 hits, Naofumi changes his Shield into 'Self Curse Burning.' If Naofumi receives a hit during 'Self Curse Burning,' his Shield produces flames that deal magical damage equal to 2000% of Naofumi's armor."
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_5_02_NAME": {
+        "text": "Small Shield"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_6_02_DESC": {
+        "text": "(Passive Added) Upon receiving 10 hits, Naofumi changes his Shield into 'Self Curse Burning.' If Naofumi receives a hit during 'Self Curse Burning,' his Shield produces flames that deal magical damage equal to 2000% of Naofumi's armor.\n(Passive Enhanced) If Naofumi receives 5 hits during 'Self Curse Burning,' his Shield will immediately activate 'Bloody Sacrifice.' Upon using 'Bloody Sacrifice,' Naofumi sacrifices 25% of his HP and summons a creature that deals 5 area hits of physical damage equal to 200% of Naofumi's HP. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_PA_CHA_SH_6_02_NAME": {
+        "text": "Small Shield"
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_4_DESC": {
+        "text": "(Passive Enhanced) Upon using her 3-chain, Anzu stacks her 'Protection of the Wind Blade' to the maximum."
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_4_NAME": {
+        "text": "Iron Fan"
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_5_DESC": {
+        "text": "(Passive Enhanced) Upon using her 3-chain, Anzu stacks her 'Protection of the Wind Blade' to the maximum."
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_5_NAME": {
+        "text": "Blade Fan"
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_6_DESC": {
+        "text": "(Passive Enhanced) Upon using her 3-chain, Anzu stacks her 'Protection of the Wind Blade' to the maximum.\n(Passive Added) When the 'Protection of the Wind Blade' has been stacked to the maximum, 'Gale of Ginkgo Leaves' is changed to 'Storm of Ginkgo Leaves' and deals magical damage equal to [1500/1750/2000]% of Anzu's attack power to enemies within range, according to the chain number used. 'Storm of Ginkgo Leaves' ignores 35% of enemy resistance.\n(Passive Altered) 'Wind Blade' is changed to 'Blade Whirlwind' that deals magical damage equal to 1000% of Anzu's attack power and knocks enemies within range into the air. Additionally, using 'Blade Whirlwind' generates 1 block for Anzu. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_AUTUMN_ANZU_6_NAME": {
+        "text": "Fresh Wind under the Gleaming Moon"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_22_DESC": {
+        "text": "(Block Skill Enhanced) The balloon's damage is increased by 100%."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_22_NAME": {
+        "text": "Yellow Flower Balloon"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) 'Qimen Dunjia' deals increased magical damage equal to 200% of Han Xiangzi's attack power."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_23_NAME": {
+        "text": "Pupil's Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_24_DESC": {
+        "text": "(Block Skill Enhanced) 'Glacial Sphere' lasts 2 more seconds, and deals additional damage equal to 100% of Lakias's attack power."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_24_NAME": {
+        "text": "Puddle Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) The 'Mark of the Reaper' decreases the enemy's resistance and healing effect by 25%."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_25_NAME": {
+        "text": "Scythe of the Death Angel"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_26_DESC": {
+        "text": "(Block Skill Enhanced) The duration of 'Team Urako!' is increased by 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_26_NAME": {
+        "text": "Kanabo"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_28_DESC": {
+        "text": "(Passive Added) If Bihwa receives a fatal hit, she becomes 'deathless' and immediately heals herself by 50% of her HP. (Cooltime: 30 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_4_28_NAME": {
+        "text": "Shamanic Rattle"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_22_DESC": {
+        "text": "(Block Skill Enhanced) The balloon's damage is increased by 100%."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_22_NAME": {
+        "text": "Red Clown Umbrella"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) 'Qimen Dunjia' deals increased magical damage equal to 200% of Han Xiangzi's attack power."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_23_NAME": {
+        "text": "Pilgrim's Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_24_DESC": {
+        "text": "(Block Skill Enhanced) 'Glacial Sphere' lasts 2 more seconds, and deals additional damage equal to 100% of Lakias's attack power."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_24_NAME": {
+        "text": "Frozen Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) The 'Mark of the Reaper' decreases the enemy's resistance and healing effect by 25%."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_25_NAME": {
+        "text": "Scythe of the Executioner"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_26_DESC": {
+        "text": "(Block Skill Enhanced) The duration of 'Team Urako!' is increased by 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_26_NAME": {
+        "text": "Wondrous Kanabo"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_28_DESC": {
+        "text": "(Passive Added) If Bihwa receives a fatal hit, she becomes 'deathless' and immediately heals herself by 50% of her HP. (Cooltime: 30 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_5_28_NAME": {
+        "text": "Eight-Arm Rattle"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_22_DESC": {
+        "text": "(Block Skill enhanced) Loki's balloon deals 100% more damage with each bounce. (Passive Added) When his balloon deals 7 hits, Loki summons a 'Jack-in-the-Box' that deals magical damage equal to 500% of his attack power for 4 times.(Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_22_NAME": {
+        "text": "Loki's Wonderful World"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) 'Qimen Dunjia' deals increased magical damage equal to 300% of Han Xiangzi's attack power.\n(Passive Added) Upon using an ally's special skill, the 'Qimen Dunjia' will transform into a different object depending on the caster of the special skill and immediately attack the enemy. (Cooltime: 3 seconds)\nIf Activated by Ally Leader's Special Skill: The 'Qimen Dunjia' will transform into a rock, dealing magical damage equal to 1000% of Han Xiangzi's attack power and stunning the enemy for 1.5 seconds.\nIf Activated by Non-Leader Ally's Special Skill: The 'Qimen Dunjia' will change into a liquor bottle, dealing magical damage equal to 500% of Han Xiangzi's attack power and decreasing the enemy's accuracy by 50 for 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_23_NAME": {
+        "text": "Ethereal's Wisdom"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_24_DESC": {
+        "text": "(Block Skill Enhanced) 'Glacial Sphere' lasts 2 more seconds, and deals additional damage equal to 100% of Lakias's attack power.\n(Passive Added) All 'Glacial Sphere' activated by 'Swift Enchantment' are changed to 'Icy Blizzard.' 'Icy Blizzard' deals magical damage equal to 600% of Lakias's attack power for 3 seconds, and slightly pulls in all enemies. 3 seconds after the attack, Lakias summons 'icy pillars' over the area that deal magical damage equal to 1500% of her attack power and knock enemies into the air. (Cooltime: 1 second)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_24_NAME": {
+        "text": "Flower of Ice"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_25_DESC": {
+        "text": "(Block Skill Enhanced) The range of 'Fog of Death' is increased by 100%.\n(Passive Enhanced) The 'Mark of the Reaper' decreases the enemy's resistance and healing received by 30%.\n(Passive Added) The Grim Reaper summons a Death Specter over the head of the nearest enemy to the 'Mark of the Reaper.' The Death Specter swings his scythe at enemies in front to deal magical damage equal to 1000% of the Grim Reaper's attack power. (Cooltime: 2 seconds) Additionally, if the Death Specter's scythe lands an accurate hit, the Grim Reaper's attack power increases by 5% with every hit enemy. (Duration 10 seconds, maximum 10 stacks)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_25_NAME": {
+        "text": "Death Scythe"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_26_DESC": {
+        "text": "(Block Skill Enhanced) The duration of 'Team Urako!' is increased by 3 seconds.\n(Passive Added) Upon using her own 3-chain after another ally's 1- or 3-chain, Urako summons all members of Team Urako. (Cooltime: 2 seconds)\n(Passive Added) While the entirety of Team Urako is summoned, all of Urako's chains are activated with the same power as a 3-chain."
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_26_NAME": {
+        "text": "Urako's Makanobo"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_28_DESC": {
+        "text": "(Passive Enhanced) The spirit 'Gseundae' deals magical damage equal to 300% of Bihwa's attack power every 0.1 seconds.\n(Passive Added) The second embodiment of 'Gseundae' will instead summon forth the spirit 'Gangcheol' for 3 seconds. 'Gangcheol' breathes fire to deal magical damage equal to 1000% of Bihwa's attack power and generates lava that deals magical damage equal to 100% of Bihwa's attack power every 0.1 seconds. \n(Passive Enhanced) Upon embodying 'Gangcheol,' Bihwa's attack power and armor increases by 50% for 5 seconds.\n(Passive Added) If Bihwa receives a fatal hit, she becomes 'deathless' and immediately heals herself by 50% of her HP. (Cooltime: 10 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_CHA_6_28_NAME": {
+        "text": "Calling of a Thousand Spirits"
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_4_DESC": {
+        "text": "(Passive Enhanced) Upon activating 'Light of the Rift,' Anesidora deals magical damage equal to 35% of her attack power and physical damage equal to 55% of her attack power every 0.2 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_4_NAME": {
+        "text": "T.O.E."
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_5_DESC": {
+        "text": "(Passive Enhanced) Upon activating 'Light of the Rift,' Anesidora deals magical damage equal to 35% of her attack power and physical damage equal to 55% of her attack power every 0.2 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_5_NAME": {
+        "text": "T.O.E."
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_6_DESC": {
+        "text": "(Passive Enhanced) Upon activating 'Light of the Rift,' Anesidora deals magical damage equal to 45% of her attack power and physical damage equal to 75% of her attack power every 0.2 seconds.\n(Passive Added) Anesidora's Special Skill is changed to 'Dark Energy.' Upon using 'Dark Energy,' Anesidora's attack power increases by 150% and accuracy by 30 for 10 seconds. If Anesidora reuses 'Dark Energy' before its termination, its duration is renewed and Anesidora uses 'Gamma Ray Rift' that deals physical damage equal to 1500% of her attack power and magical damage equal to 1500% of her attack power."
+    },
+    "TEXT_WEP_LEGEND_ST_FIFTH_ANESIDORA_6_NAME": {
+        "text": "T.O.E."
+    },
+    "TEXT_WEP_LEGEND_ST_GG3_DIZZY_NAME": {
+        "text": "Necro & Undine"
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_4_DESC": {
+        "text": "(Passive Enhanced) Dwarf Shaman's spells are enhanced. Upon using another ally's chain before the termination of 'Falling Control,' Dwarf Shaman uses 'Enhanced Stone Blast' to deal physical damage equal to 1200% of his attack power. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_4_NAME": {
+        "text": "Fire Wine Bottle"
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_5_DESC": {
+        "text": "(Passive Enhanced) Dwarf Shaman's spells are enhanced. Upon using another ally's chain before the termination of 'Falling Control,' Dwarf Shaman uses 'Enhanced Stone Blast' to deal physical damage equal to 1200% of his attack power. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_5_NAME": {
+        "text": "Fire Wine Bottle"
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_6_DESC": {
+        "text": "(Passive Enhanced) Dwarf Shaman's spells are enhanced. Upon using another ally's chain before the termination of 'Falling Control,' Dwarf Shaman uses 'Enhanced Stone Blast' to deal physical damage equal to 1200% of his attack power. (Cooltime: 3 seconds)\n(Passive Added) After using 'Enhanced Stone Blast,' Dwarf Shaman discharges strong alcohol at the enemy to deal physical damage equal to 1400% of his attack power, decrease hit enemies' accuracy and evasion by 40 for 5 seconds, and stun them for 1 second."
+    },
+    "TEXT_WEP_LEGEND_ST_GS_05_6_NAME": {
+        "text": "Fire Wine Bottle"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_4_DESC": {
+        "text": "(Block Skill Enhanced) The cooltime of 'El Fura!' decreases by [1/2/3] seconds, according to the chain number used.\n(Passive Enhanced) 'El Fura!' deals 100% more damage."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_4_NAME": {
+        "text": "Ram's Cane"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_5_DESC": {
+        "text": "(Block Skill Enhanced) The cooltime of 'El Fura!' decreases by [1/2/3] seconds, according to the chain number used.\n(Passive Enhanced) 'El Fura!' deals 100% more damage."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_5_NAME": {
+        "text": "Ram's Cane"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_6_DESC": {
+        "text": "(Block Skill Enhanced) 'Fura!' deals 200% more damage. The cooltime of 'El Fura!' decreases by [1/2/3] seconds, according to the chain number used.\n(Upon Using Block) Ram uses a stronger version of 'Fura!' to deal magical damage equal to 700% of her attack power, knocking back enemies. (Cooltime: 2 seconds)\n(Passive Enhanced) 'El Fura!' deals 200% more damage, and simultaneously activates 'Protection of Wind.'\n('Protection of Wind') Ram generates a protective shield that absorbs damage equal to 100% of her maximum HP for 8 seconds, and deals all attacks as critical hits while the shield is active."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_04_6_NAME": {
+        "text": "Ram's Cane"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_4_DESC": {
+        "text": "(Block Skill Altered) Emilia's block skill is changed to 'Al Huma,' which deals magical damage equal to [500/600/720]% of Emilia's attack power, according to the chain number used.\n(Passive Skill Enhanced) The duration of 'Ice Brand Arts: Icicle Line' is increased by 1 second. Additionally, enemies affected by 'Icicle Line' lose 5% of their resistance, and receive 10% more damage from Emilia."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_4_NAME": {
+        "text": "Puck, the Great Spirit of Fire"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_5_DESC": {
+        "text": "(Block Skill Altered) Emilia's block skill is changed to 'Al Huma,' which deals magical damage equal to [500/600/720]% of Emilia's attack power, according to the chain number used.\n(Passive Skill Enhanced) The duration of 'Ice Brand Arts: Icicle Line' is increased by 1 second. Additionally, enemies affected by 'Icicle Line' lose 5% of their resistance, and receive 10% more damage from Emilia."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_5_NAME": {
+        "text": "Puck, the Great Spirit of Fire"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_6_DESC": {
+        "text": "(Block Skill Altered) Emilia's block skill is changed to 'Al Huma,' which deals magical damage equal to [500/600/720]% of Emilia's attack power, according to the chain number used.\n(Passive Skill Enhanced) The duration of 'Ice Brand Arts: Icicle Line' is increased by 2 seconds. Additionally, enemies affected by 'Icicle Line' lose 10% of their resistance, and receive 20% more damage from Emilia.\n(Passive Skill Added) Upon using 'Al Huma' 2 times, Puck, the Great Spirit of Fire comes forth to help Emilia and deals area magical damage equal to 2000% of Emilia's attack power over 2 seconds. Enemies hit by this attack receive the same effect dealt by 'Ice Brand Arts: Icicle Line.' (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_05_6_NAME": {
+        "text": "Puck, the Great Spirit of Fire"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_4_DESC": {
+        "text": "(Passive Enhanced) For every enemy hit by her block skill, Beatrice regenerates 1 SP for all allies, and then 2 SP for herself."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_4_NAME": {
+        "text": "Magic Tome of the Void"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_5_DESC": {
+        "text": "(Passive Enhanced) For every enemy hit by her block skill, Beatrice regenerates 1 SP for all allies, and then 2 SP for herself."
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_5_NAME": {
+        "text": "Magic Tome of the Void"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_6_DESC": {
+        "text": "(Passive Enhanced) For every enemy hit by her block skill, Beatrice regenerates 1 SP for all allies, and then 2 SP for herself.\n(Passive Added) Whenever the ally leader uses a Special Skill, Beatrice uses 'Al Shamak,' pulling in nearby enemies for 2.5 seconds and dealing magical damage equal to 1000% of her attack power and neutral damage equal to 500% of her attack power. (Cooltime: 1 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_RZ_06_6_NAME": {
+        "text": "Magic Tome of the Void"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_4_DESC": {
+        "text": "(Passive Added) Upon using an ally 3-chain, Fitoria immediately transforms into her Filolial form and uses 'Forward Kick' before her to deal magical damage equal to 2000% of her attack power and greatly knock back the hit enemy. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_4_NAME": {
+        "text": "Fitoria's Necklace"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_5_DESC": {
+        "text": "(Passive Added) Upon using an ally 3-chain, Fitoria immediately transforms into her Filolial form and uses 'Forward Kick' before her to deal magical damage equal to 2000% of her attack power and greatly knock back the hit enemy. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_5_NAME": {
+        "text": "Fitoria's Necklace"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_6_DESC": {
+        "text": "(Passive Added) Upon using an ally 3-chain, Fitoria immediately transforms into her Filolial form and uses 'Forward Kick' before her to deal magical damage equal to 2000% of her attack power and greatly knock back the hit enemy. After using 'Forward Kick,' Fitoria charges forward at a brisk speed, deals area magical damage equal to 4000% of her attack power, and returns to her position. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_04_6_NAME": {
+        "text": "Fitoria's Necklace"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_4_DESC": {
+        "text": "(Passive Added) Upon using her block skill 5 times, Glass uses Rupture-Stance Rondo: Tortoise Shell Cracker to deal magical damage equal to 1500% of her attack power and decrease the enemy's armor and resistance by 10% for 2 seconds. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_4_NAME": {
+        "text": "Glass's Fan"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_5_DESC": {
+        "text": "(Passive Added) Upon using her block skill 5 times, Glass uses Rupture-Stance Rondo: Tortoise Shell Cracker to deal magical damage equal to 1500% of her attack power and decrease the enemy's armor and resistance by 10% for 2 seconds. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_5_NAME": {
+        "text": "Glass's Fan"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_6_DESC": {
+        "text": "(Passive Added) Upon using her block skill 4 times, Glass uses Rupture-Stance Rondo: Tortoise Shell Cracker to deal magical damage equal to 2000% of her attack power and decrease the enemy's armor and resistance by 20% for 2.5 seconds. (Cooltime: 3 seconds)\n(Passive Enhanced) Upon using 'Soul-Healing Water,' Glass generates 1 block for herself."
+    },
+    "TEXT_WEP_LEGEND_ST_SH_05_6_NAME": {
+        "text": "Glass's Fan"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_4_DESC": {
+        "text": "(Passive Enhanced) 'Rucolu Fruit Effect' decreases the hit enemy's accuracy, motion speed, and evasion by 40% for 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_4_NAME": {
+        "text": "Rucolu Barrel Bomb"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_5_DESC": {
+        "text": "(Passive Enhanced) 'Rucolu Fruit Effect' decreases the hit enemy's accuracy, motion speed, and evasion by 40% for 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_5_NAME": {
+        "text": "Rucolu Barrel Bomb"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_6_DESC": {
+        "text": "(Passive Enhanced) 'Rucolu Fruit Effect' decreases the hit enemy's accuracy, motion speed, and evasion by 40% for 5 seconds.\n(Passive Added) Enemies affected by the 'Rucolu Fruit Effect' receive neutral damage equal to 300% of Rishia's current attack power per second. This effect can be stacked up to 10 times and shares the same duration as 'Rucolu Fruit Effect.'\n(Passive Added) Upon dealing a hit, Rishia retreats and uses 'Fue~' to increase her own movement speed and attack power by 100% for 5 seconds and her evasion by 50 for 2 seconds. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_ST_SH_06_6_NAME": {
+        "text": "Rucolu Barrel Bomb"
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_4_DESC": {
+        "text": "(Passive Enhanced) Ana's critical chance is increased by 15% during 'Firearm Control,' and 25% during 'Enhanced Firearm Control.'"
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_4_NAME": {
+        "text": "Gotruvin's Mark"
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_5_DESC": {
+        "text": "(Passive Enhanced) Ana's critical chance is increased by 15% during 'Firearm Control,' and 25% during 'Enhanced Firearm Control.'"
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_5_NAME": {
+        "text": "Gotruvin's Fury"
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_6_DESC": {
+        "text": "(Passive Enhanced) Ana's critical chance is increased by 15% during 'Firearm Control,' and 25% during 'Enhanced Firearm Control.'\n(Passive Added) If Ana uses her own block during 'Enhanced Firearm Control,' she enters 'Battlefield Control' mode. Additionally, the duration of this mode is increased by 2 seconds. During 'Battlefield Control,' Ana's critical chance increases by 25% and armor penetration by 75%. She also uses 'Gatling Musket' to deal physical damage equal to 800% of her attack power per 1 second."
+    },
+    "TEXT_WEP_LEGEND_ST_SPR_ANNA_6_NAME": {
+        "text": "Gotruvin's Decree"
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_4_LOVIATAR_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mushroom Infestation' increases to 7 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_4_LOVIATAR_NAME": {
+        "text": "Apprentice Wizard Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_5_LOVIATAR_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mushroom Infestation' increases to 7 seconds."
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_5_LOVIATAR_NAME": {
+        "text": "Mushroom Staff"
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_6_LOVIATAR_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Mushroom Infestation' increases to 7 seconds. 'Mushroom Forest' ignores enemy effects that absorb damage in place of their allies.\n(Passive Added) If the 'infested' enemy does not move from their position for 6 seconds, a 'Giant Mushroom' grows in 'Mushroom Forest' for 5 seconds. 'Giant Mushroom' deals magical damage equal to 2000% of Loviatar's attack power per second and ignores enemy effects that absorb damage in place of their allies."
+    },
+    "TEXT_WEP_LEGEND_ST_UNIQUE_6_LOVIATAR_NAME": {
+        "text": "Amanita Staff"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Blade Draw' is increased by 1 second. 'Blade Draw' additionally increases armor penetration by 100 and critical damage by 30%."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_22_NAME": {
+        "text": "White Snow"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_23_DESC": {
+        "text": "(Passive Enhanced) 'Giant Slayer' deals increased damage equal to 600% of Randgrid's attack power."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_23_NAME": {
+        "text": "Dull Greatsword"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_24_DESC": {
+        "text": "(Passive Enhanced) 'Ecstasy' is enhanced to increase Cassia and Plaga's attack power by 10%, critical damage by 20%, and resistance penetration by 150."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_24_NAME": {
+        "text": "Shadow Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_25_DESC": {
+        "text": "(Passive Enhanced) While 'Serpentine Domain' is active, Echidna loses 3% of her HP per second based on the HP she had when the skill was activated, and strengthens her passive to deal more hits. Additionally, 'Serpentine Domain' is enhanced to deal neutral damage equal to 3000% of Echidna's attack power for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_25_NAME": {
+        "text": "Whip Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_26_DESC": {
+        "text": "(Passive Added) Upon using Sim Hak-Gyu's 3-chain, Sim Cheong's HP is healed by 20%."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_26_NAME": {
+        "text": "Old Cane-Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_27_DESC": {
+        "text": "(Passive Enhanced) 'Exaltation' increases armor penetration by 500."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_27_NAME": {
+        "text": "Frost Rapier"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_28_DESC": {
+        "text": "(Passive Enhanced) 'Path of the Dead' decreases all damage targeted at the entire ally by 30% and increases Nefer's critical chance by 20% for 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_28_NAME": {
+        "text": "Curved Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_29_DESC": {
+        "text": "(Passive Enhanced) Upon using another ally's 3-chain, Gwen immediately uses her block skill with the power of a 3-chain."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_4_29_NAME": {
+        "text": "Crude Lion Steel Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Blade Draw' is increased by 1 second. 'Blade Draw' additionally increases armor penetration by 100 and critical damage by 30%."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_22_NAME": {
+        "text": "Full Moon"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_23_DESC": {
+        "text": "(Passive Enhanced) 'Giant Slayer' deals increased damage equal to 600% of Randgrid's attack power."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_23_NAME": {
+        "text": "Greatsword of Obliteration"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_24_DESC": {
+        "text": "(Passive Enhanced) 'Ecstasy' is enhanced to increase Cassia and Plaga's attack power by 10%, critical damage by 20%, and resistance penetration by 150."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_24_NAME": {
+        "text": "Ego Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_25_DESC": {
+        "text": "(Passive Enhanced) While 'Serpentine Domain' is active, Echidna loses 3% of her HP per second based on the HP she had when the skill was activated, and strengthens her passive to deal more hits. Additionally, 'Serpentine Domain' is enhanced to deal neutral damage equal to 3000% of Echidna's attack power for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_25_NAME": {
+        "text": "Snake Fang"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_26_DESC": {
+        "text": "(Passive Added) Upon using Sim Hak-Gyu's 3-chain, Sim Cheong's HP is healed by 20%."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_26_NAME": {
+        "text": "Defensive Cane-Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_27_DESC": {
+        "text": "(Passive Enhanced) 'Exaltation' increases armor penetration by 500."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_27_NAME": {
+        "text": "Guardian's Rapier"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_28_DESC": {
+        "text": "(Passive Enhanced) 'Path of the Dead' decreases all damage targeted at the entire ally by 30% and increases Nefer's critical chance by 20% for 3 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_28_NAME": {
+        "text": "Vessel Seeker"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_29_DESC": {
+        "text": "(Passive Enhanced) Upon using another ally's 3-chain, Gwen immediately uses her block skill with the power of a 3-chain."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_5_29_NAME": {
+        "text": "Lion Steel Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_22_DESC": {
+        "text": "(Passive Enhanced) The duration of 'Blade Draw' is increased by 2 seconds. 'Blade Draw' additionally increases armor penetration by 100 and critical damage by 30%.\n(Passive Added) Upon activating 'Blade Draw' or 'Blade Gleam' 3 times, Izuna charges forward and uses 'Dance of the Blade' to deal physical damage equal to 2000% of her attack power over 5 hits. (Cooltime: 1 second)"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_22_NAME": {
+        "text": "Cherry Blossom"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_23_DESC": {
+        "text": "(Passive Enhanced) 'Giant Slayer' deals increased damage equal to 1000% of Randgrid's attack power.\n(Passive Added) Enemies hit by 'Giant Slayer' lose 60% of their armor for 6 seconds.\nUpon using 'Piercing Obliteration' with a 3-chain, the 'Blade of the Einherjar' flies at the enemy in the front to deal physical damage equal to 800% of her attack power. Hit enemies are stunned for 1.5 seconds. (Cooltime: 3 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_23_NAME": {
+        "text": "Shieldbreaker"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_24_DESC": {
+        "text": "(Passive Enhanced) 'Ecstasy' is enhanced to increase Cassia and Plaga's attack power by 10%, critical damage by 20%, and resistance penetration by 150.\n(Passive Altered) During Plaga's manifestation, Cassia and Plaga's passive skill changes to 'Soul Harvest.' \n(Passive Added) Upon activating 'Cursed Blade,' Plaga becomes manifest for 20 seconds, enhancing 'ecstasy' to maximum capacity and adding an additional hit to 'Malevolent Blade.' Additionally, all blocks used during Plaga's manifestation are activated with the power of a 3-chain, and Cassia and Plaga use 'Soul Harvest' every 3 blocks. 'Soul Harvest' deals magical damage equal to 1500% of Cassia and Plaga's attack power, and decreases enemy resistance by 30% for 5 seconds. (Plaga Manifestation Cooltime: 23 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_24_NAME": {
+        "text": "Plaga"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_25_DESC": {
+        "text": "(Passive Enhanced) While 'Serpentine Domain' is active, Echidna loses 3% of her HP per second based on the HP she had when the skill was activated, and strengthens her passive to deal more hits. Additionally, 'Serpentine Domain' is enhanced to deal neutral damage equal to 3000% of Echidna's attack power for 5 seconds.\n(Passive Enhanced) Echidna's familiar 'Loydie' is strengthened to deal neutral damage equal to 2000% of Echidna's attack power.\n(Passive Added) Upon using her own block after another ally's 3-chain, Echidna summons a 'Serpentine Shadow' that pulls in all enemies within her range. If this passive activates during 'Serpentine Domain,' Echidna immobilizes the enemy for 5 seconds. (Cooltime: 6 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_25_NAME": {
+        "text": "Jörmungandr"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_26_DESC": {
+        "text": "(Passive Added) Upon using Sim Hak-Gyu's 3-chain, Sim Cheong's HP is healed by 20%. Upon using his Special Skill, Sim Cheong's attack power increases by 300% and armor penetration by 2000 for 10 seconds. If Sim Cheong is dead, Sim Hak-Gyu opens his eyes, and his block skills will deal physical damage equal to [160/280/440]% of his attack power. Using his own or another ally's block skill afterwards will activate Sim Hak-Gyu's 'Eye Beam' that deals physical damage equal to 600% of his attack power and stuns the enemy for 1 second. (Cooltime: 2 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_26_NAME": {
+        "text": "Pathfinder"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_27_DESC": {
+        "text": "(Passive Enhanced) 'Exaltation' increases armor penetration by 1000 and critical damage by 20%.\n(Passive Enhanced) 'Exaltation' generates 3 blocks.\n(Passive Altered) 'Glacial Blade' is changed to 'Arctic Blade,' which deals physical damage equal to 2400% of Roskva's attack power over 3 hits. Enemies hit by 'Arctic Blade' lose 20 of their evasion for 5 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_27_NAME": {
+        "text": "Guardian's Icicle"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_28_DESC": {
+        "text": "(Passive Enhanced) 'Path of the Dead' decreases all damage targeted at the entire ally by 30% and increases Nefer's critical chance by 20% for 3 seconds, and generates 1 block for Nefer.\n(Passive Enhanced) 'Craving Thirst' deals physical damage equal to 1500% of Nefer's attack power.\n(Passive Added) Upon using 'Craving Thirst' 3 times, Nefer additionally uses 'Breath Outside the Living Realms,' which is acknowledged as a 3-chain and deals 3 hits of physical damage each equal to 700% of Nefer's attack power. The last hit of 'Breath Outside the Living Realms' stuns hit enemies for 1 second and activates the 3-chain of all allies except Nefer."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_28_NAME": {
+        "text": "Heart Pursuer"
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_29_DESC": {
+        "text": "(Passive Enhanced) Upon using another ally's 3-chain, Gwen immediately uses her block skill with the power of a 3-chain.\n(Passive Added) Upon using another ally leader's 3-chain, Gwen increases her own attack power by 100% and receives all damage targeted at the entire party. However, she receives 20% more damage. This effect is maintained until it canceled."
+    },
+    "TEXT_WEP_LEGEND_SW_CHA_6_29_NAME": {
+        "text": "Holy Blade of Elanuma"
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_4_DESC": {
+        "text": "(Passive Enhanced) 'Grancian Shield Combat' grants 25% damage reduction. Lednas receives all damage targeted at the entire party. This effect cannot be cancelled."
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_4_NAME": {
+        "text": "Bradamante"
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_5_DESC": {
+        "text": "(Passive Enhanced) 'Grancian Shield Combat' grants 25% damage reduction. Lednas receives all damage targeted at the entire party. This effect cannot be cancelled."
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_5_NAME": {
+        "text": "Bradamante"
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_6_DESC": {
+        "text": "(Passive Enhanced) 'Grancian Shield Combat' grants 25% damage reduction. Lednas receives all damage targeted at the entire party. This effect cannot be cancelled.\n(Passive Added) Upon using 'Grancian Shield Combat,' Lednas immediately activates 'Crest of Protection,' which grants herself 50% damage reduction for 3 seconds. (Cooltime: 12 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_FOURTH_REDNAS_6_NAME": {
+        "text": "Bradamante"
+    },
+    "TEXT_WEP_LEGEND_SW_GG3_BAIKEN_NAME": {
+        "text": "Namakura"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_4_DESC": {
+        "text": "(Passive Added) When he or other allies receive 10 hits, Goblin Slayer increases his own damage reduction and critical chance by 30% for 10 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_4_NAME": {
+        "text": "Goblin Slayer's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_5_DESC": {
+        "text": "(Passive Added) When he or other allies receive 10 hits, Goblin Slayer increases his own damage reduction and critical chance by 30% for 10 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_5_NAME": {
+        "text": "Goblin Slayer's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_6_DESC": {
+        "text": "(Passive Added) When he or other allies receive 10 hits, Goblin Slayer increases his own damage reduction and critical chance by 30% for 10 seconds. Upon using his chain 10 times, Goblin Slayer uses 'Gate Scroll' to deal neutral damage equal to 3000% of his attack power. (Cooltime: 8 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_01_6_NAME": {
+        "text": "Goblin Slayer's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_4_DESC": {
+        "text": "(Passive Enhanced) 'Spearman's Strike' decreases hit enemies' armor and resistance by 10% for 10 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_4_NAME": {
+        "text": "Otherworldly Spear"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_5_DESC": {
+        "text": "(Passive Enhanced) 'Spearman's Strike' decreases hit enemies' armor and resistance by 10% for 10 seconds."
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_5_NAME": {
+        "text": "Otherworldly Spear"
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_6_DESC": {
+        "text": "(Passive Enhanced) 'Spearman's Strike' is changed to 'Strongest Strike of the Borderlands.'\nStrongest Strike of the Borderlands: After using another ally's block within 5 seconds of using his own block skill, Spearman deals physical damage equal to 1500% of his attack power over the entire area of his range, and generates 1 leader ally block. Hit enemies lose 30% of their armor and resistance for 10 seconds. During 'Strongest Strike of the Borderlands,' Spearman gains knockback resistance."
+    },
+    "TEXT_WEP_LEGEND_SW_GS_07_6_NAME": {
+        "text": "Otherworldly Spear"
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_4_DESC": {
+        "text": "(Passive Added) Upon using Crusch Karsten's 3-chain during 'Divine Protection of Wind Indication,' Crusch uses 'Hundred Man Sword Strike' to deal #physical damage# equal to 1800% of her attack power. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_4_NAME": {
+        "text": "Crusch's Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_5_DESC": {
+        "text": "(Passive Added) Upon using Crusch Karsten's 3-chain during 'Divine Protection of Wind Indication,' Crusch uses 'Hundred Man Sword Strike' to deal #physical damage# equal to 1800% of her attack power. (Cooltime: 5 seconds)"
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_5_NAME": {
+        "text": "Crusch's Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_6_DESC": {
+        "text": "(Passive Added) Upon using Crusch Karsten's 3-chain during 'Divine Protection of Wind Indication,' Crusch uses 'Hundred Man Sword Strike' to deal #physical damage# equal to 1800% of her attack power. (Cooltime: 5 seconds)\n(Passive Added) The buff granted by 'Divine Protection of Wind Indication' additionally increases attack power by 25%, critical chance by 15%, and accuracy by 10."
+    },
+    "TEXT_WEP_LEGEND_SW_RZ_02_6_NAME": {
+        "text": "Crusch's Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_4_DESC": {
+        "text": "(Passive Added) When the leader ally deals 2 hits, Raphtalia's block skill is changed to 'Hide Mirage' that deals neutral damage equal to [500/600/700]% of Raphtalia's attack power."
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_4_NAME": {
+        "text": "Raphtalia's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_5_DESC": {
+        "text": "(Passive Added) When the leader ally deals 2 hits, Raphtalia's block skill is changed to 'Hide Mirage' that deals neutral damage equal to [500/600/700]% of Raphtalia's attack power."
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_5_NAME": {
+        "text": "Raphtalia's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_6_DESC": {
+        "text": "(Passive Added) When the leader ally deals 2 hits, Raphtalia's block skill is changed to 'Hide Mirage' that deals neutral damage equal to [500/600/700]% of Raphtalia's attack power. \n(Passive Enhanced) After using 'Downward Slice,' Raphtalia uses 'Leap Slice' to deal physical damage equal to 3000% of her attack power."
+    },
+    "TEXT_WEP_LEGEND_SW_SH_01_6_NAME": {
+        "text": "Raphtalia's Sword"
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_4_DESC": {
+        "text": "Upon using another ally's 1- or 2-chain, Twillie responds by using her own 1- or 2-chain, respectively."
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_4_NAME": {
+        "text": "Greatsword of Duty"
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_5_DESC": {
+        "text": "Upon using another ally's 1- or 2-chain, Twillie responds by using her own 1- or 2-chain, respectively."
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_5_NAME": {
+        "text": "Greatsword of Honor"
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_6_DESC": {
+        "text": "Upon using another ally's 1- or 2-chain, Twillie responds by using her own 1- or 2-chain, respectively. If she is in 'Earth Shaker' mode, she also receives all damage targeted at the entire party. Additionally, her normal attack, 'Strike of Faith,' and 'Last Stand' are enhanced to each deal 30% more damage over a wider range."
+    },
+    "TEXT_WEP_LEGEND_SW_SPR_TWILLY_6_NAME": {
+        "text": "Greatsword of Victory"
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_4_DESC": {
+        "text": "(Passive Enhanced) After using 'Thud!' Ranno uses 'Boom, Bang, Whack!' to deal physical damage equal to 400% of Ranno's attack power every 0.1 seconds for a total of 3 seconds.\n(Passive Added) After 'Boom, Bang, Whack!' ends, Ranno uses 'Don't Eat That!' to deal physical damage equal to 1000% of her attack power.\n(Passive Added) Using an ally block during 'Boom, Bang, Whack!' will increase the damage dealt by 'Don't Eat That!' by 500% of Ranno's attack power [1/2/4] stacks, according to the chain number used (maximum 12 stacks)."
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_4_NAME": {
+        "text": "Chompy Chomp"
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_5_DESC": {
+        "text": "(Passive Enhanced) After using 'Thud!' Ranno uses 'Boom, Bang, Whack!' to deal physical damage equal to 400% of Ranno's attack power every 0.1 seconds for a total of 3 seconds.\n(Passive Added) After 'Boom, Bang, Whack!' ends, Ranno uses 'Don't Eat That!' to deal physical damage equal to 1000% of her attack power.\n(Passive Added) Using an ally block during 'Boom, Bang, Whack!' will increase the damage dealt by 'Don't Eat That!' by 500% of Ranno's attack power [1/2/4] stacks, according to the chain number used (maximum 12 stacks)."
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_5_NAME": {
+        "text": "Stompy Stomp"
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_6_DESC": {
+        "text": "(Passive Enhanced) After using 'Thud!' Ranno uses 'Boom, Bang, Whack!' to deal physical damage equal to 800% of Ranno's attack power every 0.1 seconds for a total of 3 seconds. Ranno and Rex cannot be knocked back or stunned for the duration of 'Boom, Bang, Whack!' This effect cannot be canceled.\n(Passive Added) After 'Boom, Bang, Whack!' ends, Ranno uses 'Don't Eat That!' to deal physical damage equal to 2000% of her attack power.\n(Passive Added) Using an ally block during 'Boom, Bang, Whack!' will increase the damage dealt by 'Don't Eat That!' by 1000% of Ranno's attack power [1/2/4] stacks, according to the chain number used (maximum 12 stacks)."
+    },
+    "TEXT_WEP_LEGEND_SW_TNT_RANNO_6_NAME": {
+        "text": "Chomp, Stomp, Rawr!"
+    },
+    "TEXT_WEP_LEGEND_SW_YS8_ADOL_NAME": {
+        "text": "Hyperion Blade"
+    },
+    "TEXT_WEP_LEGEND_SW_YS8_DANA_NAME": {
+        "text": "Fairy Ring Celesdia"
+    },
+    "TEXT_WEP_LEGEND_SW_YS8_LAXIA_NAME": {
+        "text": "Mercurius Blade"
+    },
+    "TEXT_WEP_OR_S4_21_NAME": {
+        "text": "Lucid Dream"
+    },
+    "TEXT_WEP_OR_S5_21_NAME": {
+        "text": "Prophetic Dream"
+    },
+    "TEXT_WEP_OR_S6_21_NAME": {
+        "text": "Celestial Dream"
+    },
+    "TEXT_WEP_ST_S4_21_NAME": {
+        "text": "Stave of Royalty"
+    },
+    "TEXT_WEP_ST_S5_21_NAME": {
+        "text": "Mark of the King"
+    },
+    "TEXT_WEP_ST_S6_21_NAME": {
+        "text": "Mark of the Savior"
+    },
+    "TEXT_WEP_SW_S4_21_NAME": {
+        "text": "Blade of Judgment"
+    },
+    "TEXT_WEP_SW_S5_21_NAME": {
+        "text": "Blade of Vengeance"
+    },
+    "TEXT_WEP_SW_S6_21_NAME": {
+        "text": "Ritual of Fury"
+    }
+}
