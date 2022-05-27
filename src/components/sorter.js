@@ -1,17 +1,17 @@
 
 const sorter = (hero1, hero2, activeFilter) => {
-    
+
     let category = activeFilter.split('-')[0]
     let direction = activeFilter.split('-')[1]
 
     let result = 0
 
     const stringCompare = (str1, str2) => {
-        return (str1 < str2) ? -1 : (str1 > str2) ? 1 : 0 
+        return (str1 < str2) ? -1 : (str1 > str2) ? 1 : 0
     }
 
     const tierCompare = (tier1, tier2) => {
-        let order = ['OP', 'S', 'A', 'B', 'C', 'F', 'BUG', '']
+        let order = ['OP', 'S', 'A', 'B', 'C', 'D', 'F', 'BUG', '']
         let result = 0;
 
         if (order.indexOf(tier1) < order.indexOf(tier2)) result = -1
@@ -42,7 +42,7 @@ const sorter = (hero1, hero2, activeFilter) => {
             result = tierCompare(hero1.Sera, hero2.Sera)
         }
     }
-    if (direction === 'Down') result = result*-1
+    if (direction === 'Down') result = result * -1
     return result
 }
 

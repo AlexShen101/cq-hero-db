@@ -25,7 +25,12 @@ const HeroPage = () => {
     Umrat -> umrat raid rating
     Sera -> sera raid rating
   */
-  let hero = hero_tiers.find((hero) => hero.Name === heroName);
+  let hero = hero_tiers.find((hero) => {
+    let hero1 = hero.Name.toLowerCase()
+    let hero2 = heroName.toLowerCase()
+    if (hero1 === hero2) return hero
+    else if (hero1.indexOf(hero2) !== -1) return hero
+  });
 
   /*
   hero_db_info
@@ -36,9 +41,12 @@ const HeroPage = () => {
   skins: available skins, if any
   type: type of hero (contract, promo, etc.)
   */
-  let hero_db_info = hero_data.find(
-    (hero) => hero.id.toLowerCase() === heroName.toLowerCase().replace(" ", "_")
-  );
+  let hero_db_info = hero_data.find((hero) => {
+    let hero1 = hero.id.toLowerCase()
+    let hero2 = heroName.toLowerCase().replace(" ", "_")
+    if (hero1 === hero2) return hero
+    else if (hero1.indexOf(hero2) !== -1) return hero
+  });
   console.log(hero_db_info);
 
   // to find item in translator: do translator[key], use keys that seem to have been shortformed
@@ -46,35 +54,38 @@ const HeroPage = () => {
   let translator = translator_db;
 
   let suggested_skills = hero_skill_suggestions.find((item) => item.Hero === heroName)
-  let suggested_sigils = []
+  //  let suggested_sigils = sigil_suggestions.find(item) => item.
 
   const formRender = (form) => {
     try {
       return (
         <img
-                key={form.id + "image"}
-                src={require(`../data/cq-pandora assets master heroes/${form.image}.png`)}
-                alt={form.image + ".png"}
-              ></img>
+          className="hero_forms_image"
+          key={form.id + "image"}
+          src={require(`../data/cq-pandora assets master heroes/${form.image}.png`)}
+          alt={form.image + ".png"}
+        ></img>
       )
     } catch (e) {
       return (<img
-      key={form.id + "image"}
-      src={require(`../data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
-      alt={form.image + ".png"}
-    ></img>)
+        className="hero_forms_image"
+        key={form.id + "image"}
+        src={require(`../data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
+        alt={form.image + ".png"}
+      ></img>)
     }
-    
+
   };
 
   const renderWeapon = (weapon) => {
     try {
       return (
         <img
-              key={weapon.id + "image"}
-              src={require(`../data/cq-pandora assets master weapons/${weapon.image}.png`)}
-              alt={weapon.image + ".png"}
-            ></img>
+          className="weapon_forms_image"
+          key={weapon.id + "image"}
+          src={require(`../data/cq-pandora assets master weapons/${weapon.image}.png`)}
+          alt={weapon.image + ".png"}
+        ></img>
       )
     } catch (e) {
       return <p>Weapon image failed to load</p>
@@ -84,7 +95,7 @@ const HeroPage = () => {
   return (
     <div>
       <h1>{hero.Name}</h1>
-      <button>
+      <button id="hero_page_back_button">
         <Link to="/">Go Back</Link>
       </button>
       <p>Class: {hero_db_info.class}</p>
@@ -96,38 +107,42 @@ const HeroPage = () => {
       <p>Description: {hero.Note}</p>
       <h3>Rating:</h3>
       <HeroTable displayedHeroes={[hero]} editable={false} />
-      <br></br>
-      <h2>Tiers</h2>
-      {hero_db_info.forms.map((form) => {
-        return (
-          <div>
-            <p key={form.id + "name"}>
-              {translator[form.name] ? translator[form.name].text : "N/A"}{" "}
-              {form.star}*
-            </p>
-            {formRender(form)}
-          </div>
-        );
-      })}
 
-      <br></br>
+      <h2>Heroes</h2>
+      <div className="item_container">
+        {hero_db_info.forms.map((form) => {
+          return (
+            <div className="hero_forms_item">
+              <p className="hero_forms_text"
+                key={form.id + "name"}>
+                {translator[form.name] ? translator[form.name].text : "N/A"}{" "}
+                {form.star}*
+              </p>
+              {formRender(form)}
+            </div>
+          );
+        })}
+      </div>
+
       <h2>Weapons</h2>
-      {hero_db_info.sbws.map((weapon) => {
-        return (
-          <div>
-            <p key={weapon.id + "name"}>
-              {translator[weapon.name] ? translator[weapon.name].text : "N/A"}
-            </p>
-            {renderWeapon(weapon)}
-          </div>
-        );
-      })}
+      <div className="item_container">
+        {hero_db_info.sbws.map((weapon) => {
+          return (
+            <div className="weapon_forms_item">
+              <p className="weapon_forms_text"
+                key={weapon.id + "name"}>
+                {translator[weapon.name] ? translator[weapon.name].text : "N/A"}
+              </p>
+              {renderWeapon(weapon)}
+            </div>
+          );
+        })}
+      </div>
 
-      <br></br>
       <h2>Suggested Skills:</h2>
-      { suggested_skills['Skill 1']? <p>{suggested_skills['Skill 1']}</p> : null }
-      { suggested_skills['Skill 2']? <p>{suggested_skills['Skill 2']}</p> : null }
-      { suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null }
+      {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
+      {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
+      {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
 
     </div>
   );
