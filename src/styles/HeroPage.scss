@@ -1,35 +1,37 @@
-.item_container {
+.hero_container {
     display: flex;
 
     .hero_forms_item {
         margin-left: 0.5em;
         display: flex;
 
-        .hero_forms_text {
-            font-size: 12px;
-            width: 100px;
-        }
+        // .hero_forms_text {
+        //     font-size: 12px;
+        //     width: 100px;
+        // }
 
         .hero_forms_image {
-            height: clamp(50px, 4vw, 90px);
-            margin-right: 4em;
+            max-height: clamp(50px, 6vw, 90px);
+            margin-right: 1em;
         }
     }
+}
+
+.weapon_container {
+    display: flex;
 
     .weapon_forms_item {
         margin-left: 0.5em;
         display: flex;
 
-        .weapon_forms_text {
-            font-size: 12px;
-            width: 100px;
-        }
+        // .weapon_forms_text {
+        //     font-size: 12px;
+        //     width: 100px;
+        // }
 
         .weapon_forms_image {
-            height: clamp(50px, 4vw, 90px);
-            margin-right: 4em;
+            max-height: clamp(50px, 6vw, 90px);
+            margin-right: 1em;
         }
     }
-
-
 }

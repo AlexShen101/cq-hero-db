@@ -1,15 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { hero_tiers } from "../data/Hero_tiers.js";
 import HeroTable from "../components/HeroTable.js";
-import { Link } from "react-router-dom";
-
 import hero_data from "../data/heros.json";
-import translator_db from "../data/translator_en_us.json";
 
 import sigil_suggestions from '../data/sigil_suggestions.js';
 import hero_skill_suggestions from '../data/hero_skill_suggestions.js'
+
+import HeroDisplay from '../components/HeroDisplay.js';
+import WeaponDisplay from '../components/WeaponDisplay.js';
 
 const HeroPage = () => {
   let heroName = useParams().heroName;
@@ -49,48 +50,13 @@ const HeroPage = () => {
   });
   console.log(hero_db_info);
 
-  // to find item in translator: do translator[key], use keys that seem to have been shortformed
-  // example key: TEXT_CHA_WI_1_3_NAME
-  let translator = translator_db;
-
   let suggested_skills = hero_skill_suggestions.find((item) => item.Hero === heroName)
-  //  let suggested_sigils = sigil_suggestions.find(item) => item.
+  let suggested_sigils = sigil_suggestions.find((item) => item.Name === heroName)
 
-  const formRender = (form) => {
-    try {
-      return (
-        <img
-          className="hero_forms_image"
-          key={form.id + "image"}
-          src={require(`../data/cq-pandora assets master heroes/${form.image}.png`)}
-          alt={form.image + ".png"}
-        ></img>
-      )
-    } catch (e) {
-      return (<img
-        className="hero_forms_image"
-        key={form.id + "image"}
-        src={require(`../data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
-        alt={form.image + ".png"}
-      ></img>)
-    }
-
-  };
-
-  const renderWeapon = (weapon) => {
-    try {
-      return (
-        <img
-          className="weapon_forms_image"
-          key={weapon.id + "image"}
-          src={require(`../data/cq-pandora assets master weapons/${weapon.image}.png`)}
-          alt={weapon.image + ".png"}
-        ></img>
-      )
-    } catch (e) {
-      return <p>Weapon image failed to load</p>
-    }
+  const showSetData = (set) => {
+    console.log(set)
   }
+
 
   return (
     <div>
@@ -108,42 +74,22 @@ const HeroPage = () => {
       <h3>Rating:</h3>
       <HeroTable displayedHeroes={[hero]} editable={false} />
 
-      <h2>Heroes</h2>
-      <div className="item_container">
-        {hero_db_info.forms.map((form) => {
-          return (
-            <div className="hero_forms_item">
-              <p className="hero_forms_text"
-                key={form.id + "name"}>
-                {translator[form.name] ? translator[form.name].text : "N/A"}{" "}
-                {form.star}*
-              </p>
-              {formRender(form)}
-            </div>
-          );
-        })}
-      </div>
-
-      <h2>Weapons</h2>
-      <div className="item_container">
-        {hero_db_info.sbws.map((weapon) => {
-          return (
-            <div className="weapon_forms_item">
-              <p className="weapon_forms_text"
-                key={weapon.id + "name"}>
-                {translator[weapon.name] ? translator[weapon.name].text : "N/A"}
-              </p>
-              {renderWeapon(weapon)}
-            </div>
-          );
-        })}
-      </div>
+      <HeroDisplay hero_db_info={hero_db_info} />
+      <WeaponDisplay hero_db_info={hero_db_info} />
 
       <h2>Suggested Skills:</h2>
       {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
       {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
       {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
 
+      <h2>Sigils</h2>
+      {suggested_sigils.Sets.map((set) => {
+        return (
+          <div>
+            <p onClick={() => showSetData(set)}>Sigil Set</p>
+          </div>
+        )
+      })}
     </div>
   );
 };

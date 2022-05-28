@@ -13,7 +13,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Name-Up")
           }
         >
-          Name 
+          Name
           {category === "Name" ? symbol : ''}
         </button>
         <button
@@ -23,7 +23,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Role-Up")
           }
         >
-          Role 
+          Role
           {category === "Role" ? symbol : ''}
         </button>
         <button
@@ -33,7 +33,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Colo-Up")
           }
         >
-          Colo 
+          Colo
           {category === "Colo" ? symbol : ''}
         </button>
         <button
@@ -43,7 +43,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Arena-Up")
           }
         >
-          Arena 
+          Arena
           {category === "Arena" ? symbol : ''}
         </button>
         <button
@@ -53,7 +53,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("CH4-Up")
           }
         >
-          CH4 
+          CH4
           {category === "CH4" ? symbol : ''}
         </button>
         <button
@@ -63,7 +63,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("CH5-Up")
           }
         >
-          CH5 
+          CH5
           {category === "CH5" ? symbol : ''}
         </button>
         <button
@@ -73,7 +73,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Umrat-Up")
           }
         >
-          Umrat 
+          Umrat
           {category === "Umrat" ? symbol : ''}
         </button>
         <button
@@ -83,7 +83,7 @@ const SortButtons = ({ activeFilter, setActiveFilter }) => {
               : setActiveFilter("Sera-Up")
           }
         >
-          Sera 
+          Sera
           {category === "Sera" ? symbol : ''}
         </button>
       </div>
