@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { hero_tiers } from "../data/Hero_tiers.js";
 import HeroTable from "../components/HeroTable.js";
@@ -13,19 +13,9 @@ import HeroDisplay from '../components/HeroDisplay.js';
 import WeaponDisplay from '../components/WeaponDisplay.js';
 
 const HeroPage = () => {
+  let navigate = useNavigate()
   let heroName = useParams().heroName;
-  /*
-  hero:
-    Archetype -> role / description of primary functions (DPS, Healer, Buffer)
-    Quirk -> first quirk
-    Quirk2 -> second quirk, if exists
-    Colo -> colo rating
-    Arena -> arena rating
-    CHe4 -> challenge 4 rating
-    CHe5 -> challenge 5 rating
-    Umrat -> umrat raid rating
-    Sera -> sera raid rating
-  */
+
   let hero = hero_tiers.find((hero) => {
     let hero1 = hero.Name.toLowerCase()
     let hero2 = heroName.toLowerCase()
@@ -33,22 +23,19 @@ const HeroPage = () => {
     else if (hero1.indexOf(hero2) !== -1) return hero
   });
 
-  /*
-  hero_db_info
-  class: game class
-  forms: (4*, 5*, 6* info)
-  id: "name"
-  sbw: soulbound weapons
-  skins: available skins, if any
-  type: type of hero (contract, promo, etc.)
-  */
   let hero_db_info = hero_data.find((hero) => {
     let hero1 = hero.id.toLowerCase()
     let hero2 = heroName.toLowerCase().replace(" ", "_")
     if (hero1 === hero2) return hero
     else if (hero1.indexOf(hero2) !== -1) return hero
   });
+
   console.log(hero_db_info);
+
+  if (hero_db_info === undefined) {
+    window.location.replace("/");
+
+  }
 
   let suggested_skills = hero_skill_suggestions.find((item) => item.Hero === heroName)
   let suggested_sigils = sigil_suggestions.find((item) => item.Name === heroName)
@@ -57,8 +44,8 @@ const HeroPage = () => {
     console.log(set)
   }
 
-
   return (
+
     <div>
       <h1>{hero.Name}</h1>
       <button id="hero_page_back_button">

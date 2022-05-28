@@ -11,7 +11,7 @@ const sorter = (hero1, hero2, activeFilter) => {
     }
 
     const tierCompare = (tier1, tier2) => {
-        let order = ['OP', 'S', 'A', 'B', 'C', 'D', 'F', 'BUG', '']
+        let order = ['OP', 'S', 'A', 'B', 'C', 'D', 'F', 'BUG', '', "Who?"]
         let result = 0;
 
         if (order.indexOf(tier1) < order.indexOf(tier2)) result = -1

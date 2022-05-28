@@ -3,11 +3,6 @@ import CustomTableHead from "./CustomTableHead.js";
 import { Link } from "react-router-dom";
 
 const HeroTable = (props) => {
-  // <p className="hero_name">{props.hero.Name}</p>
-  // <p>Damage Type: {props.hero['Damage Type']}</p>
-  // <p>Quirk 1: {props.hero.Quirk === "" ? "None" : props.hero.Quirk}</p>
-  // <p>Quirk 2: {props.hero.Quirk2 === "" ? "None" : props.hero.Quirk2}</p>
-  // <p>Description: {props.hero.Note}</p>
 
   const headers = [
     "Name",
@@ -31,17 +26,11 @@ const HeroTable = (props) => {
               return (
                 <tr key={index}>
                   <td>
-                    {props.editable ? (
-                      <Link to={`/${hero.Name}`} className="hero_link">
-                        {hero.Name
-                          ? hero.Name
-                          : "This hero's name should not be empty, check for error"}
-                      </Link>
-                    ) : hero.Name ? (
-                      hero.Name
-                    ) : (
-                      "This hero's name should not be empty, check for error"
-                    )}
+                    <Link to={`/${hero.Name}`} className="hero_link">
+                      {hero.Name
+                        ? hero.Name
+                        : "This hero's name should not be empty, check for error"}
+                    </Link>
                   </td>
                   <td>{hero.Archetype ? hero.Archetype : "Unknown"}</td>
                   <td>{hero.Colo ? hero.Colo : "?"}</td>
@@ -51,14 +40,6 @@ const HeroTable = (props) => {
                   <td>{hero.Umrat ? hero.Umrat : "?"}</td>
                   <td>{hero.Sera ? hero.Sera : "?"}</td>
                   <td>
-                    {props.editable ? (
-                      <button
-                        className="delete_button"
-                        onClick={() => props.removeHero(hero)}
-                      >
-                        Delete
-                      </button>
-                    ) : null}
                   </td>
                 </tr>
               );
