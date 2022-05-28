@@ -1,19 +1,13 @@
-import React from "react";
+import React, { useMemo } from "react";
 import CustomTableHead from "./CustomTableHead.js";
 import { Link } from "react-router-dom";
+import { useTable } from 'react-table';
 
 const HeroTable = (props) => {
 
   const headers = [
-    "Name",
-    "Role",
-    "Colo",
-    "Arena",
-    "CH4",
-    "CH5",
-    "Umrat",
-    "Sera",
-    "",
+    "Name", "Role", "Colo", "Arena",
+    "CH4", "CH5", "Umrat", "Sera"
   ];
 
   return (

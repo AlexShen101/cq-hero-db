@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { hero_tiers } from "../data/Hero_tiers.js";
 import HeroTable from "../components/HeroTable.js";
@@ -13,7 +13,6 @@ import HeroDisplay from '../components/HeroDisplay.js';
 import WeaponDisplay from '../components/WeaponDisplay.js';
 
 const HeroPage = () => {
-  let navigate = useNavigate()
   let heroName = useParams().heroName;
 
   let hero = hero_tiers.find((hero) => {

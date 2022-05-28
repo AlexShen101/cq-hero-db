@@ -8,6 +8,7 @@ import sorter from "../components/sorter.js";
 const App = () => {
   const [searchInput, setSearchInput] = useState("");
   const [activeFilter, setActiveFilter] = useState("Colo-Up");
+  const [currentPage, setCurrentPage] = useState(1);
 
   let displayedHeroes = hero_tiers
     .filter((hero) => {
@@ -17,10 +18,14 @@ const App = () => {
       )
         return hero;
       else return null;
-    })
-    .sort((hero1, hero2) => sorter(hero1, hero2, activeFilter));
+    }).sort((hero1, hero2) => sorter(hero1, hero2, activeFilter));
 
-  console.log(displayedHeroes.length)
+  let displayLength = displayedHeroes.length
+
+  if (displayLength > 10) {
+    displayedHeroes = displayedHeroes.slice((currentPage - 1) * 10, currentPage * 10)
+  }
+
   return (
     <div className="App">
       <h1>Heroes:</h1>
@@ -35,9 +40,28 @@ const App = () => {
         onChange={(e) => {
           setSearchInput(e.target.value)
         }}></input>
+
+
       <HeroTable
         displayedHeroes={displayedHeroes}
       />
+      {displayLength > 10 ?
+        <div>
+          {currentPage > 1 &&
+            <button onClick={() => {
+              setCurrentPage(currentPage => currentPage - 1)
+            }}>{"<"}
+            </button>
+          }
+          <p>Page {currentPage} of {Math.ceil(displayLength / 10)}</p>
+          {currentPage < Math.ceil(displayLength / 10) &&
+            <button onClick={() => {
+              setCurrentPage(currentPage => currentPage + 1)
+            }}>{">"}
+            </button>
+          }
+        </div>
+        : null}
 
     </div>
   );
