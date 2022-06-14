@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { hero_tiers } from "../data/Hero_tiers";
+import hero_tiers from "../data/Hero_tiers.json";
 import HeroTable from "../components/HeroTable.js";
 
 import SortButtons from "../components/SortButtons.js";

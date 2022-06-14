@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import { hero_tiers } from "../data/Hero_tiers.js";
+import hero_tiers from "../data/Hero_tiers.json";
 import HeroTable from "../components/HeroTable.js";
 import hero_data from "../data/heros.json";
 
@@ -19,7 +19,6 @@ const HeroPage = () => {
     let hero1 = hero.Name.toLowerCase()
     let hero2 = heroName.toLowerCase()
     if (hero1 === hero2) return hero
-    else if (hero1.indexOf(hero2) !== -1) return hero
   });
 
   let hero_db_info = hero_data.find((hero) => {

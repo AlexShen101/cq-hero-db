@@ -1,4 +1,4 @@
-export const hero_tiers = [
+[
     {
         "ID": 4,
         "Name": "Izuna",

@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 import CustomTableHead from "./CustomTableHead.js";
 import { Link } from "react-router-dom";
-import { useTable } from 'react-table';
 
 const HeroTable = (props) => {
 
