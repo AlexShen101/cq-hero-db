@@ -15,6 +15,7 @@ import WeaponDisplay from '../components/WeaponDisplay.js';
 const HeroPage = () => {
   let heroName = useParams().heroName;
 
+  // change
   let hero = hero_tiers.find((hero) => {
     let hero1 = hero.Name.toLowerCase()
     let hero2 = heroName.toLowerCase()

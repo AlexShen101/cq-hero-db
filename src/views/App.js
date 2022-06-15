@@ -10,6 +10,7 @@ const App = () => {
   const [activeFilter, setActiveFilter] = useState("Colo-Up");
   const [currentPage, setCurrentPage] = useState(1);
 
+  // change
   let displayedHeroes = hero_tiers
     .filter((hero) => {
       if (
