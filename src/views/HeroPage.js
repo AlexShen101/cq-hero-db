@@ -6,8 +6,8 @@ import hero_tiers from "../data/Hero_tiers.json";
 import HeroTable from "../components/HeroTable.js";
 import hero_data from "../data/heros.json";
 
-import sigil_suggestions from '../data/sigil_suggestions.js';
-import hero_skill_suggestions from '../data/hero_skill_suggestions.js'
+import sigil_suggestions from '../data/sigil_suggestions.json';
+import hero_skill_suggestions from '../data/hero_skill_suggestions.json'
 
 import HeroDisplay from '../components/HeroDisplay.js';
 import WeaponDisplay from '../components/WeaponDisplay.js';
@@ -29,19 +29,20 @@ const HeroPage = () => {
     else if (hero1.indexOf(hero2) !== -1) return hero
   });
 
-  console.log(hero_db_info);
-
   if (hero_db_info === undefined) {
     window.location.replace("/");
-
   }
 
-  let suggested_skills = hero_skill_suggestions.find((item) => item.Hero === heroName)
-  let suggested_sigils = sigil_suggestions.find((item) => item.Name === heroName)
+  let suggested_skills = hero_skill_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
+  let suggested_sigils = sigil_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
 
   const showSetData = (set) => {
     console.log(set)
   }
+
+  console.log(hero)
+  console.log(hero_db_info)
+  console.log(suggested_sigils)
 
   return (
 
@@ -52,7 +53,7 @@ const HeroPage = () => {
       </button>
       <p>Class: {hero_db_info.class}</p>
       <p>Role: {hero.Archetype}</p>
-      <p>Damage: {hero["Damage Type"]}</p>
+      <p>Damage Type: {hero["Damage Type"]}</p>
       <p>
         Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
       </p>
@@ -68,11 +69,11 @@ const HeroPage = () => {
       {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
       {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
 
-      <h2>Sigils</h2>
-      {suggested_sigils.Sets.map((set) => {
+      <h2>Builds</h2>
+      {suggested_sigils.Sets.map((build) => {
         return (
           <div>
-            <p onClick={() => showSetData(set)}>Sigil Set</p>
+            <p onClick={() => showSetData(build)}>Sigil Set</p>
           </div>
         )
       })}
