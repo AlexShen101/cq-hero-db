@@ -27,17 +27,10 @@ const HeroDisplay = (props) => {
         <div className="hero_container">
             <h2>Hero Forms</h2>
 
-            {props.hero_db_info.forms.map((form) => {
+            {props.forms.map((form) => {
                 return (
                     <div key={form.id + "item"}
                         className="hero_forms_item">
-                        {/* 
-                        <p className="hero_forms_text"
-                            key={form.id + "name"}>
-                            {translator_db[form.name] ? translator_db[form.name].text : "N/A"}{" "}
-                            {form.star}*
-                        </p>
-                        */}
                         {heroImageRender(form)}
                     </div>
                 );

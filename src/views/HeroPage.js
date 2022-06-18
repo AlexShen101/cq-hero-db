@@ -15,21 +15,20 @@ import WeaponDisplay from '../components/WeaponDisplay.js';
 const HeroPage = () => {
   let heroName = useParams().heroName;
 
-  // change
-  let hero = hero_tiers.find((hero) => {
-    let hero1 = hero.Name.toLowerCase()
-    let hero2 = heroName.toLowerCase()
-    if (hero1 === hero2) return hero
-  });
+  let hero = {
+    ...hero_tiers.find((entry) => {
+      let hero1 = entry.Name.toLowerCase()
+      let hero2 = heroName.toLowerCase()
+      if (hero1 === hero2) return entry
+    }), ...hero_data.find((entry) => {
+      let hero1 = entry.id.toLowerCase()
+      let hero2 = heroName.toLowerCase().replace(" ", "_")
+      if (hero1 === hero2) return entry
+      else if (hero1.indexOf(hero2) !== -1) return entry
+    })
+  }
 
-  let hero_db_info = hero_data.find((hero) => {
-    let hero1 = hero.id.toLowerCase()
-    let hero2 = heroName.toLowerCase().replace(" ", "_")
-    if (hero1 === hero2) return hero
-    else if (hero1.indexOf(hero2) !== -1) return hero
-  });
-
-  if (hero_db_info === undefined) {
+  if (hero.id === undefined) {
     window.location.replace("/");
   }
 
@@ -41,7 +40,6 @@ const HeroPage = () => {
   }
 
   console.log(hero)
-  console.log(hero_db_info)
   console.log(suggested_sigils)
 
   return (
@@ -51,7 +49,7 @@ const HeroPage = () => {
       <button id="hero_page_back_button">
         <Link to="/">Go Back</Link>
       </button>
-      <p>Class: {hero_db_info.class}</p>
+      <p>Class: {hero.class}</p>
       <p>Role: {hero.Archetype}</p>
       <p>Damage Type: {hero["Damage Type"]}</p>
       <p>
@@ -61,8 +59,8 @@ const HeroPage = () => {
       <h3>Rating:</h3>
       <HeroTable displayedHeroes={[hero]} editable={false} />
 
-      <HeroDisplay hero_db_info={hero_db_info} />
-      <WeaponDisplay hero_db_info={hero_db_info} />
+      <HeroDisplay forms={hero.forms} />
+      <WeaponDisplay weapons={hero.sbws} />
 
       <h2>Suggested Skills:</h2>
       {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}

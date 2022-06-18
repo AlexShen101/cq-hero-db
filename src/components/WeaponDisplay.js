@@ -19,7 +19,7 @@ const WeaponDisplay = (props) => {
     return (
         <div className="weapon_container">
             <h2>Weapons</h2>
-            {props.hero_db_info.sbws.map((weapon) => {
+            {props.weapons.map((weapon) => {
                 return (
                     <div key={weapon.id + "item"}
                         className="weapon_forms_item">
