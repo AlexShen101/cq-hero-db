@@ -89,15 +89,17 @@ const HeroPage = () => {
         </button>
       </div>
 
+      <div className="hero_page_info_section">
       <p>Damage Type: {hero["Damage Type"]}</p>
       <p>
         Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
       </p>
       <p>Description: {hero.Note}</p>
 
-      <div></div>
-      <h3>Rating:</h3>
+      <div className="hero_page_container">
+      <h3 id="hero_page_rating">Rating:</h3>
       <HeroTable displayedHeroes={[hero]} minimalized={true} />
+      </div>
 
       <div className="hero_container">
         {
@@ -115,12 +117,14 @@ const HeroPage = () => {
         }
       </div>
 
-
-      <h2>Suggested Skills:</h2>
+      <div className="hero_page_container">
+      <h2 id="hero_page_skill_suggestions_title">Suggested Skills:</h2>
       {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
       {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
       {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
+      </div>
 
+      <div className="hero_page_container">
       <h2>Builds</h2>
       {suggested_sigils.Sets.map((build) => {
         return (
@@ -129,6 +133,8 @@ const HeroPage = () => {
           </div>
         )
       })}
+      </div>
+    </div>
     </div>
   );
 };
