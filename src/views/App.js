@@ -44,6 +44,7 @@ const App = () => {
 
       <HeroTable
         displayedHeroes={displayedHeroes}
+        minimalized={false}
       />
       {displayLength > 10 ?
         <div>

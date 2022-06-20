@@ -1,13 +1,18 @@
-import React, { useMemo } from "react";
+import React from "react";
 import CustomTableHead from "./CustomTableHead.js";
 import { Link } from "react-router-dom";
 
 const HeroTable = (props) => {
 
-  const headers = [
+  let headers = [
     "Name", "Role", "Colo", "Arena",
     "CH4", "CH5", "Umrat", "Sera"
   ];
+
+  if (props.minimalized === true) {
+    headers = ["Colo", "Arena",
+      "CH4", "CH5", "Umrat", "Sera"]
+  }
 
   return (
     <div>
@@ -18,14 +23,18 @@ const HeroTable = (props) => {
             {props.displayedHeroes.map((hero, index) => {
               return (
                 <tr key={index}>
-                  <td>
-                    <Link to={`/${hero.Name}`} className="hero_link">
-                      {hero.Name
-                        ? hero.Name
-                        : "This hero's name should not be empty, check for error"}
-                    </Link>
-                  </td>
-                  <td>{hero.Archetype ? hero.Archetype : "Unknown"}</td>
+                  {props.minimalized === false &&
+                    <td>
+                      <Link to={`/${hero.Name}`} className="hero_link">
+                        {hero.Name
+                          ? hero.Name
+                          : "This hero's name should not be empty, check for error"}
+                      </Link>
+                    </td>
+                  }
+                  {props.minimalized === false &&
+                    <td>{hero.Archetype ? hero.Archetype : "Unknown"}</td>
+                  }
                   <td>{hero.Colo ? hero.Colo : "?"}</td>
                   <td>{hero.Arena ? hero.Arena : "?"}</td>
                   <td>{hero.ChE4 ? hero.ChE4 : "?"}</td>

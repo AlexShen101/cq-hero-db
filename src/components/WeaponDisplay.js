@@ -6,7 +6,6 @@ const WeaponDisplay = (props) => {
             return (
                 <img
                     className="weapon_forms_image"
-                    key={weapon.id + "image"}
                     src={require(`../data/cq-pandora assets master weapons/${weapon.image}.png`)}
                     alt={weapon.image + ".png"}
                 ></img>
@@ -16,25 +15,7 @@ const WeaponDisplay = (props) => {
         }
     }
 
-    return (
-        <div className="weapon_container">
-            <h2>Weapons</h2>
-            {props.weapons.map((weapon) => {
-                return (
-                    <div key={weapon.id + "item"}
-                        className="weapon_forms_item">
-                        {/*
-                        <p className="weapon_forms_text"
-                            key={weapon.id + "name"}>
-                            {translator_db[weapon.name] ? translator_db[weapon.name].text : "N/A"}
-                        </p>
-                        */}
-                        {renderWeapon(weapon)}
-                    </div>
-                );
-            })}
-        </div>
-    )
+    return renderWeapon(props.weapon)
 }
 
 export default WeaponDisplay

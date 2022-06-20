@@ -1,37 +1,69 @@
-.hero_container {
+.top_bar {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $dark-blue;
 
-    .hero_forms_item {
+    .hero_forms_image {
+        height: clamp(80px, 16vw, 100px);
+        margin-right: 1em;
         margin-left: 0.5em;
-        display: flex;
+    }
 
-        // .hero_forms_text {
-        //     font-size: 12px;
-        //     width: 100px;
-        // }
-
-        .hero_forms_image {
-            max-height: clamp(50px, 6vw, 90px);
-            margin-right: 1em;
-        }
+    .hero_page_title_container {
+        margin-right: 2em;
     }
 }
 
+#hero_page_name {
+    color: $primary;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+#hero_page_class {
+    color: $off-white;
+    margin: 0em 0 0.25em 0;
+}
+
+#hero_page_type {
+    color: $off-white;
+    margin: 0.25em 0 0.25em 0;
+}
+
+#hero_page_back_button {
+    background-color: $primary;
+    border: 0px;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+#hero_page_back_link {
+    color: $off-white;
+    text-decoration: none;
+}
+
+.hero_container {
+    display: flex;
+    align-items: flex-end;
+
+    .hero_forms_image {
+        max-height: clamp(50px, 13vw, 80px);
+        margin-right: 1em;
+        margin-left: 0.5em;
+    }
+}
+
+
+
 .weapon_container {
     display: flex;
+    align-items: flex-end;
 
-    .weapon_forms_item {
+    .weapon_forms_image {
+        max-height: clamp(50px, 13vw, 80px);
+        margin-right: 1em;
         margin-left: 0.5em;
-        display: flex;
-
-        // .weapon_forms_text {
-        //     font-size: 12px;
-        //     width: 100px;
-        // }
-
-        .weapon_forms_image {
-            max-height: clamp(50px, 6vw, 90px);
-            margin-right: 1em;
-        }
     }
 }

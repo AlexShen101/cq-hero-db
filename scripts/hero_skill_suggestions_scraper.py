@@ -35,7 +35,7 @@ response = requests.get(
 assert response.status_code == 200, 'Wrong status code'
 
 text = str(response.content).replace('b\'ID,Hero,,,,,,,',
-                                     'ID,Hero,Hero Icon (Remove),Img1,Skill 1,Img2,Skill 2,Img3,Skill 3')
+                                     'ID,Hero,Hero Icon (Remove),Img1,Skill 1,Img2,Skill 2,Img3,Skill 3').replace('\\\'', '\'')
 
 lines = text.split('\\r\\n')
 

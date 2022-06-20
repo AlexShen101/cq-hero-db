@@ -1100,14 +1100,14 @@
     },
     {
         "ID": "",
-        "Hero": "H\\'annit",
+        "Hero": "H'annit",
         "Skill 1": "Rapid Firing Soul",
         "Skill 2": "Float like a Butterfly, Sting like a Bee!",
         "Skill 3": ""
     },
     {
         "ID": "147",
-        "Hero": "D\\'Artagnan",
+        "Hero": "D'Artagnan",
         "Skill 1": "Deadly Soul",
         "Skill 2": "Swift Attack",
         "Skill 3": "BLBT-009 Support Turret"
@@ -1758,7 +1758,7 @@
     },
     {
         "ID": "226",
-        "Hero": "Jack-O\\'",
+        "Hero": "Jack-O'",
         "Skill 1": "Spirit of Mana",
         "Skill 2": "Mana Recycle",
         "Skill 3": ""
