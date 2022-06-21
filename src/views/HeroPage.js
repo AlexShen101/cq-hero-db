@@ -81,7 +81,7 @@ const HeroPage = () => {
         {renderHeroImage(hero.forms[hero.forms.length - 1])}
         <div className="hero_page_title_container">
           <h1 id="hero_page_name">{hero.Name}</h1>
-          <p id="hero_page_class">{hero.class}</p>
+          <p id="hero_page_class">{hero.class.toUpperCase()}</p>
           <p id="hero_page_type">{hero.Archetype}</p>
         </div>
         <button id="hero_page_back_button">
@@ -90,51 +90,51 @@ const HeroPage = () => {
       </div>
 
       <div className="hero_page_info_section">
-      <p>Damage Type: {hero["Damage Type"]}</p>
-      <p>
-        Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
-      </p>
-      <p>Description: {hero.Note}</p>
+        <p>Damage Type: {hero["Damage Type"]}</p>
+        <p>
+          Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
+        </p>
+        <p>Description: {hero.Note}</p>
 
-      <div className="hero_page_container">
-      <h3 id="hero_page_rating">Rating:</h3>
-      <HeroTable displayedHeroes={[hero]} minimalized={true} />
-      </div>
+        <div className="hero_page_container">
+          <h3 id="hero_page_rating">Rating:</h3>
+          <HeroTable displayedHeroes={[hero]} minimalized={true} />
+        </div>
 
-      <div className="hero_container">
-        {
-          hero.forms.map((form) => {
-            if (form.star >= 3) return (renderHeroImage(form))
-          })
-        }
-      </div>
+        <div className="hero_container">
+          {
+            hero.forms.map((form) => {
+              if (form.star >= 3) return (renderHeroImage(form))
+            })
+          }
+        </div>
 
-      <div className="weapon_container">
-        {
-          hero.sbws.map((weapon) => {
-            return (renderWeaponImage(weapon))
-          })
-        }
-      </div>
+        <div className="weapon_container">
+          {
+            hero.sbws.map((weapon) => {
+              return (renderWeaponImage(weapon))
+            })
+          }
+        </div>
 
-      <div className="hero_page_container">
-      <h2 id="hero_page_skill_suggestions_title">Suggested Skills:</h2>
-      {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
-      {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
-      {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
-      </div>
+        <div className="hero_page_container">
+          <h2 id="hero_page_skill_suggestions_title">Suggested Skills:</h2>
+          {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
+          {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
+          {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
+        </div>
 
-      <div className="hero_page_container">
-      <h2>Builds</h2>
-      {suggested_sigils.Sets.map((build) => {
-        return (
-          <div key={build.id}>
-            <p onClick={() => showSetData(build)}>Sigil Set</p>
-          </div>
-        )
-      })}
+        <div className="hero_page_container">
+          <h2>Builds</h2>
+          {suggested_sigils.Sets.map((build) => {
+            return (
+              <div key={build.id}>
+                <p onClick={() => showSetData(build)}>Sigil Set</p>
+              </div>
+            )
+          })}
+        </div>
       </div>
-    </div>
     </div>
   );
 };

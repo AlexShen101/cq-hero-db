@@ -26,4 +26,38 @@
 .hero_link {
   text-decoration: none;
   color: $primary;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.tier_rating {
+  font-weight: bold;
+}
+
+.color_OP {
+  color: $light_purple;
+}
+
+.color_S {
+  color: $light_blue;
+}
+
+.color_A {
+  color: $light_green;
+}
+
+.color_B {
+  color: $light_yellow;
+}
+
+.color_C {
+  color: $light_orange;
+}
+
+.color_D {
+  color: $light_red;
+}
+
+.color_Other {
+  color: $light_grey;
 }

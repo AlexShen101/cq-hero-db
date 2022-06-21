@@ -24,14 +24,12 @@ def make_json(csvFilePath, jsonFilePath):
 
             row.pop("Ignore")
             row.pop("")
-            id = row["ID"]
             name = row["Hero"].replace(' - ', '-')
             row.pop("ID")
             row.pop("Hero")
 
             setData = row
             entry = {
-                "ID": id,
                 "Hero": name,
                 "Sets": [setData]
             }

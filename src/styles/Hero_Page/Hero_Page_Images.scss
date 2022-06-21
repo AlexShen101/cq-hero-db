@@ -1,0 +1,21 @@
+.hero_container {
+    display: flex;
+    align-items: flex-end;
+
+    .hero_forms_image {
+        max-height: clamp(50px, 13vw, 80px);
+        margin-right: 1em;
+        margin-left: 0.5em;
+    }
+}
+
+.weapon_container {
+    display: flex;
+    align-items: flex-end;
+
+    .weapon_forms_image {
+        max-height: clamp(50px, 13vw, 80px);
+        margin-right: 1em;
+        margin-left: 0.5em;
+    }
+}

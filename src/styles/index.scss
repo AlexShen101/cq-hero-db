@@ -1,6 +1,12 @@
 @import './variables/variables.scss';
+
 @import './HeroTable.scss';
-@import './HeroPage.scss';
+@import './Hero_Page/HeroPage.scss';
+@import './Hero_Page/Hero_Page_Top_Bar.scss';
+@import './Hero_Page/Hero_Page_Rating.scss';
+@import './Hero_Page/Hero_Page_Images.scss';
+@import './Hero_Page/Hero_Page_Skills.scss';
+@import './Hero_Page/Hero_Page_Builds.scss';
 
 body {
   margin: 0;

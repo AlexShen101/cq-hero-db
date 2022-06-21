@@ -18,7 +18,6 @@ def make_json(csvFilePath, jsonFilePath):
         for row in csvReader:
             if row['Hero'] not in entriesToRemove:
                 entry = {
-                    "ID": row['ID'],
                     "Hero": row['Hero'].replace(' - ', '-'),
                     "Skill 1": row['Skill 1'],
                     "Skill 2": row['Skill 2'],
