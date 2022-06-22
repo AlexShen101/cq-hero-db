@@ -3,8 +3,6 @@ import CustomTableHead from "./CustomTableHead.js";
 import { Link } from "react-router-dom";
 
 const HeroTable = (props) => {
-  console.log(props)
-
   let headers = [
     "Name", "Role", "Colo", "Arena",
     "CH4", "CH5", "Umrat", "Sera"

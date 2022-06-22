@@ -7,8 +7,9 @@ import HeroTable from "../components/HeroTable.js";
 import hero_data from "../data/heros.json";
 
 import sigil_suggestions from '../data/sigil_suggestions.json';
-import hero_skill_suggestions from '../data/hero_skill_suggestions.json'
+import hero_skill_suggestions from '../data/hero_skill_suggestions.json';
 
+import SkillContainer from '../components/SkillContainer.js';
 
 const HeroPage = () => {
   let heroName = useParams().heroName;
@@ -117,12 +118,7 @@ const HeroPage = () => {
           }
         </div>
 
-        <div className="hero_page_container">
-          <h2 id="hero_page_skill_suggestions_title">Suggested Skills:</h2>
-          {suggested_skills['Skill 1'] ? <p>{suggested_skills['Skill 1']}</p> : null}
-          {suggested_skills['Skill 2'] ? <p>{suggested_skills['Skill 2']}</p> : null}
-          {suggested_skills['Skill 3'] ? <p>{suggested_skills['Skill 3']}</p> : null}
-        </div>
+        <SkillContainer suggested_skills={suggested_skills} />
 
         <div className="hero_page_container">
           <h2>Builds</h2>
