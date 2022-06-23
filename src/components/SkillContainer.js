@@ -17,8 +17,7 @@ const SkillContainer = (props) => {
 
     const findSkillInTranslator = (skillName) => {
         let skillID = Object.keys(translator).filter((key) => {
-            if (key.split('_')[1] === "SKILL" && key.split('_')[key.split('_'.length - 1)] === "NAME" && translator[key].text === skillName) {
-                console.log(key)
+            if (key.split('_')[1] === "SKILL" && key.split('_')[key.split('_').length - 1] === "NAME" && translator[key].text.indexOf(skillName) !== -1) {
                 return key
             }
         })

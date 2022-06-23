@@ -6,7 +6,7 @@ import sys
 newFilePath = './src/data/translator_en_us.json'
 keepItems = ["_CHA_", "_SKILL_", "_WEP_",
              "_STONE_", "_EXCLUSIVE", "_STONE", "_SKILL_"]
-trimmed_data = []
+trimmed_data = {}
 
 response = requests.get(
     'https://raw.githubusercontent.com/cq-pandora/assets/master/information/translations/en_us.json')
@@ -20,7 +20,7 @@ data = json.loads(lines, strict=True)
 for key in dict(data):
     for item in keepItems:
         if item in key:
-            trimmed_data.append({key: data[key]})
+            trimmed_data[key] = data[key]
             break
 
 with open(newFilePath, 'w') as newFile:
