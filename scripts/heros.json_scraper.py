@@ -8,18 +8,10 @@ response = requests.get(
     'https://raw.githubusercontent.com/cq-pandora/assets/master/information/heroes.json')
 assert response.status_code == 200, 'Wrong status code'
 
-responseText = str(response.content)[2:-1].replace('\\"', "\"").replace(
-    '\\xc3\\xa9', 'e').replace('\\xc3\\x89', 'E').replace('\\\'', '\'')
+lines = response.content.decode('utf-8').replace('\\u00e9', 'é')
+lines = re.sub('\\\\{1,4}n', ' ', lines)
 
-lines = responseText.split('\\n')
-
-with open(filePath, 'w') as file:
-    for line in lines:
-        file.write(line + "\n")
-
-# code to only include 4 stars (which usually includes 5 and 6 star chars) in json
-file = open(filePath)
-data = json.load(file)
+data = json.loads(lines)
 
 forms = []
 regex = '\_([1-6])_'
@@ -27,6 +19,9 @@ regex = '\_([1-6])_'
 new_data = []
 
 for index, item in enumerate(data):
+    print(item['id'])
+    item['readable_id'] = item['readable_id']
+
     for form in item['forms']:
         stars = re.findall(regex, form['id'])
         forms.append(stars[0])
@@ -36,4 +31,4 @@ for index, item in enumerate(data):
 
 
 with open(filePath, 'w') as file:
-    json.dump(new_data, file)
+    file.write(json.dumps(new_data, indent=4, ensure_ascii=False))
