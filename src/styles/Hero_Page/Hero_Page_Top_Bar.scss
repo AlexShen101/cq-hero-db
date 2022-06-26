@@ -3,6 +3,9 @@
     flex-direction: row;
     align-items: center;
     background-color: $dark-blue;
+    padding: 0.5em;
+    width: 100vw;
+    margin: 0 auto;
 
     .hero_forms_image {
         height: clamp(80px, 16vw, 100px);
@@ -22,8 +25,9 @@
 }
 
 #hero_page_class {
-    color: $off-white;
+    color: darken($off-white, 10%);
     margin: 0em 0 0.25em 0;
+    font-size: 12px;
 }
 
 #hero_page_type {
@@ -36,7 +40,7 @@
     border: 0px;
     padding: 0.5em;
     margin-left: auto;
-    margin-right: 1em;
+    margin-right: 4em;
 }
 
 #hero_page_back_link {

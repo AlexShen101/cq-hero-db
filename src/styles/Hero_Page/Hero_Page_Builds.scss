@@ -1,0 +1,50 @@
+.build_tab {
+    display: inline;
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 4px;
+    color: $primary;
+    padding: 0.25em 0.5em;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.build_tab:hover {
+    background-color: $off-white;
+    border: 1px solid $off-white;
+    color: $dark_blue;
+}
+
+.build_tab_active {
+    background-color: darken($grey, 10);
+    border: 1px solid darken($grey, 10);
+}
+
+.set_header {
+    color: $off-white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sigil_container {
+    display: flex;
+    margin-bottom: 0.5em;
+
+    .sigil_name {
+        font-size: 16px;
+        margin: 1em;
+    }
+
+    .sigil_image {
+        max-height: clamp(30px, 5vw, 50px);
+        max-width: clamp(30px, 5vw, 50px);
+    }
+}
+
+.set_upgrade {
+    font-size: 14px;
+}
+
+.set_upgrades_container {
+    margin-bottom: 2em;
+}

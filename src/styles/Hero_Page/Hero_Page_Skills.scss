@@ -1,3 +1,17 @@
-#hero_page_skill_suggestions_title {
-    margin: 0em 0.5em 0.5em 0em;
+.skills_arranger {
+    display: flex;
+
+    .skill_container {
+        width: 80px;
+        margin-right: 1.5em;
+
+        .skill_image {
+            max-height: clamp(50px, 13vw, 80px);
+            max-width: clamp(50px, 13vw, 80px);
+        }
+
+        .skill_title {
+            margin: 0px;
+        }
+    }
 }

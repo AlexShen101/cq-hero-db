@@ -4,7 +4,6 @@ import skillList from '../data/skills.json';
 
 const SkillContainer = (props) => {
     const displaySkill = (skillName) => {
-        console.log(skillName)
         if (skillName === "Any") {
             return null;
         }
@@ -37,7 +36,7 @@ const SkillContainer = (props) => {
         try {
             return (
                 <img
-                    className="weapon_forms_image"
+                    className="skill_image"
                     src={require(`../data/cq-pandora assets master skills/${skillImage}.png`)}
                     alt={skillImage + ".png"}
                 ></img>
@@ -48,25 +47,30 @@ const SkillContainer = (props) => {
     }
     return (
         <div className="hero_page_container">
-            <h2 id="hero_page_skill_suggestions_title">Suggested Skills:</h2>
-            {props.suggested_skills['Skill 1'] &&
-                <React.Fragment>
-                    {displaySkill(props.suggested_skills['Skill 1'])}
-                    <p>{props.suggested_skills['Skill 1']}</p>
-                </React.Fragment>
+            <h2 className="hero_page_skill_suggestions_header section_header">Suggested Skills:</h2>
+            {props.suggested_skill !== undefined &&
+                <div className="skills_arranger">
+                    {props.suggested_skills['Skill 1'] &&
+                        <div className="skill_container">
+                            {displaySkill(props.suggested_skills['Skill 1'])}
+                            <p className="skill_title">{props.suggested_skills['Skill 1']}</p>
+                        </div>
+                    }
+                    {props.suggested_skills['Skill 2'] &&
+                        <div className="skill_container">
+                            {displaySkill(props.suggested_skills['Skill 2'])}
+                            <p className="skill_title">{props.suggested_skills['Skill 2']}</p>
+                        </div>
+                    }
+                    {props.suggested_skills['Skill 3'] &&
+                        <div className="skill_container">
+                            {displaySkill(props.suggested_skills['Skill 3'])}
+                            <p className="skill_title">{props.suggested_skills['Skill 3']}</p>
+                        </div>
+                    }
+                </div>
             }
-            {props.suggested_skills['Skill 2'] &&
-                <React.Fragment>
-                    {displaySkill(props.suggested_skills['Skill 2'])}
-                    <p>{props.suggested_skills['Skill 2']}</p>
-                </React.Fragment>
-            }
-            {props.suggested_skills['Skill 3'] &&
-                <React.Fragment>
-                    {displaySkill(props.suggested_skills['Skill 3'])}
-                    <p>{props.suggested_skills['Skill 3']}</p>
-                </React.Fragment>
-            }
+            {props.suggested_skil === undefined && <p className="error_message">Seems like there are no suggested skills for this hero.</p>}
         </div>
     )
 }

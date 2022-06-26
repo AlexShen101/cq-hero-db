@@ -1,11 +1,29 @@
 .hero_page_info_section {
     width: 80%;
     margin: auto;
+    display: flex;
 }
 
 .hero_page_container {
     background-color: $dark-blue;
-    width: 900px;
+    width: max-content;
     padding: 1em;
     border-radius: 8px;
+    margin: 0.5em 0.5em 0em 0em;
+}
+
+.image_failed {
+    font-size: 12px;
+}
+
+.section_header {
+    font-size: 1em;
+    margin: 0em 0.5em 0.5em 0em;
+}
+
+@media screen and (max-width: 830px) {
+    .hero_page_info_section {
+        width: 100%;
+        display: block;
+    }
 }

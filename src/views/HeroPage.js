@@ -10,6 +10,7 @@ import sigil_suggestions from '../data/sigil_suggestions.json';
 import hero_skill_suggestions from '../data/hero_skill_suggestions.json';
 
 import SkillContainer from '../components/SkillContainer.js';
+import BuildContainer from '../components/BuildContainer.js';
 
 const HeroPage = () => {
   let heroName = useParams().heroName;
@@ -35,10 +36,6 @@ const HeroPage = () => {
 
   let suggested_skills = hero_skill_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
   let suggested_sigils = sigil_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
-
-  const showSetData = (set) => {
-    console.log(set)
-  }
 
   const renderHeroImage = (heroImage) => {
     try {
@@ -91,45 +88,45 @@ const HeroPage = () => {
       </div>
 
       <div className="hero_page_info_section">
-        <p>Damage Type: {hero["Damage Type"]}</p>
-        <p>
-          Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
-        </p>
-        <p>Description: {hero.Note}</p>
-
+        <div className="hero_page_main_column">
+          {/*
         <div className="hero_page_container">
-          <h3 id="hero_page_rating">Rating:</h3>
-          <HeroTable displayedHeroes={[hero]} minimalized={true} />
+          <p>Damage Type: {hero["Damage Type"]}</p>
+          <p>
+            Quirks: {hero.Quirk} {hero.Quirk2 && `+ ${hero.Quirk2}`}
+          </p>
+          <p>Description: {hero.Note}</p>
         </div>
+  */}
 
-        <div className="hero_container">
-          {
-            hero.forms.map((form) => {
-              if (form.star >= 3) return (renderHeroImage(form))
-            })
-          }
+          <div className="hero_page_container">
+            <h1 className="hero_page_rating section_header">Rating:</h1>
+            <HeroTable displayedHeroes={[hero]} minimalized={true} />
+          </div>
+
+          <div className="hero_page_container">
+            <h1 className="hero_page_icons section_header">Icons:</h1>
+            <div className="hero_container">
+              {
+                hero.forms.map((form) => {
+                  if (form.star >= 3) return (renderHeroImage(form))
+                })
+              }
+            </div>
+
+            <div className="weapon_container">
+              {
+                hero.sbws.map((weapon) => {
+                  return (renderWeaponImage(weapon))
+                })
+              }
+            </div>
+          </div>
+
+          <SkillContainer suggested_skills={suggested_skills} />
         </div>
+        <BuildContainer suggested_sigils={suggested_sigils} />
 
-        <div className="weapon_container">
-          {
-            hero.sbws.map((weapon) => {
-              return (renderWeaponImage(weapon))
-            })
-          }
-        </div>
-
-        <SkillContainer suggested_skills={suggested_skills} />
-
-        <div className="hero_page_container">
-          <h2>Builds</h2>
-          {suggested_sigils.Sets.map((build) => {
-            return (
-              <div key={build.id}>
-                <p onClick={() => showSetData(build)}>Sigil Set</p>
-              </div>
-            )
-          })}
-        </div>
       </div>
     </div>
   );
