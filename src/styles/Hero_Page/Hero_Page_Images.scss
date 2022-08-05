@@ -1,26 +1,13 @@
-.hero_container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-bottom: 1em;
-
-    .hero_forms_image {
-        max-height: 50px;
-        max-width: 80px;
-        margin-right: 0.5em;
-        margin-left: 0.5em;
-    }
+.hero_forms_image {
+    max-height: 100px;
+    max-width: 12%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 
-.weapon_container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-
-    .weapon_forms_image {
-        max-height: 50px;
-        max-width: 80px;
-        margin-right: 0.5em;
-        margin-left: 0.5em;
-    }
+.weapon_forms_image {
+    max-height: 100px;
+    max-width: 12%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
 }

@@ -450,7 +450,7 @@
         "Sets": [
             {
                 "Upgrade 1": "Critical Damage",
-                "Upgrade 2": "Critical Chance",
+                "Upgrade 2": "Critical Damage",
                 "Set Name": "CC Rpen Set",
                 "Endgame 1": "Golden Armor Fragment",
                 "Endgame 2": "Golden Experience",
@@ -3392,7 +3392,7 @@
             {
                 "Upgrade 1": "Critical Damage",
                 "Upgrade 2": "Critical Damage",
-                "Set Name": "",
+                "Set Name": "CC Apen Set",
                 "Endgame 1": "Tezquatlipoca's Heart",
                 "Endgame 2": "Ominous Core",
                 "Midgame 1": "NS000 - Unobtanium Core",
@@ -3404,7 +3404,7 @@
             {
                 "Upgrade 1": "Attack Speed",
                 "Upgrade 2": "Attack Speed",
-                "Set Name": "",
+                "Set Name": "CC Apen Set",
                 "Endgame 1": "Tezquatlipoca's Heart",
                 "Endgame 2": "Ominous Core",
                 "Midgame 1": "NS000 - Unobtanium Core",
@@ -3412,6 +3412,40 @@
                 "Earlygame 1": "Apen / \u2606\u2606\u2606\u2606\u2606",
                 "Earlygame 2": "Apen / \u2606\u2606\u2606\u2606\u2606",
                 "Note": "AS doesn't benefit Nottingham as much as CD/CD build due to his low base AS. But it is still servicable when enemy CR gets too high. Better in arena."
+            }
+        ]
+    },
+    {
+        "Hero": "Tang",
+        "Sets": [
+            {
+                "Upgrade 1": "Critical Damage",
+                "Upgrade 2": "Critical Damage",
+                "Set Name": "CC Apen Set",
+                "Endgame 1": "Tezquatlipoca's Heart",
+                "Endgame 2": "Ominous Core",
+                "Midgame 1": "NS000 - Unobtanium Core",
+                "Midgame 2": "Crystal of Phantasm",
+                "Earlygame 1": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
+            }
+        ]
+    },
+    {
+        "Hero": "Tehis",
+        "Sets": [
+            {
+                "Upgrade 1": "Critical Damage",
+                "Upgrade 2": "Critical Damage",
+                "Set Name": "CC Apen Set",
+                "Endgame 1": "Tezquatlipoca's Heart",
+                "Endgame 2": "Ominous Core",
+                "Midgame 1": "NS000 - Unobtanium Core",
+                "Midgame 2": "Crystal of Phantasm",
+                "Earlygame 1": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
             }
         ]
     },
@@ -3491,6 +3525,23 @@
                 "Midgame 2": "Curse from Another Dimension",
                 "Earlygame 1": "Rpen / \u2606\u2606\u2606\u2606\u2606",
                 "Earlygame 2": "Rpen / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
+            }
+        ]
+    },
+    {
+        "Hero": "Djura",
+        "Sets": [
+            {
+                "Upgrade 1": "Critical Damage",
+                "Upgrade 2": "Critical Damage",
+                "Set Name": "CC Apen Set",
+                "Endgame 1": "Tezquatlipoca's Heart",
+                "Endgame 2": "Ominous Core",
+                "Midgame 1": "NS000 - Unobtanium Core",
+                "Midgame 2": "Crystal of Phantasm",
+                "Earlygame 1": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Apen / \u2606\u2606\u2606\u2606\u2606",
                 "Note": ""
             }
         ]
@@ -4335,6 +4386,23 @@
                 "Midgame 2": "Crystal of Phantasm",
                 "Earlygame 1": "Apen / \u2606\u2606\u2606\u2606\u2606",
                 "Earlygame 2": "Apen / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
+            }
+        ]
+    },
+    {
+        "Hero": "Anne",
+        "Sets": [
+            {
+                "Upgrade 1": "Critical Damage",
+                "Upgrade 2": "Critical Chance",
+                "Set Name": "CC Rpen Set",
+                "Endgame 1": "Golden Armor Fragment",
+                "Endgame 2": "Golden Experience",
+                "Midgame 1": "NS000 - Black Box",
+                "Midgame 2": "Curse from Another Dimension",
+                "Earlygame 1": "Rpen / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Rpen / \u2606\u2606\u2606\u2606\u2606",
                 "Note": ""
             }
         ]
@@ -5451,6 +5519,23 @@
                 "Earlygame 1": "Res / \u2606\u2606\u2606\u2606\u2606",
                 "Earlygame 2": "Res / \u2606\u2606\u2606\u2606\u2606",
                 "Note": "The optimal challenge only setup for when paired with Lacrimoso to produce the most consistent clear times."
+            }
+        ]
+    },
+    {
+        "Hero": "Nebula",
+        "Sets": [
+            {
+                "Upgrade 1": "Critical Damage",
+                "Upgrade 2": "Critical Chance",
+                "Set Name": "CC Rpen Set",
+                "Endgame 1": "Golden Armor Fragment",
+                "Endgame 2": "Golden Experience",
+                "Midgame 1": "NS000 - Black Box",
+                "Midgame 2": "Curse from Another Dimension",
+                "Earlygame 1": "Rpen / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Rpen / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
             }
         ]
     },
@@ -6582,6 +6667,47 @@
                 "Earlygame 1": "HP / \u2606\u2606\u2606\u2606\u2606",
                 "Earlygame 2": "HP / \u2606\u2606\u2606\u2606\u2606",
                 "Note": ""
+            }
+        ]
+    },
+    {
+        "Hero": "Bahara",
+        "Sets": [
+            {
+                "Upgrade 1": "Damage Reduction",
+                "Upgrade 2": "Damage Reduction",
+                "Set Name": "Max Base Res",
+                "Endgame 1": "Safflower Red",
+                "Endgame 2": "Safflower Red",
+                "Midgame 1": "Res / \u2606\u2606\u2606\u2606\u2606",
+                "Midgame 2": "Res / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 1": "Res / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Res / \u2606\u2606\u2606\u2606\u2606",
+                "Note": ""
+            },
+            {
+                "Upgrade 1": "Armor",
+                "Upgrade 2": "Armor",
+                "Set Name": "Max Base Arm",
+                "Endgame 1": "Spirit's Bear Gallbladder",
+                "Endgame 2": "Spirit's Bear Gallbladder",
+                "Midgame 1": "Arm / \u2606\u2606\u2606\u2606\u2606",
+                "Midgame 2": "Arm / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 1": "Arm / \u2606\u2606\u2606\u2606",
+                "Earlygame 2": "Arm / \u2606\u2606\u2606\u2606",
+                "Note": "Using as an armor buffer, while the main is used as a res buffer solely due to the Livea."
+            },
+            {
+                "Upgrade 1": "Resistance",
+                "Upgrade 2": "Resistance",
+                "Set Name": "Pure HP",
+                "Endgame 1": "Decadent Song",
+                "Endgame 2": "Decadent Song",
+                "Midgame 1": "Frayed Letter",
+                "Midgame 2": "Frayed Letter",
+                "Earlygame 1": "HP / \u2606\u2606\u2606\u2606\u2606",
+                "Earlygame 2": "HP / \u2606\u2606\u2606\u2606\u2606",
+                "Note": "Arena build with DR and HP."
             }
         ]
     },

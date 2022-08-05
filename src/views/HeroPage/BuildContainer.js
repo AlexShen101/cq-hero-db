@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import translator from '../data/translator_en_us.json';
-import sigilList from '../data/sigils.json';
+import translator from 'data/translator_en_us.json';
+import sigilList from 'data/sigils.json';
 
 let convertBasicSigilAbbvs = [
     {
@@ -128,7 +128,7 @@ const BuildContainer = (props) => {
                 <div className="sigil_container">
                     <img
                         className="sigil_image"
-                        src={require(`../data/cq-pandora assets master sigils/${sigil.image}.png`)}
+                        src={require(`data/cq-pandora assets master sigils/${sigil.image}.png`)}
                         alt={sigil.image + ".png"}
                     ></img>
                     <p className="sigil_name">{sigil.name}</p>
@@ -145,45 +145,47 @@ const BuildContainer = (props) => {
     }
 
     return (
-        <div className="hero_page_container build_container">
-            <h1 className="hero_page_build_header section_header">Builds:</h1>
-            {buildNames.map((buildName, index) => {
-                return (
-                    <button
-                        className={activeBuild['Set Name'] === buildName ? 'build_tab build_tab_active' : 'build_tab'}
-                        key={`hero_build ${index}`}
-                        onClick={() =>
-                            setActiveBuild(convertToActiveBuild(
-                                props.suggested_sigils.Sets.find(
-                                    build => build['Set Name'] === buildName
-                                )
-                            ))
-                        }
-                    >
-                        {buildName}
-                    </button>
-                )
-            })}
-            <div>
-                <div className="set_upgrades_container">
-                    <p className="set_header">Upgrades:</p>
-                    <p className="set_upgrade">{activeBuild['Upgrade 1']}</p>
-                    <p className="set_upgrade">{activeBuild['Upgrade 2']}</p>
+        <React.Fragment>
+            <h1 className="section_header">Builds:</h1>
+            <div className="hero_page_container build_container">
+                {buildNames.map((buildName, index) => {
+                    return (
+                        <button
+                            className={activeBuild['Set Name'] === buildName ? 'build_tab build_tab_active' : 'build_tab'}
+                            key={`hero_build ${index}`}
+                            onClick={() =>
+                                setActiveBuild(convertToActiveBuild(
+                                    props.suggested_sigils.Sets.find(
+                                        build => build['Set Name'] === buildName
+                                    )
+                                ))
+                            }
+                        >
+                            {buildName}
+                        </button>
+                    )
+                })}
+                <div>
+                    <div className="set_upgrades_container">
+                        <p className="set_header">Upgrades:</p>
+                        <p className="set_upgrade">{activeBuild['Upgrade 1']}</p>
+                        <p className="set_upgrade">{activeBuild['Upgrade 2']}</p>
+                    </div>
+
+                    <p className="set_header">Endgame:</p>
+                    {renderSigil(activeBuild['Endgame 1'])}
+                    {renderSigil(activeBuild['Endgame 2'])}
+
+                    <p className="set_header">Midgame:</p>
+                    {renderSigil(activeBuild['Midgame 1'])}
+                    {renderSigil(activeBuild['Midgame 2'])}
+
+                    <p className="set_header">Earlygame:</p>
+                    {renderSigil(activeBuild['Earlygame 1'])}
+                    {renderSigil(activeBuild['Earlygame 2'])}
                 </div>
-
-                <p className="set_header">Endgame:</p>
-                {renderSigil(activeBuild['Endgame 1'])}
-                {renderSigil(activeBuild['Endgame 2'])}
-
-                <p className="set_header">Midgame:</p>
-                {renderSigil(activeBuild['Midgame 1'])}
-                {renderSigil(activeBuild['Midgame 2'])}
-
-                <p className="set_header">Earlygame:</p>
-                {renderSigil(activeBuild['Earlygame 1'])}
-                {renderSigil(activeBuild['Earlygame 2'])}
             </div>
-        </div >
+        </React.Fragment>
     )
 }
 

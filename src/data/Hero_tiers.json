@@ -170,8 +170,8 @@
     },
     {
         "Name": "Abel",
-        "Colo": "C",
-        "Arena": "C",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
         "Sera": "F",
@@ -179,7 +179,7 @@
         "Archetype": "DPS / Counter",
         "Quirk": "Reflect",
         "Quirk2": "Self DR Buff",
-        "Note": "He is the death incarnate for any unprepared DPS coming his way, but lacks killing power against everything else. Though, he is countered by shield and DR, while dispel trivializes him."
+        "Note": "He is the death incarnate for any unprepared DPS coming his way, but lacks killing power against everything else. Though, he is countered by shield and DR."
     },
     {
         "Name": "Sworden",
@@ -287,21 +287,21 @@
     },
     {
         "Name": "Isis",
-        "Colo": "B",
-        "Arena": "C",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Colo": "A",
+        "Arena": "B",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Counter",
         "Quirk": "Tank Ignore",
         "Quirk2": "Stun",
-        "Note": "Damage isn't that high. But can still serve her role as a disruptor and somewhat contest against squishy DPS in Arena. Does have AFK potential in some places."
+        "Note": "Damage is ok. But can still serve her role as a disruptor and somewhat contest against squishy DPS in Arena. Does have AFK potential in some places."
     },
     {
         "Name": "Izuna",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "C",
+        "Arena": "B",
         "ChE4": "A",
         "ChE5": "A",
         "Sera": "",
@@ -354,32 +354,32 @@
         "Name": "Nefer",
         "Colo": "C",
         "Arena": "C",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS / Utility  ",
         "Quirk": "3 Chain Engine",
         "Quirk2": "",
-        "Note": "Worse Adol."
+        "Note": "Still Worse Adol, but has more damage now."
     },
     {
         "Name": "Gwen",
-        "Colo": "C",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Colo": "B",
+        "Arena": "B",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
-        "Quirk": "Tank",
-        "Quirk2": "",
-        "Note": "Why does she tank?"
+        "Quirk": "Dispel",
+        "Quirk2": "Self Atk & Apen Buff",
+        "Note": "With the recently buff, Gwen now has incredily high DPS. But, due to bug, her buff doesn't reapply after getting dispelled. What can you do when HG just hates you."
     },
     {
         "Name": "Morgan",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "A",
         "ChE5": "B",
         "Sera": "F",
@@ -465,7 +465,7 @@
         "Archetype": "DPS / Counter",
         "Quirk": "Self Eva Buff",
         "Quirk2": "Block Gen & Stun",
-        "Note": "Shuwen but evades and hits twice as hard and neutral damage. He himself is not dangerous however, it's the teammates he bring along with that makes him annoying."
+        "Note": "Possesses a variety of annoying mechanics which makes him incredibly difficult to deal with, especially given that he is often used alongside a secondary DPS."
     },
     {
         "Name": "Twillie",
@@ -508,7 +508,7 @@
     },
     {
         "Name": "Mare",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "S",
         "ChE5": "A",
@@ -547,7 +547,7 @@
     },
     {
         "Name": "Zilong",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "A",
         "ChE5": "F",
@@ -573,7 +573,7 @@
     },
     {
         "Name": "Asmodeus",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
@@ -651,8 +651,8 @@
     },
     {
         "Name": "Giovanna",
-        "Colo": "S",
-        "Arena": "S",
+        "Colo": "A",
+        "Arena": "B",
         "ChE4": "B",
         "ChE5": "B",
         "Sera": "F",
@@ -664,8 +664,8 @@
     },
     {
         "Name": "Zato-1",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "A",
         "Sera": "",
@@ -859,7 +859,7 @@
     },
     {
         "Name": "Pochiro",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "S",
         "ChE5": "B",
@@ -873,7 +873,7 @@
     {
         "Name": "Olberic",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
         "Sera": "",
@@ -911,7 +911,7 @@
     },
     {
         "Name": "Roland",
-        "Colo": "A",
+        "Colo": "S",
         "Arena": "S",
         "ChE4": "C",
         "ChE5": "C",
@@ -977,7 +977,7 @@
     {
         "Name": "Stanya",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "C",
         "Sera": "F",
@@ -989,16 +989,16 @@
     },
     {
         "Name": "Athena",
-        "Colo": "C",
+        "Colo": "B",
         "Arena": "B",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Utility  ",
         "Quirk": "Self Rpen Buff",
         "Quirk2": "Self Accuracy Buff",
-        "Note": "A magic frontliner with self buff accuracy, though specific supports are still needed. Shield also makes her relatively tanky."
+        "Note": " \"Athena will be very strong\" Well, she has self accuracy buff and incredible damage, but requires a lot of block gen. Shield also makes her relatively tanky."
     },
     {
         "Name": "Captain",
@@ -1054,7 +1054,7 @@
     },
     {
         "Name": "Cain",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
@@ -1080,7 +1080,7 @@
     },
     {
         "Name": "V",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "C",
         "ChE5": "F",
@@ -1107,7 +1107,7 @@
     {
         "Name": "Siegfried",
         "Colo": "B",
-        "Arena": "S",
+        "Arena": "A",
         "ChE4": "B",
         "ChE5": "B",
         "Sera": "F",
@@ -1119,7 +1119,7 @@
     },
     {
         "Name": "Dullahan",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "A",
         "ChE4": "C",
         "ChE5": "C",
@@ -1171,8 +1171,8 @@
     },
     {
         "Name": "Mengqi",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "F",
         "Sera": "A",
@@ -1236,8 +1236,8 @@
     },
     {
         "Name": "Shuwen",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "C",
         "Sera": "",
@@ -1276,7 +1276,7 @@
     {
         "Name": "Luci",
         "Colo": "B",
-        "Arena": "C",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
         "Sera": "S",
@@ -1393,7 +1393,7 @@
     {
         "Name": "Nari",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
         "Sera": "B",
@@ -1432,7 +1432,7 @@
     {
         "Name": "Faust-GG",
         "Colo": "A",
-        "Arena": "-",
+        "Arena": "S",
         "ChE4": "F",
         "ChE5": "C",
         "Sera": "",
@@ -1529,13 +1529,13 @@
         "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Counter",
-        "Quirk": "",
+        "Quirk": "Who?",
         "Quirk2": "",
         "Note": "What is this."
     },
     {
         "Name": "Rem",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "A",
         "ChE4": "C",
         "ChE5": "F",
@@ -1575,10 +1575,10 @@
     {
         "Name": "Filo",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "Self Atk  & Apen Buff",
@@ -1587,7 +1587,7 @@
     },
     {
         "Name": "Gao",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "B",
         "ChE5": "C",
@@ -1782,8 +1782,8 @@
     },
     {
         "Name": "Hansung",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "C",
         "Sera": "B",
@@ -1860,7 +1860,7 @@
     },
     {
         "Name": "Magnus",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
@@ -1873,7 +1873,7 @@
     },
     {
         "Name": "Lee",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
@@ -1899,8 +1899,8 @@
     },
     {
         "Name": "Kaguya",
-        "Colo": "A",
-        "Arena": "A",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "A",
         "Sera": "S",
@@ -2080,6 +2080,32 @@
         "Note": "Power Creep. Very high damage, and very useful for checking hero AS. But other than that, there isn't much to talk about."
     },
     {
+        "Name": "Tang",
+        "Colo": "",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
+        "Damage Type": "Physical",
+        "Archetype": "DPS",
+        "Quirk": "Self CD Buff",
+        "Quirk2": "Drawback Self CR Debuff",
+        "Note": ""
+    },
+    {
+        "Name": "Tehis",
+        "Colo": "",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
+        "Damage Type": "Physical",
+        "Archetype": "DPS",
+        "Quirk": "",
+        "Quirk2": "",
+        "Note": ""
+    },
+    {
         "Name": "Altair",
         "Colo": "B",
         "Arena": "C",
@@ -2107,7 +2133,7 @@
     },
     {
         "Name": "Almael",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "A",
         "ChE5": "B",
@@ -2130,6 +2156,19 @@
         "Quirk": "Magical Damage Amp",
         "Quirk2": "",
         "Note": "We live in a world where getting slapped by fish hurts more than bullet. More or less an archer Malsook."
+    },
+    {
+        "Name": "Djura",
+        "Colo": "A",
+        "Arena": "A",
+        "ChE4": "S",
+        "ChE5": "S",
+        "Sera": "S",
+        "Damage Type": "Physical",
+        "Archetype": "DPS / Utility  ",
+        "Quirk": "Self Block Gen",
+        "Quirk2": "Ally Atk & CC & CD & Pen Buff",
+        "Note": "Primrose clone, but physical damage. That's about it."
     },
     {
         "Name": "Chipp",
@@ -2190,7 +2229,7 @@
         "ChE4": "S",
         "ChE5": "S",
         "Sera": "S",
-        "Damage Type": "Physical",
+        "Damage Type": "Magic",
         "Archetype": "DPS / Utility  ",
         "Quirk": "Self Block Gen",
         "Quirk2": "Ally Atk & CC & CD & Pen Buff",
@@ -2220,7 +2259,7 @@
         "Archetype": "DPS",
         "Quirk": "",
         "Quirk2": "",
-        "Note": "She is now a AFK hero that hits decently hard, which is pretty nice, and the added bonus of knockback while niche in general contents, is still pretty good."
+        "Note": "Usually used as an AFK hero that has a decent amount of DPS, and used in a team of 3 D'arts. "
     },
     {
         "Name": "Teresa",
@@ -2246,7 +2285,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "3 Chain Engine",
         "Quirk2": "",
-        "Note": "She is a decent DPS that deal damage and can act fairly well as a 3 chain engine. However, losing her attack buff has made her generic, and she now deal way less damage than before."
+        "Note": "She is a decent DPS that deal damage and can act fairly well as a 3 chain engine."
     },
     {
         "Name": "Spyro",
@@ -2259,7 +2298,7 @@
         "Archetype": "DPS / Utility  ",
         "Quirk": "Atk+ Buff",
         "Quirk2": "CR Debuff",
-        "Note": "The budget Orfeo is here, except he doesn't heal. On the other hand, he now offers his SP skill, which shred arm/res by 30%, this altogether makes him a viable support."
+        "Note": "Promo buffer that relies on debuff to increase ally damage output. Combined with SP can also provide shred, and is decent for ibelin abuse. "
     },
     {
         "Name": "Crow",
@@ -2272,7 +2311,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "1 Chain Engine",
         "Quirk2": "Tank Ignore",
-        "Note": "Excellent DS spammer. Unfortunately not too great without DS. Chase 3 still have cooldown issue, but tank ignore gave him some good niche in PvP."
+        "Note": "Has decent DPS, but his chase 3 is difficult to use due to cooldown. Tank ignore is ok, but due to power creep, not nearly as useful."
     },
     {
         "Name": "Vincent",
@@ -2285,20 +2324,20 @@
         "Archetype": "DPS",
         "Quirk": "Tank Ignore",
         "Quirk2": "",
-        "Note": "Tank ignore on explosion is decent but activation requirement is limiting and takes too long. CR also causes major inconsistencies."
+        "Note": "DPS is alright, but lacks any distinguishing traits to be useful. Auto also hurts him due to his \"short range\"."
     },
     {
         "Name": "Sentinel",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Resistance Shred",
         "Quirk2": "3 Chain Engine",
-        "Note": "Highest resistance shredder in the game, but block requirement just doesn't pay off usually."
+        "Note": "Highest resistance shredder in the game, and works as a decent 3 chain engine."
     },
     {
         "Name": "Spiny",
@@ -2311,7 +2350,7 @@
         "Archetype": "DPS",
         "Quirk": "",
         "Quirk2": "",
-        "Note": "Hits stupidly hard and also has a self dash. The window between each volley of bursts is still around 2 seconds though, but it does hit a LOT harder now."
+        "Note": "Hits stupidly hard and also has a self dash, now pretty much a mini-Ran. "
     },
     {
         "Name": "Scarlet",
@@ -2337,24 +2376,24 @@
         "Archetype": "DPS",
         "Quirk": "",
         "Quirk2": "",
-        "Note": "Burst not very bursty, execution damage pretty much never Atkpens, and madness aftershock damage sucks. Also doesn't really work with DS."
+        "Note": "All she has is damage, albeit a decent amount. And she doesn't work with Kaede, for whatever reason."
     },
     {
         "Name": "Bellerophan",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Utility  ",
         "Quirk": "Damage Amplification",
         "Quirk2": "",
-        "Note": "Damage is eh, lacks Rpen, has damage amplification but that's about it."
+        "Note": "Bad and all he has is DT debuff."
     },
     {
         "Name": "Viper",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "F",
         "ChE5": "C",
@@ -2363,7 +2402,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "Leader SP Generation",
         "Quirk2": "",
-        "Note": "He now hits incredibly hard with every block skill and offer a decent SP gen for the leader. He does lose a lot of damage when enemy is far away, however."
+        "Note": "He now hits decently hard with every block skill and offer extremely high SP gen for the leader. He does lose a lot of damage when enemy is far away tho."
     },
     {
         "Name": "No. 9",
@@ -2376,46 +2415,46 @@
         "Archetype": "DPS",
         "Quirk": "Self CC & Apen Buff",
         "Quirk2": "Tank Ignore",
-        "Note": "Excellent single target DPS and eliminates backliners from existence. Is countered by high CR however."
+        "Note": "Excellent single target DPS and eliminates backliners from existence. But she is weak against enemy CR."
     },
     {
         "Name": "Mandy",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Neutral & Magic",
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Resistance Shred",
         "Quirk2": "Stun",
-        "Note": "Shreds resistance, stun and neutral damage bullets really don't do anything. Super Bullet also basically does nothing."
+        "Note": "Unfortunately, all she has is some shred and stun, and she has no damage at all."
     },
     {
         "Name": "Wilhelm",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "",
         "Quirk2": "",
-        "Note": "Long ranged damage paired with DS is pretty good, but Apen issue once again."
+        "Note": "Low damage and offers no niche whatsoever."
     },
     {
         "Name": "Saiga",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "RNG",
         "Quirk2": "",
-        "Note": "Cannon can do some decent burst damage, but bounce RNG usually causes a long start up time in exchange for low damage."
+        "Note": "Extremely low damage and offers no niche whatsoever."
     },
     {
         "Name": "Tia",
@@ -2454,7 +2493,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Apen Buff",
         "Quirk2": "Heal Reduction",
-        "Note": "Drill can be spammed easily and has built in high Apen. Also a good DS spammer and utilizes burst damage."
+        "Note": "Drill can be spammed easily and has built in high Apen, and her chase method isn't as easilly managed as you'd think."
     },
     {
         "Name": "AG01-Neo",
@@ -2467,7 +2506,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Apen Buff",
         "Quirk2": "",
-        "Note": "Not bad certainly. Still a bit slow, but respectable damage. Runs into Apen issue but does have DS to cover."
+        "Note": "Neo the Tormentor has decent damage, but unfortunately has no card effect that offers any form of niche."
     },
     {
         "Name": "AG02-Layla",
@@ -2480,7 +2519,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Rpen Buff",
         "Quirk2": "",
-        "Note": "Very good DS spammer with a light penetration buff. Sniper Rifle also hits very hard. Somewhat block hungry though."
+        "Note": "Layla the Sky Dragon has decent damage, but just like Neo, offers no niche in anyway."
     },
     {
         "Name": "AG03-Mel",
@@ -2493,7 +2532,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Apen Buff",
         "Quirk2": "",
-        "Note": "The last to be buffed, and still the weakest one of the three sisters. All her attack are AoE, but her animation is slow that it almost matches Hikari."
+        "Note": "All Winged Dragon of Mel has is ranged AoE knockback, but her damage is extremely bad."
     },
     {
         "Name": "Raven",
@@ -2506,7 +2545,7 @@
         "Archetype": "DPS",
         "Quirk": "Eva Ignore",
         "Quirk2": "",
-        "Note": "Tends to be block hungry but has a lot of burst AoE damage and good single target DPS. Does have an Rpen issue."
+        "Note": "Raven's biggest upside is you get to use a character with a nuke. But her damage is only decent."
     },
     {
         "Name": "Momotaro",
@@ -2519,7 +2558,7 @@
         "Archetype": "DPS / Buffer  ",
         "Quirk": "CD & CC & Atk Buff",
         "Quirk2": "",
-        "Note": "Buffs are strong. Should be noted that once you stack all three animals, you need Momotaro 3-chains to maintain the buff, not just block use."
+        "Note": "Buffs are strong, but is difficult to maintain after you have all 3 stacked on top of his head. Why do they have to stack themselves anyway."
     },
     {
         "Name": "Athos",
@@ -2532,7 +2571,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Block Generation",
         "Quirk2": "",
-        "Note": "Good burst damage and pairs well with DS, however Apen issue."
+        "Note": "Decent damage with block gen support, but has rather low range. Remember, don't dual wield Great Sword, or you will fat roll like this guy."
     },
     {
         "Name": "Zahard",
@@ -2545,12 +2584,12 @@
         "Archetype": "DPS / Utility",
         "Quirk": "Team Teleport",
         "Quirk2": "Self Evasion Buff",
-        "Note": "Teleportation sometimes sends your team to their doom and back-teleport only affects self. Decent damage and good DS spammer though."
+        "Note": "Zahard Express, teleporting all hero right to the enemy's face. While he offers a strong Eva buff, unfortunately he has no damage."
     },
     {
         "Name": "Jet",
-        "Colo": "F",
-        "Arena": "F",
+        "Colo": "B",
+        "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
         "Sera": "F",
@@ -2558,7 +2597,7 @@
         "Archetype": "DPS",
         "Quirk": "Damage Amplification",
         "Quirk2": "Tank Counter",
-        "Note": "Bonus damage against tanks never ends up killing the tanks."
+        "Note": "Slaughters tanks with a passion. 50% DT debuff is decent too."
     },
     {
         "Name": "Carol",
@@ -2571,7 +2610,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Apen Buff",
         "Quirk2": "Teleport",
-        "Note": "Carol's old CD issue has been fixed and her damage has been improved twice fold. This makes her a competent DPS everywhere, but still far from top tier."
+        "Note": "A hunter that prefers melee so much more that she teleports in front of you to do it. And her damage is quite good too."
     },
     {
         "Name": "Lyudmilla",
@@ -2584,11 +2623,11 @@
         "Archetype": "DPS",
         "Quirk": "Block Generation",
         "Quirk2": "Self Rpen Buff & Eva Ignore",
-        "Note": "Consistent damage, incredibe self block gen, and has innate pen buffs. Her being single target with bad bullet tracking is still a problem; not that this matters much in ordeal."
+        "Note": "Consistent damage, incredibe self block gen, and Eva ignore. Though, imagine if she had some innate pen buffs. Would that not make for a solid DPS in ordeal?"
     },
     {
         "Name": "Cindy",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
@@ -2597,7 +2636,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "3 Chain Engine",
         "Quirk2": "Tank Ignore",
-        "Note": "Massive initial burst 3c and also has piercing tank ignore burst damage. Incredibly deadly in the right teams."
+        "Note": "Decent initial burst, fast 3c, and piercing tank ignore burst damage. Her damage isn't as impressive as before, however."
     },
     {
         "Name": "Malsook",
@@ -2610,7 +2649,7 @@
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Armor Shred",
         "Quirk2": "",
-        "Note": "A hunter that when healed, can deal damage on par with Bihwa and Ran, except she has no range issue and has shred. Hard countered by debuff immunity and cleanse, however."
+        "Note": "A solid DPS with the highest hit count within the hunter class and quite a bit of shred, but is extremely prone to cleanse. One of the best DPSes in Mecha Toto."
     },
     {
         "Name": "Silver",
@@ -2623,11 +2662,11 @@
         "Archetype": "DPS",
         "Quirk": "Innate SP Skill",
         "Quirk2": "Tank Ignore",
-        "Note": "First contract hunter with a built-in skill, which allows him to function without Deadly Souls. His consistent tank ignore damage makes him a viable choice in all contents."
+        "Note": "His entire kit revolves around his built-in skill which does decent consistent tank ignore damage, but is also extremely prone to dispels and stuns."
     },
     {
         "Name": "Aramis",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "C",
         "ChE5": "A",
@@ -2636,7 +2675,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Apen Buff",
         "Quirk2": "",
-        "Note": "A generic hunter with some nice self buffs. Damage doesn't drop much against single target, it just makes her even more block hungry than she already is."
+        "Note": "A generic hunter with some nice self buffs. And despite her passive making it seems like she doesn't work against single enemy, her DPS actually only drops slightly."
     },
     {
         "Name": "Jeomrye",
@@ -2649,7 +2688,7 @@
         "Archetype": "DPS / Utility  ",
         "Quirk": "3 Chain Engine",
         "Quirk2": "Fly & Ally Atk/APen Buff",
-        "Note": "Ruby clone that offers good Apen and HA buff, while being able to stay airborne more consistently. Those on top of having a decent DPS makes her a pretty good hero to have around."
+        "Note": "Ruby clone that actually works, but unfortunately doesn't work under auto challenge. What can you do when HG just hates you."
     },
     {
         "Name": "Svenja",
@@ -2662,7 +2701,7 @@
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Armor Shred",
         "Quirk2": "Self APen Buff",
-        "Note": ""
+        "Note": "Joined after getting smashed in C11, Svenja has very high Apen due to her self buff and shred. She also works pretty well with SP spamming."
     },
     {
         "Name": "Luca",
@@ -2675,7 +2714,7 @@
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "CR Debuff & Armor Shred",
         "Quirk2": "Splash",
-        "Note": ""
+        "Note": "Has decent CR and Arm debuff, but otherwise he is only decent."
     },
     {
         "Name": "Tess",
@@ -2704,6 +2743,19 @@
         "Note": "CAT GUN. Does have high damage and some small shreds. Not much utility else whatsoever."
     },
     {
+        "Name": "Anne",
+        "Colo": "",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
+        "Damage Type": "Magic",
+        "Archetype": "DPS",
+        "Quirk": "",
+        "Quirk2": "",
+        "Note": ""
+    },
+    {
         "Name": "Olga",
         "Colo": "B",
         "Arena": "C",
@@ -2714,7 +2766,7 @@
         "Archetype": "DPS / Buffer  ",
         "Quirk": "Ally Rpen Buff",
         "Quirk2": "Innate SP Skill",
-        "Note": "No delay in penguin summons, chance to double cast each block, plus insane red comet and flamethrower scaling equates to stupid DPS. Someone wants to see the world burn."
+        "Note": "After a serie of power creep, Olga is no longer as crazy as she used to be, but she is still pretty strong. Someone wants to see the world burn."
     },
     {
         "Name": "Delrien",
@@ -2727,7 +2779,7 @@
         "Archetype": "DPS",
         "Quirk": "Resistance Ignore",
         "Quirk2": "Fly",
-        "Note": "The Princess Fairy has decent burst. While her block skill do miss a lot, it doesn't significantly affect her neutral damage. Flying is also a nice bonus, not that it helps much in PvE."
+        "Note": "Still suffers from her block skill missing most of the time, but her damage output, when she works, is still pretty decent."
     },
     {
         "Name": "Lasirenne",
@@ -2751,9 +2803,9 @@
         "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
-        "Quirk": "",
-        "Quirk2": "",
-        "Note": ""
+        "Quirk": "Self Apen & Atk & CC Buff ",
+        "Quirk2": "Ally Count Self Buff",
+        "Note": "A little startup time but once passive activates then this bear is on a roll. "
     },
     {
         "Name": "Schild",
@@ -2771,28 +2823,28 @@
     {
         "Name": "Elphelt",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "Block Generation",
         "Quirk2": "Splash Damage",
-        "Note": "Pistol Stance for group damage, Confil Stance for single target damage. Damage is mediocre, somewhat decent DS user with Pistol stance."
+        "Note": "Elphelt came to hasla to find a husband, but all she found was that nobody liked her due to her low damage output."
     },
     {
         "Name": "Leona",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS / Utility",
         "Quirk": "Enemy HP Based",
         "Quirk2": "Guarantee Crit",
-        "Note": "Very unique hunter. Damage scales off enemy HP and can deal devastating amounts of damage if used correctly."
+        "Note": "Being able to deal damage based on enemy HP was a crazy feat, but damage cap had ruined Leona completely. Now she is only useful against a sandbag made of straw."
     },
     {
         "Name": "Ruby",
@@ -2805,15 +2857,15 @@
         "Archetype": "DPS / Utility",
         "Quirk": "3 Chain Engine",
         "Quirk2": "Fly",
-        "Note": "Apen buff doesn't last long enough and her airtime bullets don't deal much damage in all honesty."
+        "Note": "While she can generate 3 chain at a high rate and offer Apen buff, the buff doesn't last very long and it's difficult keep her airborne."
     },
     {
         "Name": "Nora",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "",
@@ -2831,7 +2883,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "3 Chain Engine",
         "Quirk2": "",
-        "Note": "Only thing he's useful for is a free 3-chain. Otherwise, a inferior Cindy."
+        "Note": "Only thing he's useful for is a free 3-chain."
     },
     {
         "Name": "Tressa",
@@ -2843,8 +2895,8 @@
         "Damage Type": "Physical",
         "Archetype": "DPS",
         "Quirk": "Self CC & RPen Buff",
-        "Quirk2": "",
-        "Note": ""
+        "Quirk2": "SP Generation",
+        "Note": "Did you know that it cost 120,000 gold to use her skill? It's a good thing it doesn't cost that much in CQ right?"
     },
     {
         "Name": "Dorothy",
@@ -2966,10 +3018,10 @@
     {
         "Name": "Otter",
         "Colo": "F",
-        "Arena": "F",
-        "ChE4": "F",
-        "ChE5": "F",
-        "Sera": "F",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "",
         "Damage Type": "Magic",
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Defense Shred",
@@ -3043,7 +3095,7 @@
     },
     {
         "Name": "Demeter",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "B",
@@ -3173,7 +3225,7 @@
     },
     {
         "Name": "Urako",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "F",
         "ChE5": "A",
@@ -3186,7 +3238,7 @@
     },
     {
         "Name": "Bihwa",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "C",
         "ChE5": "B",
@@ -3263,8 +3315,21 @@
         "Note": "Weird activation requirement, and only hits frontline. Damage isn't bad, but the aforementioned problems really limits her usage. "
     },
     {
+        "Name": "Caroline",
+        "Colo": "B",
+        "Arena": "C",
+        "ChE4": "C",
+        "ChE5": "B",
+        "Sera": "",
+        "Damage Type": "Magic",
+        "Archetype": "DPS",
+        "Quirk": "Self RPen Buff",
+        "Quirk2": "",
+        "Note": "Widespread dispel with mediocre damage but... that's about it. "
+    },
+    {
         "Name": "Medea",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "B",
         "ChE5": "S",
@@ -3290,7 +3355,7 @@
     },
     {
         "Name": "Winston",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "B",
         "ChE4": "A",
         "ChE5": "A",
@@ -3299,7 +3364,7 @@
         "Archetype": "DPS",
         "Quirk": "Self Rpen & CC Buff",
         "Quirk2": "Melee",
-        "Note": ""
+        "Note": "Fake muscles, cool screen smashes, with a good part of his description completely wrong. Incredibly block hungry, but when satisfied can make for impressive clear times in challenge."
     },
     {
         "Name": "Ana",
@@ -3364,7 +3429,7 @@
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Tank Ignore",
         "Quirk2": "Self RPen Buff & Res Shred",
-        "Note": "Good consistent damage output along with high innate Rpen. Her short range is definitely a problem though."
+        "Note": "Decent damage output along with high innate Rpen. Her short range is definitely a problem though."
     },
     {
         "Name": "Nicola",
@@ -3381,7 +3446,7 @@
     },
     {
         "Name": "Fredrick",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "A",
         "ChE4": "C",
         "ChE5": "S",
@@ -3390,20 +3455,7 @@
         "Archetype": "DPS",
         "Quirk": "Self RPen Buff",
         "Quirk2": "",
-        "Note": ""
-    },
-    {
-        "Name": "Caroline",
-        "Colo": "B",
-        "Arena": "C",
-        "ChE4": "C",
-        "ChE5": "B",
-        "Sera": "",
-        "Damage Type": "Magic",
-        "Archetype": "DPS",
-        "Quirk": "Self RPen Buff",
-        "Quirk2": "",
-        "Note": ""
+        "Note": "A capable challenge DPS with one of the fastest projectile speeds in game, but his full potential is locked behind Francesca."
     },
     {
         "Name": "Yama",
@@ -3416,11 +3468,11 @@
         "Archetype": "DPS",
         "Quirk": "Self RPen Buff",
         "Quirk2": "Knock Up",
-        "Note": ""
+        "Note": "An ancient god whose damage output is quite mediocre, but is the bare minimum required to deal with her own raid as a capable DPS."
     },
     {
         "Name": "Livea",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "A",
         "ChE4": "S",
         "ChE5": "S",
@@ -3429,6 +3481,19 @@
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Self RPen Buff",
         "Quirk2": "Innate SP",
+        "Note": ""
+    },
+    {
+        "Name": "Nebula",
+        "Colo": "B",
+        "Arena": "B",
+        "ChE4": "B",
+        "ChE5": "B",
+        "Sera": "S",
+        "Damage Type": "Magic",
+        "Archetype": "DPS",
+        "Quirk": "Self RPen Buff",
+        "Quirk2": "RPen Based Damage",
         "Note": ""
     },
     {
@@ -3481,7 +3546,7 @@
         "Archetype": "DPS / Utility",
         "Quirk": "",
         "Quirk2": "",
-        "Note": ""
+        "Note": "\\xf0\\x9f\\x97\\x91\\xef\\xb8\\x8f"
     },
     {
         "Name": "Shermie",
@@ -3494,7 +3559,7 @@
         "Archetype": "DPS",
         "Quirk": "",
         "Quirk2": "",
-        "Note": ""
+        "Note": "\\xf0\\x9f\\x97\\x91\\xef\\xb8\\x8f without the lid. "
     },
     {
         "Name": "Little Girl",
@@ -3658,7 +3723,7 @@
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal & Magic",
         "Archetype": "DPS / Healer / Utility   ",
         "Quirk": "Heal Prevention",
@@ -3680,7 +3745,7 @@
     },
     {
         "Name": "Yeowoodong",
-        "Colo": "S",
+        "Colo": "B",
         "Arena": "S",
         "ChE4": "OP",
         "ChE5": "OP",
@@ -3762,7 +3827,7 @@
         "Arena": "F",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Magic & Heal",
         "Archetype": "Healer / Utility",
         "Quirk": "Dispel",
@@ -3788,7 +3853,7 @@
         "Arena": "F",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal",
         "Archetype": "Healer / Utility  ",
         "Quirk": "Atk & CC Debuff",
@@ -3814,7 +3879,7 @@
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal",
         "Archetype": "Healer / Debuffer  ",
         "Quirk": "Atk & CC Debuff",
@@ -3889,7 +3954,7 @@
     {
         "Name": "Faust",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "C",
         "Sera": "B",
@@ -3979,7 +4044,7 @@
     },
     {
         "Name": "Shub",
-        "Colo": "S",
+        "Colo": "B",
         "Arena": "A",
         "ChE4": "B",
         "ChE5": "C",
@@ -3996,7 +4061,7 @@
         "Arena": "S",
         "ChE4": "C",
         "ChE5": "C",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal",
         "Archetype": "Healer / Buffer  ",
         "Quirk": "DR Buff",
@@ -4009,7 +4074,7 @@
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Magic & Heal",
         "Archetype": "DPS / Healer / Utility  ",
         "Quirk": "Buff Prevention",
@@ -4019,7 +4084,7 @@
     {
         "Name": "Linne",
         "Colo": "B",
-        "Arena": "A",
+        "Arena": "B",
         "ChE4": "C",
         "ChE5": "C",
         "Sera": "B",
@@ -4057,11 +4122,11 @@
     },
     {
         "Name": "Zeus",
-        "Colo": "A",
+        "Colo": "B",
         "Arena": "S",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Magic & Heal",
         "Archetype": "DPS / Healer / Utility  ",
         "Quirk": "Arm & Res Shred",
@@ -4095,6 +4160,19 @@
         "Note": ""
     },
     {
+        "Name": "Bahara",
+        "Colo": "",
+        "Arena": "",
+        "ChE4": "",
+        "ChE5": "",
+        "Sera": "A",
+        "Damage Type": "Neutral & Heal",
+        "Archetype": "Tank / Healer / Utility  ",
+        "Quirk": "Ally Arm/Res Buff",
+        "Quirk2": "Tank",
+        "Note": ""
+    },
+    {
         "Name": "Kaede",
         "Colo": "A",
         "Arena": "S",
@@ -4113,7 +4191,7 @@
         "Arena": "B",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal",
         "Archetype": "Healer / Utility  ",
         "Quirk": "Ally Debuff/Knock Immune",
@@ -4126,7 +4204,7 @@
         "Arena": "A",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Neutral & Heal",
         "Archetype": "DPS / Healer",
         "Quirk": "Self Acc Buff",
@@ -4152,7 +4230,7 @@
         "Arena": "S",
         "ChE4": "C",
         "ChE5": "C",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Neutral & Heal",
         "Archetype": "DPS / Healer / Utility  ",
         "Quirk": "Damage Amplification",
@@ -4191,7 +4269,7 @@
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Magic & Heal",
         "Archetype": "DPS / Healer / Utility  ",
         "Quirk": "Buff Prevention",
@@ -4204,7 +4282,7 @@
         "Arena": "C",
         "ChE4": "F",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Neutral & Heal",
         "Archetype": "DPS / Healer / Utility",
         "Quirk": "Revive",
@@ -4243,7 +4321,7 @@
         "Arena": "C",
         "ChE4": "B",
         "ChE5": "F",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Physical",
         "Archetype": "DPS / Debuffer  ",
         "Quirk": "Summon",
@@ -4295,7 +4373,7 @@
         "Arena": "B",
         "ChE4": "B",
         "ChE5": "B",
-        "Sera": "F",
+        "Sera": "C",
         "Damage Type": "Heal",
         "Archetype": "Healer / Buffer   ",
         "Quirk": "Evasion & Accuracy Buff",

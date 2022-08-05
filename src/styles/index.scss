@@ -1,7 +1,7 @@
 @import './variables/variables.scss';
 @import './Hero_Page/HeroPage.scss';
 @import './HeroTable.scss';
-@import './Hero_Page/Hero_Page_Top_Bar.scss';
+@import './Hero_Page/Hero_Page_Unit_Info.scss';
 @import './Hero_Page/Hero_Page_Rating.scss';
 @import './Hero_Page/Hero_Page_Images.scss';
 @import './Hero_Page/Hero_Page_Skills.scss';
@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $off-black;
+  background-color: $black;
   color: $off-white;
 }
 

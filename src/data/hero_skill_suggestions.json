@@ -894,6 +894,18 @@
         "Skill 3": ""
     },
     {
+        "Hero": "Tang",
+        "Skill 1": "Rapid Firing Soul",
+        "Skill 2": "Float like a Butterfly, Sting like a Bee!",
+        "Skill 3": ""
+    },
+    {
+        "Hero": "Tehis",
+        "Skill 1": "Rapid Firing Soul",
+        "Skill 2": "Float like a Butterfly, Sting like a Bee!",
+        "Skill 3": ""
+    },
+    {
         "Hero": "Altair",
         "Skill 1": "Rapid Firing Soul",
         "Skill 2": "Float like a Butterfly, Sting like a Bee!",
@@ -913,6 +925,12 @@
     },
     {
         "Hero": "Bera",
+        "Skill 1": "Rapid Firing Soul",
+        "Skill 2": "Voice of the Spirit",
+        "Skill 3": "Float like a Butterfly, Sting like a Bee!"
+    },
+    {
+        "Hero": "Djura",
         "Skill 1": "Rapid Firing Soul",
         "Skill 2": "Voice of the Spirit",
         "Skill 3": "Float like a Butterfly, Sting like a Bee!"
@@ -1171,6 +1189,12 @@
     },
     {
         "Hero": "Anima",
+        "Skill 1": "Deadly Soul",
+        "Skill 2": "Swift Attack",
+        "Skill 3": ""
+    },
+    {
+        "Hero": "Anne",
         "Skill 1": "Deadly Soul",
         "Skill 2": "Swift Attack",
         "Skill 3": ""
@@ -1500,6 +1524,12 @@
         "Skill 3": ""
     },
     {
+        "Hero": "Nebula",
+        "Skill 1": "Spirit of Mana",
+        "Skill 2": "Mana Recycle",
+        "Skill 3": ""
+    },
+    {
         "Hero": "Ramlethal",
         "Skill 1": "Spirit of Mana",
         "Skill 2": "Mana Recycle",
@@ -1791,6 +1821,12 @@
         "Hero": "Rie",
         "Skill 1": "Energy of Goddess",
         "Skill 2": "Resurrection",
+        "Skill 3": "Protection of the Goddess"
+    },
+    {
+        "Hero": "Bahara",
+        "Skill 1": "Energy of Goddess",
+        "Skill 2": "Wrath of Goddess",
         "Skill 3": "Protection of the Goddess"
     },
     {
