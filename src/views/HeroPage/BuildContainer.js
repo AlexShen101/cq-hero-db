@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import translator from 'data/translator_en_us.json';
 import sigilList from 'data/sigils.json';
-import sectionHeader from 'components/SectionHeader';
+import SectionHeader from 'components/SectionHeader';
+
+import Paper from '@mui/material/Paper';
 
 let convertBasicSigilAbbvs = [
     {
@@ -43,10 +45,11 @@ let convertBasicSigilAbbvs = [
 const BuildContainer = (props) => {
 
     const findSigilInTranslator = (sigilName) => {
-        let sigilID = Object.keys(translator).filter((key) => {
+        let sigilID = Object.keys(translator).find((key) => {
             if (translator[key].text === sigilName) {
                 return key
             }
+            return null
         })
         return sigilID
     }
@@ -55,7 +58,11 @@ const BuildContainer = (props) => {
         // edit this
         // goal: match everything except last number
         // last number is as high as possible
-        let sigilMatches = sigilList.filter((item) => item['name'] === sigilName)
+        let sigilMatches = sigilList.filter((item) => {
+            if (item['name'] === sigilName) return item
+            return null
+        })
+
         sigilMatches.sort((a, b) => {
             let num1 = a['id'].substring(a['id'].length - 1)
             let num2 = b['id'].substring(a['id'].length - 1)
@@ -84,6 +91,7 @@ const BuildContainer = (props) => {
                     if (item['Name'] === sigilName.split(' / ')[0]) {
                         return (item)
                     }
+                    return null
                 })
                 return newSigilItem['TrueName']
             } else {
@@ -92,7 +100,7 @@ const BuildContainer = (props) => {
         })
 
         sigils = sigilNames.map((name) => {
-            let sigilName = findSigilInTranslator(name)[0]
+            let sigilName = findSigilInTranslator(name)
             let sigil = getSigilInfo(sigilName)
             let newSigil = {
                 ...sigil,
@@ -147,8 +155,8 @@ const BuildContainer = (props) => {
 
     return (
         <React.Fragment>
-            <sectionHeader text="Builds:" />
-            <div className="hero_page_container build_container">
+            <SectionHeader text="Builds:" />
+            <Paper className="hero_page_container build_container">
                 {buildNames.map((buildName, index) => {
                     return (
                         <button
@@ -185,7 +193,7 @@ const BuildContainer = (props) => {
                     {renderSigil(activeBuild['Earlygame 1'])}
                     {renderSigil(activeBuild['Earlygame 2'])}
                 </div>
-            </div>
+            </Paper>
         </React.Fragment>
     )
 }

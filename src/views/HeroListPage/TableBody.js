@@ -36,15 +36,7 @@ const HeroTable = (props) => {
                                 return (
                                     <TableCell
                                         key={"rating" + index + col}
-                                        sx={() => {
-                                            let colors = ["#d500f9", "#834bff", "#546eff", "#2979ff", "#00e676", "#c6ff00", "#b22a00"]
-                                            let index = mainTiers.indexOf(hero[heading])
-                                            let color = (index == -1) ? "#838383" : colors[index]
-                                            return {
-                                                color: color,
-                                                fontWeight: 'bold'
-                                            }
-                                        }}
+                                        className={mainTiers.indexOf(hero[heading]) !== -1 ? hero[heading] + " tierText" : "other tierText"}
                                     >{hero[heading] ? hero[heading] : "?"}
                                     </TableCell>
                                 )

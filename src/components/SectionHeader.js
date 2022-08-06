@@ -1,11 +1,11 @@
 import React from 'react';
 
-const sectionHeader = (props) => {
+const SectionHeader = (props) => {
     return (
-        <div class="section_header">
+        <div className="section_header">
             <span className="section_title">{props.text}</span>
         </div>
     )
 }
 
-export default sectionHeader
+export default SectionHeader

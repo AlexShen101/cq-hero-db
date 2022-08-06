@@ -10,14 +10,15 @@ import headers from 'data/tier_headers';
 
 import SkillContainer from 'views/HeroPage/SkillContainer.js';
 import BuildContainer from 'views/HeroPage/BuildContainer.js';
-import sectionHeader from 'components/SectionHeader';
+import SectionHeader from 'components/SectionHeader';
 
-import { Button } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+import Paper from '@mui/material/Paper';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-const theme = createTheme({
-  components: {
-
+const darkMode = createTheme({
+  palette: {
+    mode: 'dark'
   }
 })
 
@@ -29,6 +30,7 @@ const HeroPage = () => {
       let hero1 = entry.Name.toLowerCase()
       let hero2 = heroName.toLowerCase()
       if (hero1 === hero2) return entry
+      return null
     }), ...hero_data.find((entry) => {
       let hero1 = entry.id.toLowerCase()
       let hero2 = heroName.toLowerCase().replace(" ", "_")
@@ -36,6 +38,7 @@ const HeroPage = () => {
       if (hero2.split('-')[1] === 'gg' && hero2.split('-')[0] === hero1 && entry.type === "collab") return entry
       else if (hero1 === hero2) return entry
       else if (hero1.indexOf(hero2) !== -1) return entry
+      return null
     })
   }
 
@@ -102,42 +105,57 @@ const HeroPage = () => {
   }
 
   console.log(hero)
+  console.log(suggested_skills)
+  console.log(suggested_sigils)
 
   return (
-
-    <div className="content_container">
-      <div className="hero_page_container unit_info">
-        {renderHeroImage([hero.forms[hero.forms.length - 1]])}
-        <div className="hero_page_title_container">
-          <h1 id="hero_page_name">{hero.Name}</h1>
-          <p id="hero_page_class">{hero.class.toUpperCase()}</p>
-          <p id="hero_page_type">{hero.Archetype}</p>
-        </div>
-        <Button variant="contained" color="primary">
-          <Link id="hero_page_back_link" to="/">Back</Link>
-        </Button>
-      </div>
-
-      <div className="hero_page_details">
-        <div className="hero_page_right_column">
-          <sectionHeader text="Rating:" />
-          <div className="hero_page_container">
+    <ThemeProvider theme={darkMode}>
+      <div className="content_container">
+        <Paper className="hero_page_container unit_info">
+          {renderHeroImage([hero.forms[hero.forms.length - 1]])}
+          <div className="hero_page_title_container">
+            <h1 id="hero_page_name">{hero.Name}</h1>
+            <p id="hero_page_class">{hero.class.toUpperCase()}</p>
+            <p id="hero_page_type">{hero.Archetype}</p>
           </div>
+          <Button variant="contained" color="primary">
+            <Link id="hero_page_back_link" to="/">Back</Link>
+          </Button>
+        </Paper>
 
-          <sectionHeader text="Icons:" />
-          <div className="hero_page_container">
-            {renderHeroImage(hero.forms)}
-            {renderWeaponImage(hero.sbws)}
+        <div className="hero_page_details">
+          <div className="hero_page_right_column">
+            <SectionHeader text="Rating:" />
+            <Paper className="hero_page_container">
+              {headers.map((header) => {
+                if (header !== "Name" && header !== "Archetype") {
+                  return (
+                    <div>
+                      <div className="hero_page_tier">{hero[header]}</div>
+                      <div>
+                        <span>{header}</span>
+                      </div>
+                    </div>
+                  )
+                }
+                return null
+              })}
+            </Paper>
 
+            <SectionHeader text="Icons:" />
+            <Paper className="hero_page_container">
+              {renderHeroImage(hero.forms)}
+              {renderWeaponImage(hero.sbws)}
+            </Paper>
+
+            <SkillContainer suggested_skills={suggested_skills} />
           </div>
-
-          <SkillContainer suggested_skills={suggested_skills} />
-        </div>
-        <div className="hero_page_left_column">
-          <BuildContainer suggested_sigils={suggested_sigils} />
+          <div className="hero_page_left_column">
+            <BuildContainer suggested_sigils={suggested_sigils} />
+          </div>
         </div>
       </div>
-    </div>
+    </ThemeProvider>
   );
 };
 

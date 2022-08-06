@@ -31,35 +31,7 @@
   margin-right: 1em;
 }
 
-.tier_rating {
+.tierText.MuiTableCell-root {
   font-weight: bold;
-  text-align: center;
-}
-
-.color_OP {
-  color: $light_purple;
-}
-
-.color_S {
-  color: $light_blue;
-}
-
-.color_A {
-  color: $light_green;
-}
-
-.color_B {
-  color: $light_yellow;
-}
-
-.color_C {
-  color: $light_orange;
-}
-
-.color_D {
-  color: $light_red;
-}
-
-.color_Other {
-  color: $light_grey;
+  font-size: 1em;
 }

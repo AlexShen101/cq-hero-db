@@ -1,7 +1,9 @@
 import React from 'react';
 import translator from 'data/translator_en_us.json';
 import skillList from 'data/skills.json';
-import sectionHeader from 'components/SectionHeader';
+import SectionHeader from 'components/SectionHeader';
+
+import Paper from '@mui/material/Paper';
 
 const SkillContainer = (props) => {
     const displaySkill = (skillName) => {
@@ -9,17 +11,18 @@ const SkillContainer = (props) => {
             return null;
         }
         let skillID = findSkillInTranslator(skillName)
-        let skillInfo = getSkillInfo(skillID[0])
+        let skillInfo = getSkillInfo(skillID)
 
         let image = skillInfo.forms[skillInfo.forms.length - 1].image
         return renderSkill(image)
     }
 
     const findSkillInTranslator = (skillName) => {
-        let skillID = Object.keys(translator).filter((key) => {
+        let skillID = Object.keys(translator).find((key) => {
             if (key.split('_')[1] === "SKILL" && key.split('_')[key.split('_').length - 1] === "NAME" && translator[key].text.indexOf(skillName) !== -1) {
                 return key
             }
+            return null
         })
         return skillID
     }
@@ -29,6 +32,7 @@ const SkillContainer = (props) => {
             if (item.name === skillID) {
                 return item
             }
+            return null
         })
         return skillInfo
     }
@@ -48,9 +52,9 @@ const SkillContainer = (props) => {
     }
     return (
         <React.Fragment>
-            <sectionHeader text="Skills:" />
-            <div className="hero_page_container">
-                {props.suggested_skill !== undefined &&
+            <SectionHeader text="Skills:" />
+            <Paper className="hero_page_container">
+                {props.suggested_skills !== undefined &&
                     <div className="skills_arranger">
                         {props.suggested_skills['Skill 1'] &&
                             <div className="skill_container">
@@ -72,8 +76,8 @@ const SkillContainer = (props) => {
                         }
                     </div>
                 }
-                {props.suggested_skil === undefined && <p className="error_message">Seems like there are no suggested skills for this hero.</p>}
-            </div>
+                {props.suggested_skills === undefined && <p className="error_message">Seems like there are no suggested skills for this hero.</p>}
+            </Paper>
         </React.Fragment>
     )
 }
