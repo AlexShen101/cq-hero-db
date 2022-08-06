@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import translator from 'data/translator_en_us.json';
 import sigilList from 'data/sigils.json';
+import sectionHeader from 'components/SectionHeader';
 
 let convertBasicSigilAbbvs = [
     {
@@ -146,7 +147,7 @@ const BuildContainer = (props) => {
 
     return (
         <React.Fragment>
-            <h1 className="section_header">Builds:</h1>
+            <sectionHeader text="Builds:" />
             <div className="hero_page_container build_container">
                 {buildNames.map((buildName, index) => {
                     return (

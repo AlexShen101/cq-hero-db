@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import HeroListPage from "../views/HeroListPage.js";
-import HeroPage from "../views/HeroPage";
-import TopBar from '../components/TopBar.js';
+import HeroListPage from "views/HeroListPage/HeroListPage.js";
+import HeroPage from "views/HeroPage/Index";
+import TopBar from 'views/TopBar.js';
 
 const AppRoutes = () => {
   return (

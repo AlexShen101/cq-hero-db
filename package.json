@@ -5,7 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
-    "@mui/icons-material": "^5.8.0",
+    "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.3",
     "@mui/x-data-grid": "^5.11.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -68,6 +68,7 @@
   },
   "devDependencies": {
     "electron": "^18.2.4",
-    "electron-builder": "^23.0.3"
+    "electron-builder": "^23.0.3",
+    "react-devtools": "^4.25.0"
   }
 }

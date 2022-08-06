@@ -3,13 +3,14 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import hero_tiers from "data/Hero_tiers.json";
-import HeroTable from "components/HeroTable.js";
 import hero_data from "data/heros.json";
 import sigil_suggestions from 'data/sigil_suggestions.json';
 import hero_skill_suggestions from 'data/hero_skill_suggestions.json';
+import headers from 'data/tier_headers';
 
 import SkillContainer from 'views/HeroPage/SkillContainer.js';
 import BuildContainer from 'views/HeroPage/BuildContainer.js';
+import sectionHeader from 'components/SectionHeader';
 
 import { Button } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
@@ -119,12 +120,11 @@ const HeroPage = () => {
 
       <div className="hero_page_details">
         <div className="hero_page_right_column">
-          <h1 className="section_header">Rating:</h1>
+          <sectionHeader text="Rating:" />
           <div className="hero_page_container">
-            <HeroTable displayedHeroes={[hero]} minimalized={true} />
           </div>
 
-          <h1 className="section_header">Icons:</h1>
+          <sectionHeader text="Icons:" />
           <div className="hero_page_container">
             {renderHeroImage(hero.forms)}
             {renderWeaponImage(hero.sbws)}

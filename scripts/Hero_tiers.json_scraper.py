@@ -14,7 +14,7 @@ headersToRemove = ["ID", "Damage Type", "Quirk", "Quirk2", "Note", ""]
 # EDIT FILEPATHS HERE (USE RELATIVE FILEPATHS)
 jsonFilePath = './src/data/Hero_tiers.json'
 csvFilePath = './scripts/csvtest.csv'
-heroTablePath = './src/components/HeroTable.js'
+heroTablePath = './scripts/Hero_tiers.json_scraper.py'
 
 headers = []
 
@@ -38,7 +38,6 @@ def make_json(csvFilePath, jsonFilePath):
                 data.append(row)
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(data, indent=4))
-
 
 response = requests.get(
     'https://docs.google.com/spreadsheet/ccc?key=1CAAUx5Z0nPdjavGpYhFbAgO_4LdQ9GWBpGBx1Muv4gc&gid=380597452&output=csv')
@@ -69,9 +68,9 @@ with open(heroTablePath, 'r') as file:
 
 with open(heroTablePath, 'w') as file:
     for line in heroTableLines:
-        if re.search('let headers = [A-z0-9\[\]\"\', ]*;', line) != None:
+        if re.search('const headers = [A-z0-9\[\]\"\', ]*;', line) != None:
             line = re.sub(
-                'let headers = [A-z0-9\[\]\"\', ]*;', 'let headers = '+str(headers)+';', line)
+                'const headers = [A-z0-9\[\]\"\', ]*;', 'const headers = '+str(headers)+';', line)
         elif re.search('headers = [A-z0-9\[\]\"\', ]*;', line) != None:
             minHeaders = headers
             minHeaders.remove("Name")

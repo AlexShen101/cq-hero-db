@@ -1,6 +1,7 @@
 import React from 'react';
 import translator from 'data/translator_en_us.json';
 import skillList from 'data/skills.json';
+import sectionHeader from 'components/SectionHeader';
 
 const SkillContainer = (props) => {
     const displaySkill = (skillName) => {
@@ -47,7 +48,7 @@ const SkillContainer = (props) => {
     }
     return (
         <React.Fragment>
-            <h2 className="section_header">Suggested Skills:</h2>
+            <sectionHeader text="Skills:" />
             <div className="hero_page_container">
                 {props.suggested_skill !== undefined &&
                     <div className="skills_arranger">
