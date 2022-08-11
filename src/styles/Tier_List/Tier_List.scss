@@ -1,0 +1,94 @@
+.tier_rating {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: $black;
+    font-size: 24px;
+    font-weight: 600;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier_container {
+    margin-bottom: 16px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.tier_heroes_container {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 3px;
+    width: 100%;
+}
+
+.hero_card {
+    padding: 8px;
+}
+
+.hero_card_link {
+    transition-duration: 0.3s;
+    color: $off-white;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_card_link:hover {
+    color: $primary;
+}
+
+.hero_card_name {
+    width: 100%;
+    text-align: center;
+}
+
+.sort_button.MuiButton-root {
+    color: $primary;
+}
+
+.sort_button.MuiButton-root:hover {
+    color: lighten($primary, 10)
+}
+
+.sort_button.active.MuiButton-root {
+    color: $off-white;
+}
+
+.OP.tier_rating {
+    background-color: $color-OP;
+}
+
+.S.tier_rating {
+    background-color: $color-S;
+}
+
+.A.tier_rating {
+    background-color: $color-A;
+}
+
+.B.tier_rating {
+    background-color: $color-B;
+}
+
+.C.tier_rating {
+    background-color: $color-C;
+}
+
+.D.tier_rating {
+    background-color: $color-D;
+}
+
+.F.tier_rating {
+    background-color: $color-F;
+}
+
+.other.tier_rating {
+    background-color: $color-none;
+}

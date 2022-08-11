@@ -1,12 +1,21 @@
 @import './variables/variables.scss';
 @import './variables/tiers.scss';
+
+@import './global/MUI_Defaults.scss';
+@import './global/global.scss';
+
+@import './ToolBar.scss';
+@import './NotFoundPage.scss';
+
 @import './Hero_Page/HeroPage.scss';
-@import './Hero_List/HeroTable.scss';
+@import './Hero_List/Hero_Table.scss';
+@import './Hero_List/Hero_List.scss';
 @import './Hero_Page/Hero_Page_Unit_Info.scss';
 @import './Hero_Page/Hero_Page_Rating.scss';
 @import './Hero_Page/Hero_Page_Images.scss';
 @import './Hero_Page/Hero_Page_Skills.scss';
 @import './Hero_Page/Hero_Page_Builds.scss';
+@import './Tier_List/Tier_List.scss';
 
 body {
   margin: 0;
@@ -22,4 +31,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content_container {
+  width: 960px;
+  margin: auto;
 }

@@ -4,6 +4,9 @@ import sigilList from 'data/sigils.json';
 import SectionHeader from 'components/SectionHeader';
 
 import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 let convertBasicSigilAbbvs = [
     {
@@ -128,7 +131,7 @@ const BuildContainer = (props) => {
 
     const [activeBuild, setActiveBuild] = useState(convertToActiveBuild(props.suggested_sigils.Sets['0']))
 
-    const buildNames = props.suggested_sigils.Sets.map(build => build['Set Name'])
+    const builds = props.suggested_sigils.Sets
 
     const renderSigil = (sigil) => {
 
@@ -140,14 +143,14 @@ const BuildContainer = (props) => {
                         src={require(`data/cq-pandora assets master sigils/${sigil.image}.png`)}
                         alt={sigil.image + ".png"}
                     ></img>
-                    <p className="sigil_name">{sigil.name}</p>
+                    <Typography className="sigil_name">{sigil.name}</Typography>
                 </div>
             )
         } catch (e) {
             return (
                 <div className="sigil_container">
-                    <p className="image_failed">Sigil image failed to load</p>
-                    <p className="sigil_name">{sigil.name}</p>
+                    <Typography className="image_failed">Sigil image failed to load</Typography>
+                    <Typography className="sigil_name">{sigil.name}</Typography>
                 </div>
             )
         }
@@ -157,44 +160,40 @@ const BuildContainer = (props) => {
         <React.Fragment>
             <SectionHeader text="Builds:" />
             <Paper className="hero_page_container build_container">
-                {buildNames.map((buildName, index) => {
-                    return (
-                        <button
-                            className={activeBuild['Set Name'] === buildName ? 'build_tab build_tab_active' : 'build_tab'}
-                            key={`hero_build ${index}`}
-                            onClick={() =>
-                                setActiveBuild(convertToActiveBuild(
-                                    props.suggested_sigils.Sets.find(
-                                        build => build['Set Name'] === buildName
-                                    )
-                                ))
-                            }
-                        >
-                            {buildName}
-                        </button>
-                    )
-                })}
+                <Grid container spacing={0.5}>
+                    {builds.map((build, index) => {
+                        return (
+                            <Grid key={`hero_build_grid_item_${index}`} item>
+                                <Button
+                                    className={JSON.stringify(activeBuild) === JSON.stringify(convertToActiveBuild(build)) ? 'build_tab build_tab_active' : 'build_tab'}
+                                    onClick={() => setActiveBuild(convertToActiveBuild(build))}>
+                                    {build['Set Name']}
+                                </Button>
+                            </Grid>
+                        )
+                    })}
+                </Grid>
                 <div>
                     <div className="set_upgrades_container">
-                        <p className="set_header">Upgrades:</p>
-                        <p className="set_upgrade">{activeBuild['Upgrade 1']}</p>
-                        <p className="set_upgrade">{activeBuild['Upgrade 2']}</p>
+                        <Typography className="set_header">Upgrades:</Typography>
+                        <Typography className="set_upgrade">{activeBuild['Upgrade 1']}</Typography>
+                        <Typography className="set_upgrade">{activeBuild['Upgrade 2']}</Typography>
                     </div>
 
-                    <p className="set_header">Endgame:</p>
+                    <Typography className="set_header">Endgame:</Typography>
                     {renderSigil(activeBuild['Endgame 1'])}
                     {renderSigil(activeBuild['Endgame 2'])}
 
-                    <p className="set_header">Midgame:</p>
+                    <Typography className="set_header">Midgame:</Typography>
                     {renderSigil(activeBuild['Midgame 1'])}
                     {renderSigil(activeBuild['Midgame 2'])}
 
-                    <p className="set_header">Earlygame:</p>
+                    <Typography className="set_header">Earlygame:</Typography>
                     {renderSigil(activeBuild['Earlygame 1'])}
                     {renderSigil(activeBuild['Earlygame 2'])}
                 </div>
             </Paper>
-        </React.Fragment>
+        </React.Fragment >
     )
 }
 

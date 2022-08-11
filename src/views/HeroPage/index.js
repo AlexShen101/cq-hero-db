@@ -1,12 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 import hero_tiers from "data/Hero_tiers.json";
 import hero_data from "data/heros.json";
 import sigil_suggestions from 'data/sigil_suggestions.json';
 import hero_skill_suggestions from 'data/hero_skill_suggestions.json';
 import headers from 'data/tier_headers';
+
+import { renderHeroImages, renderWeaponImages } from 'global/renderImages';
 
 import SkillContainer from 'views/HeroPage/SkillContainer.js';
 import BuildContainer from 'views/HeroPage/BuildContainer.js';
@@ -15,10 +17,14 @@ import SectionHeader from 'components/SectionHeader';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+
+let mainTiers = ["OP", "S", "A", "B", "C", "D", "F"]
 
 const darkMode = createTheme({
   palette: {
-    mode: 'dark'
+    mode: 'dark',
   }
 })
 
@@ -42,67 +48,14 @@ const HeroPage = () => {
     })
   }
 
+  console.log(hero)
+
   if (hero.id === undefined) {
-    window.location.replace("/");
+    return <Navigate to="/hero_not_found" />
   }
 
   let suggested_skills = hero_skill_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
   let suggested_sigils = sigil_suggestions.find((item) => item.Hero.toLowerCase() === heroName.toLowerCase())
-
-  const renderHeroImage = (forms) => {
-    return (
-      <React.Fragment>
-        {
-          forms.map((form, index) => {
-            if (form.star >= 3) {
-              try {
-                return (
-                  <img
-                    key={form.id}
-                    className="hero_forms_image"
-                    src={require(`data/cq-pandora assets master heroes/${form.image}.png`)}
-                    alt={form.image + ".png"}
-                  ></img>
-                )
-              } catch (e) {
-                return (
-                  <img
-                    key={"unknown form" + index}
-                    className="hero_forms_image"
-                    src={require(`data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
-                    alt={form.image + ".png"}
-                  ></img>
-                )
-              }
-            } else return null
-          })
-        }
-      </React.Fragment>
-    )
-  };
-
-  const renderWeaponImage = (weapons) => {
-    return (
-      <React.Fragment>
-        {
-          weapons.map((weapon, index) => {
-            try {
-              return (
-                <img
-                  key={weapon.id + index}
-                  className="weapon_forms_image"
-                  src={require(`data/cq-pandora assets master weapons/${weapon.image}.png`)}
-                  alt={weapon.image + ".png"}
-                ></img>
-              )
-            } catch (e) {
-              return <p>Weapon image failed to load</p>
-            }
-          })
-        }
-      </React.Fragment>
-    )
-  }
 
   console.log(hero)
   console.log(suggested_skills)
@@ -112,13 +65,13 @@ const HeroPage = () => {
     <ThemeProvider theme={darkMode}>
       <div className="content_container">
         <Paper className="hero_page_container unit_info">
-          {renderHeroImage([hero.forms[hero.forms.length - 1]])}
+          {renderHeroImages([hero.forms[hero.forms.length - 1]])}
           <div className="hero_page_title_container">
             <h1 id="hero_page_name">{hero.Name}</h1>
-            <p id="hero_page_class">{hero.class.toUpperCase()}</p>
-            <p id="hero_page_type">{hero.Archetype}</p>
+            <Typography id="hero_page_class">{hero.class.toUpperCase()}</Typography>
+            <Typography id="hero_page_type">{hero.Archetype}</Typography>
           </div>
-          <Button variant="contained" color="primary">
+          <Button className="hero_page_back_button">
             <Link id="hero_page_back_link" to="/">Back</Link>
           </Button>
         </Paper>
@@ -127,25 +80,27 @@ const HeroPage = () => {
           <div className="hero_page_right_column">
             <SectionHeader text="Rating:" />
             <Paper className="hero_page_container">
-              {headers.map((header) => {
-                if (header !== "Name" && header !== "Archetype") {
-                  return (
-                    <div>
-                      <div className="hero_page_tier">{hero[header]}</div>
-                      <div>
-                        <span>{header}</span>
-                      </div>
-                    </div>
-                  )
-                }
-                return null
-              })}
+              <Grid className="hero_rating_grid_container" container spacing={1}>
+                {headers.map((header) => {
+                  if (header !== "Name" && header !== "Archetype") {
+                    return (
+                      <Grid className="hero_rating_grid_item" item key={"hero_rating_grid_item_" + header}>
+                        <div className={mainTiers.indexOf(hero[header]) !== -1 ? hero[header] + " hero_page_tier" : "other hero_page_tier"}>{hero[header] ? hero[header] : '?'}</div>
+                        <div className="hero_rating_text_div">
+                          <span className="hero_rating_text">{header}</span>
+                        </div>
+                      </Grid>
+                    )
+                  }
+                  return null
+                })}
+              </Grid>
             </Paper>
 
             <SectionHeader text="Icons:" />
             <Paper className="hero_page_container">
-              {renderHeroImage(hero.forms)}
-              {renderWeaponImage(hero.sbws)}
+              {renderHeroImages(hero.forms)}
+              {renderWeaponImages(hero.sbws)}
             </Paper>
 
             <SkillContainer suggested_skills={suggested_skills} />

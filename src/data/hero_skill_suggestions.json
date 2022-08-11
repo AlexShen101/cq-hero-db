@@ -79,14 +79,14 @@
     },
     {
         "Hero": "Abel",
-        "Skill 1": "Flames of Avarice",
+        "Skill 1": "Flame of Avarice",
         "Skill 2": "Overflowing Determination",
         "Skill 3": "Spinning Storm"
     },
     {
         "Hero": "Sworden",
         "Skill 1": "Overflowing Determination",
-        "Skill 2": "Flames of Avarice",
+        "Skill 2": "Flame of Avarice",
         "Skill 3": ""
     },
     {
@@ -104,7 +104,7 @@
     {
         "Hero": "Victoria",
         "Skill 1": "Overflowing Determination",
-        "Skill 2": "Flames of Avarice",
+        "Skill 2": "Flame of Avarice",
         "Skill 3": ""
     },
     {
@@ -225,7 +225,7 @@
         "Hero": "Lednas",
         "Skill 1": "Spinning Storm",
         "Skill 2": "Overflowing Determination",
-        "Skill 3": "Flames of Avarice"
+        "Skill 3": "Flame of Avarice"
     },
     {
         "Hero": "Ranno",
@@ -249,7 +249,7 @@
         "Hero": "Rael",
         "Skill 1": "Overflowing Determination",
         "Skill 2": "Spinning Storm",
-        "Skill 3": "Flames of Avarice"
+        "Skill 3": "Flame of Avarice"
     },
     {
         "Hero": "Zilong",

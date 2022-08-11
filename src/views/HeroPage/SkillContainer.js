@@ -4,6 +4,7 @@ import skillList from 'data/skills.json';
 import SectionHeader from 'components/SectionHeader';
 
 import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
 
 const SkillContainer = (props) => {
     const displaySkill = (skillName) => {
@@ -47,7 +48,7 @@ const SkillContainer = (props) => {
                 ></img>
             )
         } catch (e) {
-            return <p>Skill image failed to load</p>
+            return <Typography>Skill image failed to load</Typography>
         }
     }
     return (
@@ -59,24 +60,24 @@ const SkillContainer = (props) => {
                         {props.suggested_skills['Skill 1'] &&
                             <div className="skill_container">
                                 {displaySkill(props.suggested_skills['Skill 1'])}
-                                <p className="skill_title">{props.suggested_skills['Skill 1']}</p>
+                                <Typography className="skill_title">{props.suggested_skills['Skill 1']}</Typography>
                             </div>
                         }
                         {props.suggested_skills['Skill 2'] &&
                             <div className="skill_container">
                                 {displaySkill(props.suggested_skills['Skill 2'])}
-                                <p className="skill_title">{props.suggested_skills['Skill 2']}</p>
+                                <Typography className="skill_title">{props.suggested_skills['Skill 2']}</Typography>
                             </div>
                         }
                         {props.suggested_skills['Skill 3'] &&
                             <div className="skill_container">
                                 {displaySkill(props.suggested_skills['Skill 3'])}
-                                <p className="skill_title">{props.suggested_skills['Skill 3']}</p>
+                                <Typography className="skill_title">{props.suggested_skills['Skill 3']}</Typography>
                             </div>
                         }
                     </div>
                 }
-                {props.suggested_skills === undefined && <p className="error_message">Seems like there are no suggested skills for this hero.</p>}
+                {props.suggested_skills === undefined && <Typography className="error_message">Seems like there are no suggested skills for this hero.</Typography>}
             </Paper>
         </React.Fragment>
     )

@@ -1,0 +1,47 @@
+.hero_link {
+  text-decoration: none;
+  color: $primary;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-right: 1em;
+  transition-duration: 0.3s;
+}
+
+.hero_link:hover {
+  color: darken($primary, 10);
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  color: $off-white;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1em;
+  transition-duration: 0.3s;
+}
+
+.MuiTableCell-root.MuiTableCell-body {
+  padding: 4px;
+  padding-left: 16px;
+  line-height: 1;
+  font-size: 1em;
+  justify-content: center;
+
+}
+
+.tierText.MuiTableCell-root {
+  font-weight: bold;
+  font-size: 1em;
+  width: 80px;
+}
+
+.hero_table_item_name.MuiTableCell-root {
+  width: 250px;
+}
+
+.hero_table_item_archetype.MuiTableCell-root {
+  width: 200px;
+}
+
+.MuiTable-root {
+  padding: 1em;
+}

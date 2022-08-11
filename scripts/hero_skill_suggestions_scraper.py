@@ -10,6 +10,12 @@ entriesToRemove = ["Warrior", "Paladin",
 jsonFilePath = './src/data/hero_skill_suggestions.json'
 csvFilePath = './scripts/csvtest.csv'
 
+skillSubstitutions = [
+    {
+        "match": "Flames of Avarice",
+        "sub": "Flame of Avarice"
+    }
+]
 
 def make_json(csvFilePath, jsonFilePath):
     data = []
@@ -17,6 +23,13 @@ def make_json(csvFilePath, jsonFilePath):
         csvReader = csv.DictReader(csvf)
         for row in csvReader:
             if row['Hero'] not in entriesToRemove:
+                for i, sub in enumerate(skillSubstitutions):
+                    if sub['match'] == row['Skill 1']:
+                        row['Skill 1'] = sub['sub']
+                    elif sub['match'] == row['Skill 2']:
+                        row['Skill 2'] = sub['sub']
+                    elif sub['match'] == row['Skill 3']:
+                        row['Skill 3'] = sub['sub']
                 entry = {
                     "Hero": row['Hero'].replace(' - ', '-'),
                     "Skill 1": row['Skill 1'],

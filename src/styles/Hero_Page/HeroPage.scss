@@ -1,14 +1,7 @@
-.content_container {
-    max-width: 960px;
-    margin: auto;
-}
-
 .hero_page_container.MuiPaper-root {
-    background: $off-black;
     padding: 1em;
     border-radius: 8px;
     margin: 0.5em 0.5em 0em 0em;
-    border: 1px solid $dark-blue;
     box-sizing: border-box;
     color: $off-white;
 }
@@ -26,22 +19,4 @@
 
 .hero_page_left_column {
     width: 40%
-}
-
-.image_failed {
-    font-size: 12px;
-}
-
-.section_header {
-    padding-bottom: 8px;
-    border-bottom: 1px solid $dark-blue;
-    margin: 0.75em;
-    margin-left: 0em;
-}
-
-.section_title {
-    padding-bottom: 8px;
-    font-size: 1.5em;
-    font-weight: bold;
-    border-bottom: 3px solid $primary;
 }

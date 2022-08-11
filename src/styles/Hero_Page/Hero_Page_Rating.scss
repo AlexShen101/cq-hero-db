@@ -1,0 +1,57 @@
+.hero_rating_grid_container.MuiGrid-root {
+    justify-content: center;
+}
+
+.hero_page_tier {
+    border-radius: 5px;
+    color: #161833;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 8px 16px;
+    text-align: center;
+    width: 68px;
+}
+
+.hero_rating_text_div {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hero_rating_text {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.OP.hero_page_tier {
+    background-color: $color-OP;
+}
+
+.S.hero_page_tier {
+    background-color: $color-S;
+}
+
+.A.hero_page_tier {
+    background-color: $color-A;
+}
+
+.B.hero_page_tier {
+    background-color: $color-B;
+}
+
+.C.hero_page_tier {
+    background-color: $color-C;
+}
+
+.D.hero_page_tier {
+    background-color: $color-D;
+}
+
+.F.hero_page_tier {
+    background-color: $color-F;
+}
+
+.other.hero_page_tier {
+    background-color: $color-none;
+}

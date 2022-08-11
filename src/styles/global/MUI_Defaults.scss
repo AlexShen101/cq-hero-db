@@ -1,0 +1,5 @@
+.MuiPaper-root.MuiPaper-elevation {
+    background-color: $dark-blue;
+    background-image: none;
+    border: 1px solid lighten($dark-blue, 20)
+}

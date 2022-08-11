@@ -1,29 +1,30 @@
-.build_tab {
+.build_tab.MuiButton-root {
     display: inline;
     background-color: transparent;
     border: 1px solid $primary;
     border-radius: 4px;
     color: $primary;
     padding: 0.25em 0.5em;
-    margin-left: 4px;
     cursor: pointer;
 }
 
-.build_tab:hover {
-    background-color: $off-white;
+.build_tab.MuiButton-root:hover {
+    background-color: lighten($dark-blue, 10);
     border: 1px solid $off-white;
-    color: $dark_blue;
+    color: $off-white;
+    transition-duration: 0.3s;
 }
 
-.build_tab_active {
-    background-color: darken($grey, 10);
+.build_tab_active.MuiButton-root {
+    background-color: $primary;
+    color: $dark-blue;
     border: 1px solid darken($grey, 10);
 }
 
-.set_header {
+.set_header.MuiTypography-root {
     color: $off-white;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .sigil_container {
@@ -36,8 +37,8 @@
     }
 
     .sigil_image {
-        max-height: clamp(30px, 5vw, 50px);
-        max-width: clamp(30px, 5vw, 50px);
+        height: 50px;
+        width: 50px;
     }
 }
 
@@ -46,5 +47,6 @@
 }
 
 .set_upgrades_container {
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

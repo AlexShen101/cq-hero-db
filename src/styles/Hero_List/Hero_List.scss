@@ -1,0 +1,27 @@
+.hero_list_title {}
+
+
+.hero_list_container {
+    padding: 16px;
+}
+
+.hero_list_center {
+    display: flex;
+    align-items: center;
+}
+
+.hero_list_search_text {
+    margin-right: 8px;
+}
+
+.hero_list_search_input {
+    transition-duration: 0.3s;
+}
+
+.MuiInputBase-root {
+    border: 1px solid darken($off-white, 40);
+
+    input {
+        padding: 4px;
+    }
+}

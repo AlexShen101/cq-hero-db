@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+
+import { displayMainHeroImage } from 'global/renderImages';
+
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableRow from '@mui/material/TableRow';
+
 
 let mainTiers = ["OP", "S", "A", "B", "C", "D", "F"]
 
 const HeroTable = (props) => {
     const heroList = props.heroList
-    console.log(heroList)
+
     return (
         <TableBody>
             {heroList.map((hero, index) => {
@@ -17,11 +21,14 @@ const HeroTable = (props) => {
                         {props.headers.map((heading, col) => {
                             if (heading === "Name") {
                                 return (
-                                    <TableCell key={"cell " + index + col}>
+                                    <TableCell key={"cell " + index + col} className="hero_table_item_name">
                                         <Link
                                             key={"linked name " + index + col}
-                                            to={`/${hero.Name}`} className="hero_link">
-                                            {hero.Name}
+                                            to={`/hero/${hero.Name}`} className="hero_link">
+                                            <div>
+                                                {displayMainHeroImage(hero.Name)}
+                                                {hero.Name}
+                                            </div>
                                         </Link>
                                     </TableCell>
                                 )
@@ -29,7 +36,8 @@ const HeroTable = (props) => {
                                 return (
                                     <TableCell
                                         key={"archetype" + index + col}
-                                        className="hero_table_item_archetype">{hero[heading] ? hero[heading] : "?"}
+                                        className="hero_table_item_archetype">
+                                        {hero[heading] ? hero[heading] : "?"}
                                     </TableCell>
                                 )
                             } else {

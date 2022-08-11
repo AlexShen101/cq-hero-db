@@ -13,12 +13,13 @@ import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 import TableFooter from '@mui/material/TableFooter';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import TextField from '@mui/material/TextField';
 
 import headers from 'data/tier_headers.js';
 
 const darkMode = createTheme({
     palette: {
-        mode: 'dark'
+        mode: 'dark',
     }
 })
 
@@ -67,19 +68,28 @@ const HeroListPage = (props) => {
     return (
         <ThemeProvider theme={darkMode}>
             <div>
-                <h1 className="">Hero List</h1>
-                <input
-                    className="search_input"
-                    autoFocus
-                    value={searchInput}
-                    onChange={(e) => {
-                        setSearchInput(e.target.value)
-                    }}></input>
+                <div className="hero_list_container">
+                    <div className="section_header">
+                        <span className="hero_list_title section_title">Hero List</span>
+                    </div>
+                    <div className="hero_list_center">
+                        <span className="hero_list_search_text">Search: </span>
+                        <TextField
+                            variant="outlined"
+                            size="small"
+                            className="hero_list_search_input"
+                            autoFocus
+                            value={searchInput}
+                            onChange={(e) => {
+                                setSearchInput(e.target.value)
+                            }}></TextField>
+                    </div>
+                </div>
                 <div>
                     {displayedHeroes.length !== 0 ? (
                         <React.Fragment>
                             <TableContainer component={Paper}>
-                                <Table aria-label="simple table">
+                                <Table aria-label="simple table" size="small" padding="none">
                                     <EnhancedTableHead
                                         headers={headers}
                                         order={order}
