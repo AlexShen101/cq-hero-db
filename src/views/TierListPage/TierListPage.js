@@ -64,39 +64,39 @@ const TierListPage = () => {
     return (
         <ThemeProvider theme={darkMode}>
             <div>
-                <div className="hero_list_container">
-                    <div className="section_header">
-                        <span className="hero_list_title section_title">Hero List</span>
-                    </div>
-                    <div className="hero_list_center">
-                        <span className="hero_list_search_text">Search: </span>
-                        <TextField
-                            variant="outlined"
-                            size="small"
-                            className="hero_list_search_input"
-                            autoFocus
-                            value={searchInput}
-                            onChange={(e) => {
-                                setSearchInput(e.target.value)
-                            }}></TextField>
+                <div className="content_container">
+                    <div className="hero_list_container">
+                        <div className="section_header">
+                            <span className="hero_list_title section_title">Hero List</span>
+                        </div>
+                        <div className="hero_list_center">
+                            <span className="hero_list_search_text">Search: </span>
+                            <TextField
+                                variant="outlined"
+                                size="small"
+                                className="hero_list_search_input"
+                                autoFocus
+                                value={searchInput}
+                                onChange={(e) => {
+                                    setSearchInput(e.target.value)
+                                }}></TextField>
 
-                        <div className="header_buttons">
-                            {headers.map(header => {
-                                if (header !== "Name" && header !== "Archetype") {
-                                    return (
-                                        <Button
-                                            className={header === activeSort ? "sort_button active" : "sort_button"}
-                                            onClick={(() => setActiveSort(header))} >
-                                            {header}
-                                        </Button>
-                                    )
-                                }
-                                return null
-                            })}
+                            <div className="header_buttons">
+                                {headers.map(header => {
+                                    if (header !== "Name" && header !== "Archetype") {
+                                        return (
+                                            <Button
+                                                className={header === activeSort ? "sort_button active" : "sort_button"}
+                                                onClick={(() => setActiveSort(header))} >
+                                                {header}
+                                            </Button>
+                                        )
+                                    }
+                                    return null
+                                })}
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="content_container">
                     {allTiers.map(tier => {
                         if (sortedList[tier] !== undefined) {
                             return (
