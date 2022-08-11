@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-table": "^7.8.0",
     "sass": "^1.52.1",
+    "source-map-explorer": "^2.5.2",
     "typescript": "^4.6.4",
     "wait-on": "^6.0.1",
     "web-vitals": "^2.1.4"
@@ -33,7 +34,8 @@
     "eject": "react-scripts eject",
     "electron:serve": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
     "electron:build": "yarn build && electron-builder -c.extraMetadata.main=build/main.js",
-    "electron:start": "wait-on tcp:3000 && electron ."
+    "electron:start": "wait-on tcp:3000 && electron .",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "build": {
     "extends": null,
