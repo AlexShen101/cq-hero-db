@@ -6,6 +6,8 @@ import SectionHeader from 'components/SectionHeader';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
+const baseUrl = "https://raw.githubusercontent.com/cq-pandora/assets/master";
+
 const SkillContainer = (props) => {
     const displaySkill = (skillName) => {
         if (skillName === "Any") {
@@ -43,7 +45,7 @@ const SkillContainer = (props) => {
             return (
                 <img
                     className="skill_image"
-                    src={require(`data/cq-pandora assets master skills/${skillImage}.png`)}
+                    src={`${baseUrl}/skills/${skillImage}.png`}
                     alt={skillImage + ".png"}
                 ></img>
             )

@@ -2,35 +2,31 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import { findHeroByName } from 'global/queries.js';
 
+const baseUrl = "https://raw.githubusercontent.com/cq-pandora/assets/master";
+
 export const renderHeroImages = (forms) => {
     return (
         <React.Fragment>
             {
                 forms.map((form, index) => {
                     if (form.star >= 3) {
-                        try {
-                            return (
-                                <img
-                                    key={form.id}
-                                    className="hero_forms_image"
-                                    src={require(`data/cq-pandora assets master heroes/${form.image}.png`)}
-                                    alt={form.image + ".png"}
-                                ></img>
-                            )
-                        } catch (e) {
-                            return (
-                                <img
-                                    key={"unknown form" + index}
-                                    className="hero_forms_image"
-                                    src={require(`data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
-                                    alt={"unknown_form.png"}
-                                ></img>
-                            )
-                        }
+                        return (
+                            <img
+                                key={form.id}
+                                className="hero_forms_image"
+                                src={`${baseUrl}/heroes/${form.image}.png?raw=true`}
+                                alt={`${form.image}.png`}
+                                onError={(e) => {
+                                    console.log("Image threw an error")
+                                    e.target.onError = "";
+                                    e.target.src = `${baseUrl}/heroes/ui_collection_icon_03.png`;
+                                }}
+                            ></img>
+                        )
                     } else return null
                 })
             }
-        </React.Fragment>
+        </React.Fragment >
     )
 };
 
@@ -44,7 +40,7 @@ export const renderWeaponImages = (weapons) => {
                             <img
                                 key={weapon.id + index}
                                 className="weapon_forms_image"
-                                src={require(`data/cq-pandora assets master weapons/${weapon.image}.png`)}
+                                src={`${baseUrl}/weapons/${weapon.image}.png?raw=true`}
                                 alt={weapon.image + ".png"}
                             ></img>
                         )
@@ -69,17 +65,18 @@ export const displayMainHeroImage = (heroName) => {
                 <img
                     key={"unknown form"}
                     className="hero_forms_image"
-                    src={require(`data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
+                    src={`${baseUrl}/heroes/ui_collection_icon_03.png?raw=true`}
                     alt="unknown_hero.png"
                 ></img>
             )
         }
     } else {
+        console.log(`No hero data of ${heroName}`)
         return (
             <img
                 key={"unknown form"}
                 className="hero_forms_image"
-                src={require(`data/cq-pandora assets master heroes/ui_collection_icon_03.png`)}
+                src={`${baseUrl}/heroes/ui_collection_icon_03.png?raw=true`}
                 alt="unknown_hero.png"
             ></img>
         )

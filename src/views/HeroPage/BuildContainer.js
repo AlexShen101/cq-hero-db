@@ -8,6 +8,8 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+const baseUrl = "https://raw.githubusercontent.com/cq-pandora/assets/master";
+
 let convertBasicSigilAbbvs = [
     {
         "Name": "HP",
@@ -140,7 +142,7 @@ const BuildContainer = (props) => {
                 <div className="sigil_container">
                     <img
                         className="sigil_image"
-                        src={require(`data/cq-pandora assets master sigils/${sigil.image}.png`)}
+                        src={`${baseUrl}/sigils/${sigil.image}.png`}
                         alt={sigil.image + ".png"}
                     ></img>
                     <Typography className="sigil_name">{sigil.name}</Typography>

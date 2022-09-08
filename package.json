@@ -114,6 +114,7 @@
     ]
   },
   "devDependencies": {
+    "@relative-ci/agent": "^4.1.0",
     "electron": "^18.2.4",
     "electron-builder": "^23.0.3",
     "react-devtools": "^4.25.0"
