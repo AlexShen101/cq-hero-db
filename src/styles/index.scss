@@ -4,8 +4,9 @@
 @import './global/MUI_Defaults.scss';
 @import './global/global.scss';
 
-@import './ToolBar.scss';
-@import './NotFoundPage.scss';
+@import './Toolbar.scss';
+@import './Not_Found_Page.scss';
+@import './Scrollbar.scss';
 
 @import './Hero_Page/HeroPage.scss';
 @import './Hero_List/Hero_Table.scss';
@@ -26,6 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $black;
   color: $off-white;
+  width: 99.7%
 }
 
 code {
